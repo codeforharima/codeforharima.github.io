@@ -3,12 +3,41 @@
 
 <head>
   {% block head %}
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Pelican" />
+  <meta name="author" content="{{ AUTHOR }}">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
   <title>{% block title %}{{ SITENAME|striptags }}{% endblock title %}</title>
-  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../static/css/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="../static/css/style.css">
+  {% if SITESUBTITLE %}
+  <meta name="description" content="{{ SITESUBTITLE }}" />
+  {% endif %}
+  {% if FEED_ALL_ATOM %}
+  <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} Full Atom Feed" />
+  {% endif %}
+  {% if FEED_ALL_RSS %}
+  <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} Full RSS Feed" />
+  {% endif %}
+  {% if FEED_ATOM %}
+  <link href="{{ FEED_DOMAIN }}/{%if FEED_ATOM_URL %}{{ FEED_ATOM_URL }}{% else %}{{ FEED_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} Atom Feed" />
+  {% endif %}
+  {% if FEED_RSS %}
+  <link href="{{ FEED_DOMAIN }}/{% if FEED_RSS_URL %}{{ FEED_RSS_URL }}{% else %}{{ FEED_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} RSS Feed" />
+  {% endif %}
+  {% if CATEGORY_FEED_ATOM and category %}
+  <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_ATOM_URL %}{{ CATEGORY_FEED_ATOM_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} Categories Atom Feed" />
+  {% endif %}
+  {% if CATEGORY_FEED_RSS and category %}
+  <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_RSS_URL %}{{ CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} Categories RSS Feed" />
+  {% endif %}
+  {% if TAG_FEED_ATOM and tag %}
+  <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_ATOM_URL %}{{ TAG_FEED_ATOM_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_ATOM.format(slug=tag.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} Tags Atom Feed" />
+  {% endif %}
+  {% if TAG_FEED_RSS and tag %}
+  <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} Tags RSS Feed" />
+  {% endif %}
   {% endblock %}
 </head>
 
@@ -18,7 +47,7 @@
     {% block header %}
     <nav class="navbar navbar-expand-xl navbar-light bg-light">
       <div class="container-fluid container-lg">
-        <a class="navbar-brand" href="/"><img src="../static/images/code_for_harima_logo_2.svg" alt="●" width="32" height="32"> Code for Harima</a>
+        <a class="navbar-brand" href="/"><img src="{{ SITEURL }}/theme/img/code_for_harima_logo_2.svg" alt="●" width="32" height="32"> Code for Harima</a>
         <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -57,251 +86,40 @@
   </header>
 
   <main>
-    {% block contents %}
-    <!-- カルーセル -->
-    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../static/images/street.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h2 class="fw-bold">地域課題に挑む</h2>
-            <p>シビックテックで未来を変える</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="../static/images/street.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h2 class="fw-bold">つながる地域</h2>
-            <p>テクノロジーで地域を元気に</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="../static/images/street.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h2 class="fw-bold">未来を創る</h2>
-            <p>あなたの参加で地域が変わる</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <!-- イントロ -->
-    <section class="intro py-5">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 mb-4">
-            <h2 class="text-center mb-4">私たちの活動</h2>
-            <p>Code for Harimaは、播磨地域の困ったことなどをITやテクノロジーと地域の力を合わせて考え、より良く、素敵な場所にしていこうという思いの人が集まったコミュニティです。参加する人達もさまざまで行政から大学、学生、ITエンジニア、それぞれの立場から、どのようなことができるかをゆるく話し合っています。</p>
-            <p>Code for Harimaは、2018年7月に設立されました。活動地域は、加古川を中心に高砂、姫路ですが、それ以外の地域からの参加も歓迎します。活動の最新情報についてはFacebookページ、またはFacebookグループをご覧ください。過去の活動については、活動履歴をご覧ください。</p>
-          </div>
-          <!-- box1 -->
-          <div class="col-md-4 mb-4">
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <i class="bi bi-calendar-event display-4 text-primary"></i>
-                <h5 class="card-title">定例会</h5>
-                <p class="card-text">毎月開催される定例会で、地域課題の解決策を話し合います。</p>
-              </div>
-            </div>
-          </div>
-          <!-- box2 -->
-          <div class="col-md-4 mb-4">
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <i class="bi bi-calendar-check display-4 text-primary"></i>
-                <h5 class="card-title">イベント開催</h5>
-                <p class="card-text">地域のイベントに参加し、シビックテックの魅力を伝えます。</p>
-              </div>
-            </div>
-          </div>
-          <!-- box3 -->
-          <div class="col-md-4 mb-4">
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <i class="bi bi-people display-4 text-primary"></i>
-                <h5 class="card-title">地域コミュニティ支援</h5>
-                <p class="card-text">地域のコミュニティを支援し、より良い地域社会の実現を目指します。</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 定例会 -->
-    <section class="meeting py-5 bg-light">
-      <div class="container">
-        <h2 class="text-center mb-4">定例会</h2>
-        <p>Code for Harimaは、毎月、第2火曜日19時から加古川ヤマトヤシキ7階にある「市民交流ひろば」で定例会を開催しています。定例会は、どなたでも参加できます。参加者全員で話し合い、話し合ったことを議事録に記録しています。定例会の議事録は、すべて公開しています。</p>
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <ul class="list-group">
-              <li class="list-group-item">
-                <h5>2023年10月定例会</h5>
-                <p>テーマ: 地域の課題とシビックテックの可能性</p>
-              </li>
-              <li class="list-group-item">
-                <h5>2023年9月定例会</h5>
-                <p>テーマ: オープンデータの活用方法</p>
-              </li>
-              <li class="list-group-item">
-                <h5>2023年8月定例会</h5>
-                <p>テーマ: 地域コミュニティとの連携</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="recent py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">新着記事</h2>
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card h-100">
-              <div class="position-relative">
-                <img src="../static/images/noimg.webp" class="card-img-top" alt="">
-                <span class="position-absolute top-0 start-0 badge bg-primary">カテゴリー1</span>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">記事タイトル1</h5>
-                <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card h-100">
-              <div class="position-relative">
-                <img src="../static/images/noimg.webp" class="card-img-top" alt="">
-                <span class="position-absolute top-0 start-0 badge bg-primary">カテゴリー2</span>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">記事タイトル2</h5>
-                <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card h-100">
-              <div class="position-relative">
-                <img src="../static/images/noimg.webp" class="card-img-top" alt="">
-                <span class="position-absolute top-0 start-0 badge bg-primary">カテゴリー3</span>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">記事タイトル3</h5>
-                <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card h-100">
-              <div class="position-relative">
-                <img src="../static/images/noimg.webp" class="card-img-top" alt="">
-                <span class="position-absolute top-0 start-0 badge bg-primary">カテゴリー4</span>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">記事タイトル4</h5>
-                <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card h-100">
-              <div class="position-relative">
-                <img src="../static/images/noimg.webp" class="card-img-top" alt="">
-                <span class="position-absolute top-0 start-0 badge bg-primary">カテゴリー5</span>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">記事タイトル5</h5>
-                <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card h-100">
-              <div class="position-relative">
-                <img src="../static/images/noimg.webp" class="card-img-top" alt="">
-                <span class="position-absolute top-0 start-0 badge bg-primary">カテゴリー6</span>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">記事タイトル6</h5>
-                <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    {% block main %}
     {% endblock %}
   </main>
 
   <!-- フッター -->
-  <footer class="bg-light text-start">
+  <footer>
     {% block footer %}
-    <div class="container p-4">
+    <div class="bg-light text-start container p-4">
       <div class="row">
         <div class="col-12 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase">Code for Harima</h5>
-          <p>
-            兵庫県播磨地域で地域課題をシビックテックで解決を図るボランティア団体
-          </p>
+          <p>兵庫県播磨地域で地域課題をシビックテックで解決を図るボランティア団体</p>
         </div>
         <div class="col-6 col-md-3 mb-4 mb-md-0">
           <h5 class="text-uppercase">Menu</h5>
           <ul class="list-unstyled mb-0">
-            <li>
-              <a href="/" class="text-dark">Home</a>
-            </li>
-            <li>
-              <a href="/about/" class="text-dark">About</a>
-            </li>
-            <li>
-              <a href="/history/" class="text-dark">History</a>
-            </li>
-            <li>
-              <a href="/minutes/" class="text-dark">Minutes</a>
-            </li>
-            <li>
-              <a href="/docs/" class="text-dark">Documents</a>
-            </li>
-            <li>
-              <a href="/blog/" class="text-dark">Blog</a>
-            </li>
+            <li><a href="/" class="text-dark">ホーム</a></li>
+            <li><a href="/about/" class="text-dark">私たちについて</a></li>
+            <li><a href="/history/" class="text-dark">活動履歴</a></li>
+            <li><a href="/events/" class="text-dark">イベント</a></li>
+            <li><a href="/blog/" class="text-dark">ブログ</a></li>
           </ul>
         </div>
         <div class="col-6 col-md-3 mb-4 mb-md-0">
           <h5 class="text-uppercase">SNS</h5>
           <ul class="list-unstyled mb-0">
-            <li>
-              <a href="https://twitter.com/" class="text-dark">Twitter</a>
-            </li>
-            <li>
-              <a href="https://facebook.com/" class="text-dark">Facebook</a>
-            </li>
-            <li>
-              <a href="https://github.com/" class="text-dark">GitHub</a>
-            </li>
+            <li><a href="https://twitter.com/" class="text-dark">Facebook</a></li>
+            <li><a href="https://facebook.com/" class="text-dark">Facebook</a></li>
+            <li><a href="https://github.com/" class="text-dark">GitHub</a></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="text-center p-3 bg-dark text-white small">
-      © 2023 Code for Harima
-    </div>
+    <p class="text-center p-3 bg-dark text-white small">© 2025 {{ AUTHOR }}</p>
     {% endblock %}
   </footer>
 
@@ -329,7 +147,7 @@
     });
   </script>
   <!-- bootstrap js -->
-  <script src="../static/js/bootstrap.bundle.min.js"></script>
+  <script src="{{ SITEURL }}/theme/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

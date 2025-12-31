@@ -1,69 +1,17 @@
-<!DOCTYPE html>
-<html lang="ja">
+{% extends "base.html" %}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../static/css/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="../static/css/style.css">
-</head>
-
-<body>
-  <!-- ヘッダー -->
-  <header>
-    <nav class="navbar navbar-expand-xl navbar-light bg-light">
-      <div class="container-fluid container-lg">
-        <a class="navbar-brand" href="/"><img src="../static/images/code_for_harima_logo_2.svg" alt="●" width="32" height="32"> Code for Harima</a>
-        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" id="navbarOffcanvas" tabindex="-1" aria-labelledby="navbarOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="navbarOffcanvasLabel">Menu</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-nowrap" href="/">ホーム</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="/about/">私たちについて</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="/history/">活動履歴</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="/events/">イベント</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="/blog/">ブログ</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="検索" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <main>
+{% block main %}
     <div class="container py-5">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-8 col-xxl-6">
           <article class="content">
             <header class="mb-4">
-              <img src="../static/images/street.jpg" class="img-fluid rounded article-title-image" alt="Title Image">
+              <img src="{{ SITEURL }}/theme/img/street.jpg" class="img-fluid rounded article-title-image" alt="Title Image">
               <h1 class="my-4">記事タイトル</h1>
               <div class="d-flex align-items-center">
-                <img src="../static/images/author.webp" class="rounded-circle me-3" width="48" height="48" alt="Author">
+                <img src="{{ SITEURL }}/theme/img/author.webp" class="rounded-circle me-3" width="48" height="48" alt="Author">
                 <div>
-                  <h5 class="h6 mb-0">著者名</h5>
+                  <h5 class="h6 mb-0">{{ AUTHOR }}</h5>
                   <small class="text-muted">2023年10月1日</small>
                 </div>
               </div>
@@ -86,86 +34,4 @@
         </div>
       </div>
     </div>
-  </main>
-
-  <footer class="bg-light text-start">
-    <div class="container p-4">
-      <div class="row">
-        <div class="col-12 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Code for Harima</h5>
-          <p>
-            兵庫県播磨地域で地域課題をシビックテックで解決を図るボランティア団体
-          </p>
-        </div>
-        <div class="col-6 col-md-3 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Menu</h5>
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="/" class="text-dark">Home</a>
-            </li>
-            <li>
-              <a href="/about/" class="text-dark">About</a>
-            </li>
-            <li>
-              <a href="/history/" class="text-dark">History</a>
-            </li>
-            <li>
-              <a href="/minutes/" class="text-dark">Minutes</a>
-            </li>
-            <li>
-              <a href="/docs/" class="text-dark">Documents</a>
-            </li>
-            <li>
-              <a href="/blog/" class="text-dark">Blog</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-6 col-md-3 mb-4 mb-md-0">
-          <h5 class="text-uppercase">SNS</h5>
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="https://twitter.com/" class="text-dark">Twitter</a>
-            </li>
-            <li>
-              <a href="https://facebook.com/" class="text-dark">Facebook</a>
-            </li>
-            <li>
-              <a href="https://github.com/" class="text-dark">GitHub</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="text-center p-3 bg-dark text-white">
-      © 2023 Code for Harima
-    </div>
-  </footer>
-
-  <!-- トップへ戻る -->
-  <button id="backToTop" type="button"><i class="bi bi-caret-up-fill"></i></button>
-  <script>
-    const pageTop = document.getElementById('backToTop');
-    const scroll = 200;
-
-    // スクロールイベント
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > scroll) {
-        pageTop.classList.add('is_active');
-      } else {
-        pageTop.classList.remove('is_active');
-      }
-    });
-
-    // クリックイベントでトップにスクロール
-    pageTop.addEventListener('click', () => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth' // スムーズスクロール
-      });
-    });
-  </script>
-  <!-- bootstrap js -->
-  <script src="../static/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
+{% endblock  %}

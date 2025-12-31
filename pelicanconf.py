@@ -1,6 +1,6 @@
 AUTHOR = "Code for Harima"
 SITENAME = "Code for Harima"
-SITEURL = ""
+SITEURL = "http://127.0.0.1:8000"
 
 # --- 基本 ---
 PATH = "content"

@@ -44,8 +44,6 @@ dependencies = [
     { name = "pelican", extra = ["markdown"] },
     { name = "pelican-read-more" },
     { name = "pelican-related-posts" },
-    { name = "pelican-search" },
-    { name = "pelican-seo" },
     { name = "pelican-series" },
     { name = "pelican-share-post" },
     { name = "pelican-sitemap" },
@@ -58,8 +56,6 @@ requires-dist = [
     { name = "pelican", extras = ["markdown"], specifier = ">=4.11.0.post0" },
     { name = "pelican-read-more", specifier = ">=1.0.0" },
     { name = "pelican-related-posts", specifier = ">=1.0.0" },
-    { name = "pelican-search", specifier = ">=1.1.0" },
-    { name = "pelican-seo", specifier = ">=1.4.0" },
     { name = "pelican-series", specifier = ">=3.1.0" },
     { name = "pelican-share-post", specifier = ">=1.2.1" },
     { name = "pelican-sitemap", specifier = ">=1.2.2" },
@@ -315,32 +311,6 @@ wheels = [
 ]
 
 [[package]]
-name = "pelican-search"
-version = "1.1.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "pelican" },
-    { name = "rtoml" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/ac/44/5db6efe345d70a31cc79d7bd59cc10108c54550fefa1aa28f4a3c7113899/pelican_search-1.1.0.tar.gz", hash = "sha256:9bdfb37a69404335c6b510fc4f73341c9f140e3e7320dd3868d4f045812a8d18", size = 6445, upload-time = "2023-04-12T08:51:58.317Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/4c/60/a9b369249d023a9d2c98b3ab0dffa1b6cecde619db036507e1e709d9fed1/pelican_search-1.1.0-py3-none-any.whl", hash = "sha256:943032372c363bf670d677b2162f32f1b5307a4881efa3a7415897b0d7e6f039", size = 6595, upload-time = "2023-04-12T08:51:45.6Z" },
-]
-
-[[package]]
-name = "pelican-seo"
-version = "1.4.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "beautifulsoup4" },
-    { name = "pelican" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/12/d5/a06835ee4b4069c7ca985599cd4ee813f6bfa44651f13bab3fe6fcd50b88/pelican_seo-1.4.0.tar.gz", hash = "sha256:a4d8b12fd9a333e6a32d93afd17ff80b90f3ef32e65e49425aab01e8bc7fce74", size = 27747, upload-time = "2025-04-25T11:21:39.152Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/e7/9c/73ad808165ecd8935206f358ca8c20e94b73d2dd3045abfb7f2db04412a3/pelican_seo-1.4.0-py3-none-any.whl", hash = "sha256:c0c69e83f5e4eacbe9d2128d0884f79432bd537e0928066f5e08d312d358d319", size = 36353, upload-time = "2025-04-25T11:21:37.784Z" },
-]
-
-[[package]]
 name = "pelican-series"
 version = "3.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -493,12 +463,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/fb/d2/8920e102050a0de7b
 wheels = [
     { url = "https://files.pythonhosted.org/packages/25/7a/b0178788f8dc6cafce37a212c99565fa1fe7872c70c6c9c1e1a372d9d88f/rich-14.2.0-py3-none-any.whl", hash = "sha256:76bc51fe2e57d2b1be1f96c524b890b816e334ab4c1e45888799bfaab0021edd", size = 243393, upload-time = "2025-10-09T14:16:51.245Z" },
 ]
-
-[[package]]
-name = "rtoml"
-version = "0.9.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/d5/53/ac68f06b42de70958f0ddb2c6a9109054fc208951e4d61af86f0c7186254/rtoml-0.9.0.tar.gz", hash = "sha256:113f2e133d152d9424269c475b4a7d0679987078b543e88fcb16c870dc2c460d", size = 23401, upload-time = "2022-11-10T16:54:48.879Z" }
 
 [[package]]
 name = "six"

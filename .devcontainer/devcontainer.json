@@ -135,6 +135,10 @@
           "jinja2": "html",
           "jinja-html": "html"
         },
+        // markdownlint
+        "markdownlint.config": {
+          "MD041": false,
+        },
         // notebookの出力を折り返す
         "notebook.output.wordWrap": true,
         // github copilotを無効にする
