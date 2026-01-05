@@ -1,39 +1,35 @@
----
-title: Code for Harima 2019.08（第14回定例会）
-tags: [code for harima]
----
-
----
-
-robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
-
----
+Title: Code for Harima 2019.08（第14回定例会）
+Date: 2019-08-21 19:00:00
+Category: minutes
+Tags: 2019
+Summary:
+lang: ja
+Slug: 201908
+Save_as: history/201908.html
+Template: page
 
 # Code for Harima 2019.08（第14回定例会）
 
 - 2019/08/21 19:00-21:00
 - 加古川 びぃぷらす
 - [行動規範](https://github.com/codeforharima/codeofconduct)
-
-司会:野方参加者:福田、石本、川上、小山、水野、三宅
-
+- 司会:野方
+- 参加者:福田、石本、川上、小山、水野、三宅
 - 次回開催: 9月11日(水) 19:00-21:00
 - 開催場所：びぃぷらす
 
 ## Code for Harima 運営連絡
 
 - 明日、Code for Kobe定例会
-- もくもくマッピング！#32 ～api活用編～主催: 諸国・浪漫
-  <https://www.facebook.com/events/2195691897226614/>
-- FOSS4G 2019 Kobe Kansai
-  <https://www.osgeo.jp/events/foss4g-2019/foss4g-2019-kobe-kansai>
+- もくもくマッピング！#32 ～api活用編～主催: 諸国・浪漫: <https://www.facebook.com/events/2195691897226614/>
+- FOSS4G 2019 Kobe Kansai: <https://www.osgeo.jp/events/foss4g-2019/foss4g-2019-kobe-kansai>
 
 ## Code for Japan Summit（石本、水野）
 
 - 【日時】　令和元年 9月28日(土)・29日(日)
-- 【場所】　神田外語大学　 　　　　<https://goo.gl/maps/u1Niy9p46kz>
+- 【場所】　神田外語大学 <https://goo.gl/maps/u1Niy9p46kz>
 - 【主催】　一般社団法人　コード・フォー・ジャパン
-- 【協賛】　Civic Tech Zen Chiba　　　　　<https://summit2019.code4japan.org/>
+- 【協賛】　Civic Tech Zen Chiba <https://summit2019.code4japan.org/>
 - 2019/09/27 Govtech Conference Japan #02
   - [peatix](https://govtechconfdx02.peatix.com/?lang=ja)
 - 今年からアプリでスケジュールが見られるようになりました
@@ -54,11 +50,13 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 - 平成の情報社会から令和「Society 5.0」時代の情報化社会へ
 - ～「Society 5.0」時代の情報化改革を考える～
 - 【日　時】　令和元年 ８月２９日 (木)　１３：３０～１７：００
-- 【場　所】　大阪大学中之島センター １０階　佐治敬三メモリアルホール　　　　　〒530-0005　大阪市北区中之島４－３－５３　　　　　<https://goo.gl/maps/Pm2PxTuc5J52nJ6G7>
+- 【場　所】　大阪大学中之島センター １０階　佐治敬三メモリアルホール
+  〒530-0005　大阪市北区中之島４－３－５３
+  <https://goo.gl/maps/Pm2PxTuc5J52nJ6G7>
 - 【主　催】　ＫＡＮＳＡＩ＠ＣＡＮフォーラム
 - 【協　賛】　NECネクサソリューションズ（株） <http://www.kansai-can.jp/>
 - 【申込み】 下記 mailアドレス宛てにシンポジウム参加を明記の上、お申し込みをお願い致します。
-- （ＫＡＮＳＡＩ＠ＣＡＮフォーラム シンポジウム開催　事務局）　　<info-kcan@irid.jp>
+- （ＫＡＮＳＡＩ＠ＣＡＮフォーラム シンポジウム開催　事務局） <info-kcan@irid.jp>
 
 ## COG2019に応募します！（三宅）
 

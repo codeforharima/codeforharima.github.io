@@ -1,22 +1,20 @@
----
-title: Code for Harima 2019.10（第16回定例会）
-tags: [code for harima]
----
-
----
-
-robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
-
----
+Title: Code for Harima 2019.10（第16回定例会）
+Date: 2019-10-09 19:00:00
+Category: minutes
+Tags: 2019
+Summary:
+lang: ja
+Slug: 201910
+Save_as: history/201910.html
+Template: page
 
 # Code for Harima 2019.10（第16回定例会）
 
 - 2019/10/9(水) 19:00-21:00
 - 加古川 びぃぷらす
 - [行動規範](https://github.com/codeforharima/codeofconduct)
-
-司会: 野方参加者: 野方、川井、福田、川上、大前、小山、石本、水野、三宅
-
+- 司会: 野方
+- 参加者: 野方、川井、福田、川上、大前、小山、石本、水野、三宅
 - 次回開催: 11月13日(水) 19:00-21:00
 - 開催場所：びぃぷらす
 
@@ -54,19 +52,15 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 
 担当したセッション
 
-- 正しいものを正しくつくれているか？　経産省と取り組んだアジャイル開発⁻
-  [関連記事]（<https://ekkyo-journey.link/gov-agile/>)
+- 正しいものを正しくつくれているか？　経産省と取り組んだアジャイル開発
+  ⁻ [関連記事](https://ekkyo-journey.link/gov-agile/)
 - 行政職員はサービスデザインの夢を見るか
 - データアナリティクスの国内外最新状況とアクセンチュアの取組み
 - データアカデミー研究会　出版もあるでよ
-
-- code for japan summit 2019 <https://summit2019.code4japan.org/>
-- 動画 <https://www.youtube.com/watch?v=uzlSDBbWmCg&feature=youtu.be>
-- グラレコアルバム
-  <https://www.facebook.com/cocotora/media_set?set=a.2665799673458192&type=3>
-
-行政職員はサービスデザインの夢を見るか　古川さんレポート
-<https://hackmd.io/@yfuruchin/cfjs2019sd_matome>
+- code for japan summit 2019: <https://summit2019.code4japan.org/>
+  - 動画: <https://www.youtube.com/watch?v=uzlSDBbWmCg&feature=youtu.be>
+  - グラレコアルバム: <https://www.facebook.com/cocotora/media_set?set=a.2665799673458192&type=3>
+- 行政職員はサービスデザインの夢を見るか　古川さんレポート: <https://hackmd.io/@yfuruchin/cfjs2019sd_matome>
 
 ## 加古川パスタレシピコンテスト（水野・三宅）
 
@@ -92,10 +86,8 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 ## こんな補助制度みつけました（三宅）
 
 - 東播磨流域文化協議会「地域活性化事業助成金」の条件が必要
-
-1. 東播磨地域か北播磨地域に所在するか活動拠点がある
-2. 歴史・文化等伝承事業か地域資源再発見事業に当てはまり主に市内で開催する
-
+  1. 東播磨地域か北播磨地域に所在するか活動拠点がある
+  2. 歴史・文化等伝承事業か地域資源再発見事業に当てはまり主に市内で開催する
 - 団体当たり15万円
 - 10月31日必着
 - 政策企画課
