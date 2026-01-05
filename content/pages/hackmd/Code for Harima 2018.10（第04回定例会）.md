@@ -1,21 +1,19 @@
----
-title: Code for Harima 2018.10（第4回定例会）
-tags: [code for harima]
----
-
----
-
-robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
-
----
+Title: Code for Harima 2018.10（第4回定例会）
+Date: 2018-10-09
+Category: minutes
+Tags: 2018
+Summary:
+lang: ja
+Slug:201810
+Save_as: history/201810.html
+Template: page
 
 # Code for Harima 2018.10（第4回定例会）
 
-- 2018/10/9 19:00-21:00
-- 加古川 00. Workspace
-
-司会: 野方さん参加者:　久保、萬野、園田、野方、福田、水野、三宅、高野
-
+- 時間: 2018/10/9 19:00-21:00
+- 場所: 加古川 00. Workspace
+- 司会: 野方さん
+- 参加者:　久保、萬野、園田、野方、福田、水野、三宅、高野
 - 次回開催(第2月曜): 11月12日(月) 19:00-21:00
 
 ## Code for Harima運営連絡 / 野方さん
@@ -65,7 +63,7 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
     [#ぐぅっとかこがわ](https://www.instagram.com/explore/tags/%E3%81%90%E3%81%85%E3%81%A3%E3%81%A8%E3%81%8B%E3%81%93%E3%81%8C%E3%82%8F/)
     で仕分けできない？　　 -　加古川市公式インスタグラムアカウント⇒　[kakogawa_citypromo](https://www.instagram.com/kakogawa_citypromo/)
 
-## 北陸のオープンデータシティ鯖江市のご紹介(久保）
+## 北陸のオープンデータシティ鯖江市のご紹介（久保）
 
 ## チャレンジ！オープンガバナンス！！に加古川市課題だしました（水野）
 
@@ -116,7 +114,7 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 ## 郷土料理レシピのオープンデータサイト / 萬野さん
 
 - 郷土料理レシピのオープンデータサイト
-- <http://kyoudo-ryouri.com/>
+  - <http://kyoudo-ryouri.com/>
   - 播磨の名物（かつめし、にく天、播州ラーメン）が掲載されていない！
   - 播磨地区の郷土料理をオープンデータ化して、全国に知ってもらう。未来に残していく。
   - レシピには著作権は無い

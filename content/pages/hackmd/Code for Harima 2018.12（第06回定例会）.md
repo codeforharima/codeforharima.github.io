@@ -1,26 +1,24 @@
----
-title: Code for Harima 2018.12（第6回定例会）
-tags: [code for harima]
----
-
----
-
-robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
-
----
+Title: Code for Harima 2018.12（第6回定例会）
+Date: 2018-12-10
+Category: minutes
+Tags: 2018
+Summary:
+lang: ja
+Slug:201812
+Save_as: history/201812.html
+Template: page
 
 # Code for Harima 2018.12（第6回定例会）
 
 - 2018/12/10 19:00-21:00
 - 加古川 00. Workspace
-
-司会: 野方参加者:野方、大久保、水野、小山、福田、三宅、萬野、高野、鈴木、石本、園田
-
+- 司会: 野方
+- 参加者: 野方、大久保、水野、小山、福田、三宅、萬野、高野、鈴木、石本、園田
 - 次回開催(第2月曜): 1月15日(火) 19:00-21:00
 
 ## Code for Harima 運営連絡 / 野方ほか
 
-- 神戸新聞に乗りました。反響すごい。（11/30朝刊掲載)
+- 神戸新聞に乗りました。反響すごい。（11/30朝刊掲載）
 - 何か言えば反応する雰囲気ができた。なんでも言ったらいい。
 
 ### 自己紹介　11名参加
@@ -39,8 +37,7 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 
 ## social hack day報告 / 三宅、水野
 
-URL：<https://hackday.code4japan.org/>
-
+- URL：<https://hackday.code4japan.org/>
 - 阪神播磨沿線沿いの建物（公共施設など）定礎のマップ化
   - URL：<https://www.facebook.com/groups/1453051258159959/>
 
@@ -52,10 +49,9 @@ URL：<https://hackday.code4japan.org/>
   - やさしい日本語版を作成予定
     - [やさしい日本語](<https://ja.wikipedia.org/wiki/%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E6%97%A5%E6%9C%AC%E8%AA%9E_(%E8%A8%80%E8%AA%9E)>)
     - [減災のための「やさしい日本語」](http://human.cc.hirosaki-u.ac.jp/kokugo/EJ1a.htm)
-
 - メンバー募集中です！
 
-## 息子がOSMマッパーデビューした話 / 水野 /
+## 息子がOSMマッパーデビューした話 / 水野
 
 - 稲美町マッピング中
 - 稲美町を世界に向けてPRする、世界デビュー！
@@ -63,8 +59,7 @@ URL：<https://hackday.code4japan.org/>
 
 ## Mapilary(マピラリー)使ってみました / 福田
 
-URL：<https://www.mapillary.com/>
-
+- URL：<https://www.mapillary.com/>
 - 人や車のナンバーを自動でマスキングしてくれるのでプライバシーに配慮されている
 - 専用のカメラではなく、スマホアプリ「Mapilary(マピラリー)」
 - １時間走ると、転送に一晩ほどかかるのでご注意ください
@@ -97,7 +92,6 @@ URL：<https://www.mapillary.com/>
 ## 協働のまちづくりチラシ配布 / 水野
 
 - URL:<http://www.city.kakogawa.lg.jp/soshikikarasagasu/kyodo/kyoudou/kyodo/h31/1542347165051.html>
-
 - OSMマッピングパーティーを開催したらどう？
 - Wikiペディアタウンと併用できる
 - 実現性がありそうなら応募してみましょう
@@ -140,7 +134,7 @@ URL：<https://www.mapillary.com/>
 - 12月12日に三宅がBANBANラジオに出演します。
 - 17:45～「谷ゴローのはりまーる」
 
-## 平成31年はドローン道場出張版を開催します / 久保（代理水野）/
+## 平成31年はドローン道場出張版を開催します / 久保（代理水野）
 
 - 三宮で開催していたドローン道場を来年から10日、20日に開催し、そのうち、１日は各地に出張予定
 - 10名程度（ドローンの数が限界）の子どもたちに向けて、地域の公民館で親子を対象
@@ -148,6 +142,6 @@ URL：<https://www.mapillary.com/>
 - 開催内容は、参加される皆さんのご要望も聞いて決めたい
 - 地元播磨の子どもたちに、最先端のテクノロジーに触れてほしい！インターネットで世界がつながっていて、これからは更に空にインターネットを広げて行くんだよと知ってほしい！
 
-## 新年会しませんか / 水野 /
+## 新年会しませんか / 水野
 
 - 1月15日火曜日、定例会終了後に希望者で実施

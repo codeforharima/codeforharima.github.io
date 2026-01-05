@@ -1,21 +1,19 @@
----
-title: Code for Harima 2018.11（第5回定例会）
-tags: [code for harima]
----
-
----
-
-robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
-
----
+Title: Code for Harima 2018.11（第5回定例会）
+Date: 2018-11-12
+Category: minutes
+Tags: 2018
+Summary:
+lang: ja
+Slug:201811
+Save_as: history/201811.html
+Template: page
 
 # Code for Harima 2018.11（第5回定例会）
 
 - 2018/11/12 19:00-21:00
 - 加古川 00. Workspace
-
-司会: 野方参加者:　野方、三宅、広岡、園田、福田、水野、川上、萬野（計8名）
-
+- 司会: 野方
+- 参加者:　野方、三宅、広岡、園田、福田、水野、川上、萬野（計8名）
 - 次回開催(第2月曜): 12月10日(月) 19:00-21:00
 
 ## Code for Harima 運営連絡 / 野方ほか
@@ -29,30 +27,27 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 
 - 加古川市のオープンデータと無料通信アプリ「LINE（ライン）」を活用した【加古川LINEウォーカー】が開発されました！
 - 開発者：甲南大学 知能情報学部・自然科学研究科知能情報学専攻 岳研究室の学生さんたち
-- 普段のウォーキングでも利用できますので、是非LINEで友達登録を！以下のサイトからアクセスしてください。URL：<https://smart-stamprally.com/2daymarch/>
-  [加古川ツーデーマーチ](http://kakogawa-2daymarch.jp/)
+- 普段のウォーキングでも利用できますので、是非LINEで友達登録を！以下のサイトからアクセスしてください。
+  - URL：<https://smart-stamprally.com/2daymarch/>
+- [加古川ツーデーマーチ](http://kakogawa-2daymarch.jp/)
 
 ## 先進地事例視察（IPA、福島県会津若松市） / 三宅
 
 - 共通語彙基盤事業 <https://imi.go.jp/goi>
-- スマートシティ
-  <https://www.city.aizuwakamatsu.fukushima.jp/docs/2015121000042/>
-- オープンデータ
-  <https://www.city.aizuwakamatsu.fukushima.jp/docs/2009122400048/>
-- 世界のマッパーが作ったopenstreetmapを活用したハザードマップを全戸配付　（会津若松市のopnestreetmapすごいです、見てみてください、山の中も走り回ったそうです）
-  <https://opensource.srad.jp/story/14/12/02/0357227/>
-  <https://www.city.aizuwakamatsu.fukushima.jp/docs/2009031200043/>
+- スマートシティ: <https://www.city.aizuwakamatsu.fukushima.jp/docs/2015121000042/>
+- オープンデータ: <https://www.city.aizuwakamatsu.fukushima.jp/docs/2009122400048/>
+  - 世界のマッパーが作ったopenstreetmapを活用したハザードマップを全戸配付　（会津若松市のopnestreetmapすごいです、見てみてください、山の中も走り回ったそうです）
+  - <https://opensource.srad.jp/story/14/12/02/0357227/>
+  - <https://www.city.aizuwakamatsu.fukushima.jp/docs/2009031200043/>
 - その他（名物、名所）
-
-- 馬刺し、ソースカツ丼、会津若松城（現地の方は鶴ケ城と呼ぶ。ちなみに「ヶ」ではなく「ケ」）
+  - 馬刺し、ソースカツ丼、会津若松城（現地の方は鶴ケ城と呼ぶ。ちなみに「ヶ」ではなく「ケ」）
 
 ## Social HackDay Kobe vol.3 / 川上
 
 - 日時:2018/11/17(土) 10:30 ~
 - 場所：起業プラザひょうご
-- [イベントページ](https://www.facebook.com/events/295279044598635/)
-- [Social HackDay](https://hackday.code4japan.org/index.html)
-
+  - [イベントページ](https://www.facebook.com/events/295279044598635/)
+  - [Social HackDay](https://hackday.code4japan.org/index.html)
 - 非エンジニアの人大歓迎で、神戸はゆるくやってるので来てください。
 
 ## 5374 for Kakogawa / 川上
@@ -74,22 +69,18 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 
 ## サッカーチャリティイベントの告知 / 萬野
 
-日時：2018-12-6場所：高砂市陸上競技場
-
+- 日時：2018-12-6場所：高砂市陸上競技場
 - [f-conect](https://f-connect.themedia.jp/)
   - 拡散お願いします！
 
 ## 市の魅力を世界に発信＆みんなで作る地図＠芦屋市役所　/ 福田
 
-<https://www.facebook.com/events/207832779989729/>
-
+- <https://www.facebook.com/events/207832779989729/>
 - [Mapillary](https://www.mapillary.com/app) -　たつの市たつの町 -　メリット -　車のナンバーを消したり、顔へのモザイクは自動処理
 
-【番外編】チャレンジ！オープンガバナンス2018 / 水野
+## 【番外編】チャレンジ！オープンガバナンス2018 / 水野
 
----
-
-[前回のおさらい](https://hackmd.io/lVP5gh_bRmyM17XJeZ-WpQ?fbclid=IwAR0bqKYzv3jwDCQ57_1PBlSdmtGp6h9zNgnsr8jryRdb1J41vP1QoTdOz1Y#)
+- [前回のおさらい](https://hackmd.io/lVP5gh_bRmyM17XJeZ-WpQ)
 
 - 提案
   - 提案をまとめるのに、別日で集まりますか？
@@ -119,6 +110,7 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
   - アンケート結果の20代30代の結果や、WEBとアプリの結果をもらえるように調整する
   - KOHAKOさんはもうない
   - Googleフォームでアンケートを作成し、Lineで流してもらう。フォーム？
+
 - アンケートを作成
   - いいところとわるいところの両方を聞くほうがいい（悪いところのほうが出やすい）
   - 自由欄は避けられがちなので、選択制がよい。設問が多いのがよい。

@@ -1,13 +1,6 @@
----
-title: オープンストリートマップ(OpenStreetMap)講座
-tags: [openstreetmap]
----
-
----
-
-tags: 'openstreetmap' lang: ja
-
----
+Title: オープンストリートマップ(OpenStreetMap)講座
+Date: 2018-09-21
+Tags: openstreetmap
 
 # オープンストリートマップ(OpenStreetMap)講座
 

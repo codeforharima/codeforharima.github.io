@@ -1,8 +1,12 @@
 Title: Code for Harimaキックオフ
-Category: 議事録
+Date: 2018-07-29
+lang: ja
+Category: minutes
 Tags: 2018
-Slug: 201807
 Summary:
+Slug:201807
+Save_as: history/201807.html
+Template: page
 
 # Code for Harima 2018.07 キックオフ
 
