@@ -1,5 +1,5 @@
 Title: SotM JP2022 採択通知
-Date: 2021-01-13 19:00:00
+Date: 2022
 Category: events
 Tags: sotmjp
 Summary:

@@ -1,25 +1,12 @@
-Title: SotM JP2022 決定事項
-Date: 2021-01-13 19:00:00
+Title: SotM JP2022 当日役割・機材・消耗品
+Date: 2022
 Category: events
 Tags: sotmjp
 Summary:
 lang: ja
-Slug:
-Save_as: events/sotmjp2022-decisions.html
+Slug: sotmjp2022-staff-and-equipments
+Save_as: events/sotmjp2022-staff-and-equipments.html
 Template: page
-
-
----
-title: SotM JP2022 当日役割・機材・消耗品
-tags: [SotMJp]
----
-
----
-
-title: SotM JP2022 当日役割・機材・消耗品 robots: noindex, nofollow lang: ja
-breaks: true tags: SotMJp
-
----
 
 ## 参考情報
 
@@ -53,8 +40,7 @@ breaks: true tags: SotMJp
   - 消毒案内、検温
   - 参加者リストの照合(坂ノ下が印刷予定)
   - 未登録者への登録案内
-    - PeatixのQRコード(坂ノ下印刷):
-      <https://docs.google.com/document/d/1oFvK68qU6aAYylnWPK5KTfTqSFvt0dRs8Kl_jRFrRoM/edit?usp=sharing>
+    - PeatixのQRコード(坂ノ下印刷): <https://docs.google.com/document/d/1oFvK68qU6aAYylnWPK5KTfTqSFvt0dRs8Kl_jRFrRoM/edit?usp=sharing>
   - 名刺&ケース配布/ケース回収
     - ペンの貸出/回収
 - スポンサー対応
@@ -99,7 +85,7 @@ breaks: true tags: SotMJp
   - 名札用意(坂ノ下)
   - 名札ケース用意(Code for Harima用意)
   - 油性マジック(要調整)
-  - 検温機械（ガン型\*3 Ikiyaさん用意）
+  - 検温機械（ガン型*3 Ikiyaさん用意）
   - 消毒液(Code for Harima用意)
   - 個包装のマスク
 - 会議室A&B/特別会議室
