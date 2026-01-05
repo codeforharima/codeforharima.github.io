@@ -1,21 +1,19 @@
----
-title: Code for Harima 2019.05（第11回定例会）
-tags: [code for harima]
----
-
----
-
-robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
-
----
+Title: Code for Harima 2019.05（第11回定例会）
+Date: 2019-05-13
+Category: minutes
+Tags: 2019
+Summary:
+lang: ja
+Slug:201905
+Save_as: history/201905.html
+Template: page
 
 # Code for Harima 2019.05（第11回定例会）
 
-- 2019/05/13 19:00-21:00
-- 加古川 びぃぷらす
-
-司会:野方さん参加者:野方さん@姫路獨協大、福田さん@Bab-Ban、石本さん@高砂市、水野さん@加古川市、川上さん@プログラマー、笠原さん@JAライスセンター、後藤さん@C4K／シスメックス、原さん@姫路市、岡林さん@姫路市、坂本さん@障がい者支援施設、西嶋さん@自営業、高野先生@兵庫大学、藤輪さん@県まち技、川井さん@C4K、西谷さん@C4K、大田さん@伊丹市
-
+- 日時: 2019/05/13 19:00-21:00
+- 場所: 加古川 びぃぷらす
+- 司会: 野方さん
+- 参加者: 福田さん@Bab-Ban、石本さん@高砂市、水野さん@加古川市、川上さん@プログラマー、笠原さん@JAライスセンター、後藤さん@C4K／シスメックス、原さん@姫路市、岡林さん@姫路市、坂本さん@障がい者支援施設、西嶋さん@自営業、高野先生@兵庫大学、藤輪さん@県まち技、川井さん@C4K、西谷さん@C4K、大田さん@伊丹市
 - 次回開催: 6月12日(水) 19:00-21:00
 - 開催場所：びぃぷらす
 
@@ -31,16 +29,13 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 
 ## 播磨地域のため池事情・はりま水辺プロジェクト（三宅、柴崎、小笹）
 
-[資料]
-(<https://drive.google.com/drive/folders/19zum3cLfXVs17IXW03byGx5FkdkdXucl?usp=sharing>)
-
+- [資料](https://drive.google.com/drive/folders/19zum3cLfXVs17IXW03byGx5FkdkdXucl?usp=sharing)
 - 決起集会(5/12)
   - 20人ぐらい
   - メンバーの自己紹介、ゴールなどを確認
   - 青年協力隊の趣旨に沿ったプロジェクト
 - 志方町へ現地視察
-
-[東播磨フィールドステーション](http://e-harima.kobe-face.jp/)
+  - [東播磨フィールドステーション](http://e-harima.kobe-face.jp/)
 
 - ため池管理問題
   - 全国的にもあまり力を入れて取り組まれていない
@@ -68,8 +63,12 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 
 ## 告知　5月26日　みなと神戸と海軍操練所 （幕末京都マッピングパーティ#10 特別編）
 
--[FBイベントページ](https://www.facebook.com/events/411826262941356/)
-: 本日の時点で満員御礼になっている。ただし初心者の人が多めなので、教える人が足りないので、滑り込めるかも？- ルートはかなり面白そう。- 盛りだくさん過ぎて、ちょっと忙しい感じになるかも。- 書きたい人は書き続けるとか。
+- [FBイベントページ](https://www.facebook.com/events/411826262941356/)
+- 本日の時点で満員御礼になっている。ただし初心者の人が多めなので、教える人が足りないので、滑り込める
+かも？
+  - ルートはかなり面白そう。
+  - 盛りだくさん過ぎて、ちょっと忙しい感じになるかも。
+  - 書きたい人は書き続けるとか。
 
 ## LibreOfifce Asia Conference 2019 @東京　5/25,26
 
@@ -110,7 +109,7 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
   - PWSやRaspberry Piにも付いてたりする
     - 元々は空を撮るため
 
-{%speakerdeck kwi/jia-gu-chuan-pasutafalsejian %}
+<iframe class="speakerdeck-iframe" style="border: 0px; background: rgba(0, 0, 0, 0.1) padding-box; margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 350;" frameborder="0" src="https://speakerdeck.com/player/3a31ecb1fd5846d09f8d7250c4209d51" title="加古川パスタ♡の件" allowfullscreen="true" data-ratio="1.6"></iframe>
 
 ## かこがわパスタの試食会　アーリオオーリオ？で食べ比べ！？
 
@@ -122,11 +121,7 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
   - キッチンチヅおばさん　<https://tabelog.com/hyogo/A2804/A280402/28007518/>
   - パスタハウスyumi <http://pasta-yumi.com/shop.html>
   - ル・パスタガーデン　<https://tabelog.com/hyogo/A2804/A280402/28004431/>
-
-    是非感想を以下に入力してください！感想を持って、八幡営農組合に会いに行きませんか平日の日中？土日？
-
-  やはり美味しい！出来るだけソースなど使わず、シンプルに素材の味を楽しみたでしたすね！生麺だともっと良いかも！！(西谷)
-
-  そもそも色が違うんですね。2種類じゃなくて 3種類だったので気が付けたのかも。興味深い。（川井）
-
-  加古川パスタはパスタ自体の味がしっかりと感じられました。素人的表現で恐縮ですが、パンの耳のようなしっかりとした味わい(^^;（大田）
+- 是非感想を以下に入力してください！感想を持って、八幡営農組合に会いに行きませんか平日の日中？土日？
+  - やはり美味しい！出来るだけソースなど使わず、シンプルに素材の味を楽しみたでしたすね！生麺だともっと良いかも！！(西谷)
+  - そもそも色が違うんですね。2種類じゃなくて 3種類だったので気が付けたのかも。興味深い。（川井）
+  - 加古川パスタはパスタ自体の味がしっかりと感じられました。素人的表現で恐縮ですが、パンの耳のようなしっかりとした味わい(^^;（大田）

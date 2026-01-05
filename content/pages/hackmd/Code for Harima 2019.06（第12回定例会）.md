@@ -1,21 +1,19 @@
----
-title: Code for Harima 2019.06（第12回定例会）
-tags: [code for harima]
----
-
----
-
-robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
-
----
+Title: Code for Harima 2019.06（第12回定例会）
+Date: 2019-06-12
+Category: minutes
+Tags: 2019
+Summary:
+lang: ja
+Slug:201906
+Save_as: history/201906.html
+Template: page
 
 # Code for Harima 2019.06（第12回定例会）
 
-- 2019/06/12 19:00-21:00
-- 加古川 びぃぷらす
-
-司会: のがた参加者:のがたさん、小山さん、福田さん、三宅さん、小笹さん、長峰さん、西谷さん、萬野さん、藤原さん、若松さん、島津さん、水野さん、川上さん、川井さん
-
+- 日時: 2019/06/12 19:00-21:00
+- 場所: 加古川 びぃぷらす
+- 司会: のがた
+- 参加者:のがたさん、小山さん、福田さん、三宅さん、小笹さん、長峰さん、西谷さん、萬野さん、藤原さん、若松さん、島津さん、水野さん、川上さん、川井さん
 - 次回開催: 7月10日(水) 19:00-21:00
 - 開催場所：びぃぷらす
 
@@ -35,12 +33,10 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 
 ## 加古川パスタを楽しむ会　水野、三宅、川井
 
-[2019-05-29八幡営農組合訪問記録](https://hackmd.io/8KYc2Cv9Rp6qIMwdUNyFzw?view)
-
+- [2019-05-29八幡営農組合訪問記録](https://hackmd.io/8KYc2Cv9Rp6qIMwdUNyFzw?view)
 - 当日の様子
 - [八幡営農インスタグラム](https://www.instagram.com/p/ByEKhEFlud6)
   - センサー設置予定場所
-
 - 興味ある方は参加申請をお願いします！
   - Facebook Group:
     [加古川パスタを楽しむ会](https://www.facebook.com/groups/849748082044749/)
@@ -52,8 +48,7 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 
 ## COG2019告知 三宅
 
-[COG2019イベントページ](http://park.itc.u-tokyo.ac.jp/padit/cog2019/)
-
+- [COG2019イベントページ](http://park.itc.u-tokyo.ac.jp/padit/cog2019/)
 - 加古川パスタについて、継続で課題で提出予定。担当課と調整中。
 - 昨年の提出課題[COG2018イベントページ](http://park.itc.u-tokyo.ac.jp/padit/cog20188area/kinki.html#kakogawa-shi)
 - 参加したい方ゆるっと募集中です。

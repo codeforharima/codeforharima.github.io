@@ -1,28 +1,25 @@
----
-title: Code for Harima 2019.03（第9回定例会）
-tags: [code for harima]
----
-
----
-
-robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
-
----
+Title: Code for Harima 2019.03（第9回定例会）
+Date: 2019-03-11
+Category: minutes
+Tags: 2019
+Summary:
+lang: ja
+Slug:201903
+Save_as: history/201903.html
+Template: page
 
 # Code for Harima 2019.03（第9回定例会）
 
-- 2019/03/11 19:00-21:00
-- 加古川 00. Workspace
-
-司会: 野方参加者:
-
+- 日時: 2019/03/11 19:00-21:00
+- 場所: 加古川 00. Workspace
+- 司会: 野方
+- 参加者:
 - 次回開催(第2月曜): 4月8日(月) 19:00-21:00
 
 ## Code for Harima 運営連絡 / 野方ほか
 
 - 3/2 オープンデータデイ無事終了
-  - 加古川の商店街で「マッピングパーティー」　オープンデータを身近に - 加古川経済新聞:
-    <https://kakogawa.keizai.biz/headline/863/>
+  - 加古川の商店街で「マッピングパーティー」　オープンデータを身近に - 加古川経済新聞: <https://kakogawa.keizai.biz/headline/863/>
   - 参加人数は、入ったり出たりで15人くらい？
   - 下見の際の話も面白かったので、次回は数人で下見に行っても面白そう
   - フィールドワークが楽しかった
@@ -39,8 +36,7 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 
 - 活動実績について
   - グーグルドライブに、スプレッドシートで活動実績を入力する
-  - <https://docs.google.com/spreadsheets/d/1Zi8sey9ylLmNkX2R7e0_ou4Ot_-jKmRp8zVEl57E6Jo/edit?usp=sharing>
-  -
+    - <https://docs.google.com/spreadsheets/d/1Zi8sey9ylLmNkX2R7e0_ou4Ot_-jKmRp8zVEl57E6Jo/edit?usp=sharing>
 
 ## ふるさとづくり青年隊提出報告 / 水野さん
 
@@ -48,13 +44,10 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 - 27日誰が行く？
   - Googleスライドを作りましょう
     - <https://docs.google.com/presentation/d/10oDsucBqzgSevUU3B2mbp2ropz0xa2ZhnwWuQCEbdCQ/edit?usp=sharing>
-
-  - プレゼン用の資料的なWikipediaタウンのリンク
-    - <https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2%E3%82%BF%E3%82%A6%E3%83%B3>
-    - <https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88:%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AA%E3%83%BC%E3%83%81/%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2%E3%82%BF%E3%82%A6%E3%83%B3>
-    - CA1847 - ライブラリアンによるWikipedia
-      Townへの支援 / 是住久美子 | カレントアウェアネス・ポータル:
-      <http://current.ndl.go.jp/ca1847>
+- プレゼン用の資料的なWikipediaタウンのリンク
+  - <https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2%E3%82%BF%E3%82%A6%E3%83%B3>
+  - <https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88:%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AA%E3%83%BC%E3%83%81/%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2%E3%82%BF%E3%82%A6%E3%83%B3>
+  - CA1847 - ライブラリアンによるWikipedia Townへの支援 / 是住久美子 | カレントアウェアネス・ポータル: <http://current.ndl.go.jp/ca1847>
 
 ## cog2018最終公開審査&並行イベント報告 / 水野さん
 
@@ -67,13 +60,11 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
   - 今後センサーなどを置くかも
 - 加古川パスタを提供しているお店の情報をリンクデータで出したい
   - モデルが決まっていて登録が難しい？
-    [Link Dataの播磨のページ](http://user.linkdata.org/user/codeforharima/work)
-
-  - [G空間情報センター](https://www.geospatial.jp/gp_front/)で公開アカウントができたら来月報告します！
-
+    - [Link Dataの播磨のページ](http://user.linkdata.org/user/codeforharima/work)
+    - [G空間情報センター](https://www.geospatial.jp/gp_front/)で公開アカウントができたら来月報告します！
 - 今後、KobeとHarimaで連携していけたらいいね！
 - タブローはこちら
-  <https://public.tableau.com/profile/mz.harima#!/vizhome/179/sheet0>
+  - <https://public.tableau.com/profile/mz.harima#!/vizhome/179/sheet0>
 
 ## ドローン教室について / 久保さん（代理：水野）
 

@@ -1,36 +1,35 @@
----
-title: Code for Harima 2019.01（第7回定例会）
-tags: [code for harima]
----
-
----
-
-robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
-
----
+Title: Code for Harima 2019.01（第7回定例会）
+Date: 2019-01-15
+Category: minutes
+Tags: 2019
+Summary:
+lang: ja
+Slug:201901
+Save_as: history/201901.html
+Template: page
 
 # Code for Harima 2019.01（第7回定例会）
 
-- 2019/01/15 19:00-21:00
-- 加古川 00. Workspace
-
-司会: 野方さん参加者:川上さん、高さん、福田さん、小山さん、島津さん、高野さん、萬野さん、坂ノ下さん、正信さん、水野さん、三宅
-
+- 日時: 2019/01/15 19:00-21:00
+- 場所: 加古川 00. Workspace
+- 司会: 野方さん
+- 参加者:川上さん、高さん、福田さん、小山さん、島津さん、高野さん、萬野さん、坂ノ下さん、正信さん、水野さん、三宅
 - 次回開催(第2月曜): 2月12日(火) 19:00-21:00
 
-## Code for Harima 運営連絡 /
+## Code for Harima 運営連絡
 
-加古川市データ利活用研修会を実施します（三宅）
-<https://drive.google.com/file/d/1Hzxo1juTISA_Wyr_-72SaYhqQgxuA8-7/view?usp=drivesdk>
+- 加古川市データ利活用研修会を実施します（三宅）
+  - <https://drive.google.com/file/d/1Hzxo1juTISA_Wyr_-72SaYhqQgxuA8-7/view?usp=drivesdk>
+- 加古川市オープンデータカタログサイトを一本化します（三宅）
 
-加古川市オープンデータカタログサイトを一本化します（三宅）
+- 昨年のチラシですどなたか、code for のチラシを作ってください！
+  - <https://opendata-api-kakogawa.jp/odp/contact/>
 
-昨年のチラシですどなたか、code for のチラシを作ってください！
-<https://opendata-api-kakogawa.jp/odp/contact/>
+- code for japanのHP掲載されていれました（水野）
+  - <https://www.code4japan.org/brigade/>
 
-code for japanのHP掲載れていれました（水野）
-<https://www.code4japan.org/brigade/>
-
-social hacd day <https://www.facebook.com/events/254560702081077/?ti=ia>
+- social hacd day <https://www.facebook.com/events/254560702081077/?ti=ia>
 
 ## 新年会があります
+
+- 新年会がありました

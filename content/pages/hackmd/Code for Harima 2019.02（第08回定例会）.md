@@ -1,38 +1,39 @@
----
-title: Code for Harima 2019.02（第8回定例会）
-tags: [code for harima]
----
-
----
-
-robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
-
----
+Title: Code for Harima 2019.02（第8回定例会）
+Date: 2019-02-12
+Category: minutes
+Tags: 2019
+Summary:
+lang: ja
+Slug:201902
+Save_as: history/201902.html
+Template: page
 
 # Code for Harima 2019.02（第8回定例会）
 
-- 2019/02/12 19:00-21:00
-- 加古川 00. Workspace
-
-司会:野方さん参加者:野方さん、三宅さん、豊田さん、前田さん、福田さん、雪森さん、島津さん、高野先生、大田さん、正信さん、水野さん
-
+- 日時: 2019/02/12 19:00-21:00
+- 場所: 加古川 00. Workspace
+- 司会: 野方さん
+- 参加者: 野方さん、三宅さん、豊田さん、前田さん、福田さん、雪森さん、島津さん、高野先生、大田さん、正信さん、水野さん
 - 次回開催(第2月曜): 3月11日(月) 19:00-21:00
 
 ## Code for Harima 運営連絡 / 野方ほか
 
-- チラシができました！-　データは、githubもしくはgoogledriveに置いて共有。-　謝礼について高さんに相談。-　ポスターの貼り場所。貼ったらグループで共有。
+- チラシができました！
+- データは、githubもしくはgoogledriveに置いて共有。
+- 謝礼について高さんに相談。
+- ポスターの貼り場所。貼ったらグループで共有。
 
 ## インターナショナル・オープンデータ・デイは3月2日（野方）
 
 - <https://odd.okfn.jp/>
-- twitterで#オープンデータデーで検索
+- twitterで #オープンデータデー で検索
 - オープンデータデーに集まりますか？
 - 世界各国で開催（インド、メキシコ、アメリカ）
-- openstreetmap勉強会をする（他なにかテーマがあればそちらを優先）
+- OpenStreetMap勉強会をする（他なにかテーマがあればそちらを優先）
 
 ## 兵庫県青少年本部の助成金の活用について（島津）
 
-- 兵庫県青少年本部（<http://www.seishonen.or.jp/）>
+- 兵庫県青少年本部（<http://www.seishonen.or.jp/>）
 - wikipediaタウンを開きたい！
   - 東播磨県民局の助成金で
   - 学生さんを巻き込んだイベント
@@ -61,16 +62,15 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 
 ## 「それ、昭和ですか！」を流行らせたい（水野）
 
-- 地域IoT実装推進セミナーin姫路にてCode for
-  Japan古川泰人氏発（<https://www.facebook.com/yasuto.furukawa>)
-- 昭和な上司、昭和な会議、昭和なシステムにお使いください（<https://github.com/howml/design/find/master?q=）>
+- 地域IoT実装推進セミナーin姫路にてCode for Japan 古川泰人氏発（<https://www.facebook.com/yasuto.furukawa>）
+- 昭和な上司、昭和な会議、昭和なシステムにお使いください（<https://github.com/howml/design/find/master?q=>）
 - クレジットお忘れなく（Design by Howmori under CC-BY 4.0）
   - Slido　最近導入されていっている。イベント時に便利。
 
 ## チャレンジ！オープンガバナンスについて（水野）
 
 - 奮闘するもHPの公開のみ
-- 結果は本日夜に公開予定（<http://park.itc.u-tokyo.ac.jp/padit/cog2018/）>
+- 結果は本日夜に公開予定（<<http://park.itc.u-tokyo.ac.jp/padit/cog2018/>）
 - 今回うまくまとめられなくて反省
 - 市との意見交換について
 
@@ -94,14 +94,12 @@ robots: noindex, nofollow lang: ja dir: ltr breaks: true tags: code for harima
 
 - 朝日新聞の待機児童問題「見える化」プロジェクトのグラフが面白い。
 - 希望に合わずに断念したいわゆる「隠れ待機児童」では神奈川がダントツ。待機児童のみで並び替えると明石が一番になったり、保護者が求職活動を中止して対応は大阪市と、条件で並び替えるといろいろ見える。
-  - 待機児童問題「見える化」プロジェクト：朝日新聞デジタル:
-    <http://www.asahi.com/special/taikijido/?fbclid=IwAR1TGhko9Eods3Niq_cKcdiQx_pL67mMd6-_og_ZC7SZdwS6eJ-q7wlMTO8>
+  - 待機児童問題「見える化」プロジェクト：朝日新聞デジタル: <http://www.asahi.com/special/taikijido/>
 
 ## ザ・地域統計パワーバトル（水野）
 
 - 京都市職員さんが作成
-
-- <https://www.mirko.jp/townpower/>
+  - <https://www.mirko.jp/townpower/>
 
 ## LibreOfficeAsiaカンファレンス
 
