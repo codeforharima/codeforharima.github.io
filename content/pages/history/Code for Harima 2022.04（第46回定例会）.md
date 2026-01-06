@@ -55,7 +55,7 @@ Template: page
   - 2022年春に行う予定の天体観望会をはじめとして、加古川を中心に色々な活動をしていきます！
   - 3月6日（日）第一回観望会を行う予定
   - 活動状況はかこそら隊公式Instagramで!
-  - かこそら隊公式Instagram　[＠kacosora.0109](https://instagram.com/kacosora.0109?utm_medium=copy_link)
+  - かこそら隊公式Instagram　[＠kacosora.0109](https://instagram.com/kacosora.0109)
     - シミンズシーズが開催したまちまちゼミをきっかけに高校生7人と、2名のボランティアで始めました
     - 拠点は[基地ラボ](https://osm.org/go/56u9A9Rdd)
       - Otohaneちゃん
@@ -85,7 +85,7 @@ Template: page
 - ※ウクライナ語はWebブラウザで翻訳すれば読めます。
 - そのまま２市２町に移動すると、学校の敷地などが見やすい｡
 
-![](https://i.imgur.com/DeW0gc0.png)
+![Open History & Culture Map](202204-open_history_and_culture_map.webp)
 
 ## シビックテックミートアップ2022 いざ岐阜へ
 

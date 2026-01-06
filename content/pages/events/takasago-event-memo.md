@@ -16,11 +16,11 @@ Template: page
 
 ページが開いたら、キーワード検索に「交通事故」を入力し、検索をクリック
 
-![](takasago-event1.webp)
+![兵庫県オープンデータカタログサイト](takasago-event1.webp)
 
 交通事故の統計データが表示されるのでダウンロードする。
 
-![](takasago-event2.webp)
+![兵庫県オープンデータカタログサイト・ダウンロード](takasago-event2.webp)
 
 ## データ内容
 
@@ -58,10 +58,10 @@ Template: page
 
 ### 24時間の状況
 
-![](takasago-event3.webp)
+![高砂市交通事故発生状況](takasago-event3.webp)
 
-![](takasago-event4.webp)
+![高砂市交通事故発生状況 時間色分け](takasago-event4.webp)
 
 ### 16-19時の発生状況
 
-![](takasago-event5.webp)
+![高砂市交通事故発生状況 16-19時](takasago-event5.webp)

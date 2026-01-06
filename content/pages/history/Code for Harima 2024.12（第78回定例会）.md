@@ -4,7 +4,7 @@ Category: minutes
 Tags: 2024
 Summary:
 lang: ja
-Slug: 202401
+Slug: 202412
 Save_as: history/202412.html
 Template: page
 

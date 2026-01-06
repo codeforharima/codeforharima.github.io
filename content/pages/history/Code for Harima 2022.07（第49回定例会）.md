@@ -36,7 +36,7 @@ Template: page
 - 共創発表会はあるようです
   - 「イベント②　企業との活動発表イベント」のみの開催となります
   - 14:00からオンラインで開催する予定です。[Zoomリンク](https://us06web.zoom.us/j/83669806505?pwd=dzJWR2hJL3FaVVJCSk1xQWFYWWlrUT09&fbclid=IwAR2hQ4a2XWC_TWH3BlupQQaLH-Iy6uS9VbtHd4bQHLTtwapx6UwBhHBTxW8#success)
-  - ![タイムテーブル](https://i.imgur.com/L8bfhW3.jpg)
+  - ![タイムテーブル](202207-mu_lab.webp)
   - 草刈りの話も15時ころある
   - 草刈りの横展開も企業さんが検討しているので将来的にコラボできればいい。
 - むlaboオープンデーの復活を！？
