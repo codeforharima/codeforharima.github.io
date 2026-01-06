@@ -1,13 +1,17 @@
----
-title: Code for Harima 2024.06（第72回定例会）
-tags: [code for harima]
----
+Title: Code for Harima 2024.06（第72回定例会）
+Date: 2024-06-11 19:00:00
+Category: minutes
+Tags: 2024
+Summary:
+lang: ja
+Slug: 202406
+Save_as: history/202406.html
+Template: page
 
 # Code for Harima 2024.06（第72回定例会）
 
 - 日時: 2024/06/11（火）19:00-21:00
-- 場所: [加古川びぃぷらす](https://bb-beplus.net/) /
-  [オンライン](https://meet.jit.si/moderated/918dc5d26bf634f221e96264fc2c321b1324d0206f355d30a005540c6eba1169)
+- 場所: [加古川びぃぷらす](https://bb-beplus.net/) / [オンライン](https://meet.jit.si/moderated/918dc5d26bf634f221e96264fc2c321b1324d0206f355d30a005540c6eba1169)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/B10zV4pV0/edit>
 - 司会: 野方
 - 参加者: 水野、福田、前川、畑
@@ -18,16 +22,14 @@ tags: [code for harima]
   - Instagram: <https://instagram.com/codeforharima>
   - Facebookページ: <https://facebook.com/codeforharima>
   - Facebookグループ: <https://www.facebook.com/groups/codeforharima>
-  - LINEアカウント:
-    <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
-  - Webサイト(過去の議事録含む):
-    <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
+  - LINEアカウント: <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
+  - Webサイト(過去の議事録含む): <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
 
 ## 運営連絡
 
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 
 ## 稲美「万葉の植物×ため池」プロジェクト（水野）
 
@@ -39,8 +41,7 @@ tags: [code for harima]
     - Pythonから2Dマップを作る[folium](https://python-visualization.github.io/folium/latest/)を使ってもいいけど、3Dの[py-maplibregl](https://github.com/eodaGmbH/py-maplibregl)を使うといいかなと思案中
       - [こんなもの](https://eodagmbh.github.io/py-maplibregl/examples/3d_indoor_mapping/)も作れるそう
   - 坂ノ下さんがこういう地図をプログラミングする講習会を開いてました
-    - MapLibreで地図サイトをつくる！ - Speaker Deck
-      <https://speakerdeck.com/barsaka2/maplibrededi-tu-saitowotukuru>
+    - MapLibreで地図サイトをつくる！ - Speaker Deck: <https://speakerdeck.com/barsaka2/maplibrededi-tu-saitowotukuru>
 
 ## Notionの容量がいっぱいになってしまいました（野方）
 
@@ -70,7 +71,7 @@ tags: [code for harima]
   - 職場で　今風使いやすい動画作成ツールその他
     - ITをあわせて学生に取り組む
     - 昔話はあり
-  - ITと場作り（NPO)
+  - ITと場作り（NPO）
     - これがきっかけで、野方さんに聞いて、ここに参加しています
     - 相談が来たり（最近はたまに）
   - ツール・ガジェット　閉じこもりつつ

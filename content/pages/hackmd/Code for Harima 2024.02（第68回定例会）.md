@@ -1,13 +1,17 @@
----
-title: Code for Harima 2024.02（第68回定例会）
-tags: [code for harima, 議事録]
----
+Title: Code for Harima 2024.02（第68回定例会）
+Date: 2024-02-13 19:00:00
+Category: minutes
+Tags: 2024
+Summary:
+lang: ja
+Slug: 202402
+Save_as: history/202402.html
+Template: page
 
 # Code for Harima 2024.02（第68回定例会）
 
 - 日時: 2024/02/13（火）19:00-21:00
-- 場所: [加古川びぃぷらす](https://bb-beplus.net/) /
-  [オンライン](https://meet.jit.si/moderate大塚d/e84f89b1696018bfe47f12c2e74884a8bc04b4e6d8c87ad6f075c1f93019b26f)
+- 場所: [加古川びぃぷらす](https://bb-beplus.net/) / [オンライン](https://meet.jit.si/moderate大塚d/e84f89b1696018bfe47f12c2e74884a8bc04b4e6d8c87ad6f075c1f93019b26f)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/HJwCYhoqT/edit>
 - 司会: 野方
 - 参加者: 水野、福田、小山、前川、石本、畑、大塚
@@ -18,16 +22,14 @@ tags: [code for harima, 議事録]
   - Instagram: <https://instagram.com/codeforharima>
   - Facebookページ: <https://facebook.com/codeforharima>
   - Facebookグループ: <https://www.facebook.com/groups/codeforharima>
-  - LINEアカウント:
-    <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
-  - Webサイト(過去の議事録含む):
-    <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
+  - LINEアカウント: <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
+  - Webサイト(過去の議事録含む): <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
 
 ## 運営連絡
 
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 - kaco-labの更新しますか?
   - するということで
 
@@ -36,15 +38,13 @@ tags: [code for harima, 議事録]
 - OpenStreetMapの能登半島マッピングしています
   - <https://tasks.hotosm.org/explore?orderBy=id&orderByType=DESC&text=%E8%83%BD%E7%99%BB%E5%8D%8A%E5%B3%B6>
 - リモートで我々にできることはマッピング！
-- Openstreetmap Japan
-  Community の記事です！<https://www.facebook.com/groups/osmjapan/permalink/7494243370627457/>
+- Openstreetmap Japan Community の記事です！<https://www.facebook.com/groups/osmjapan/permalink/7494243370627457/>
   - 背景の航空写真には、国土地理院のシームレス空中写真をご利用ください。
   - 半島は、ほぼ書けてる
 
 ## 豊岡でマッピングパーティー(3/23)
 
-- インターネットマップに挑戦してみよう（2024年3月23日）｜豊岡市公式ウェブサイト:
-  <https://www.city.toyooka.lg.jp/1019810/1023869.html>
+- インターネットマップに挑戦してみよう（2024年3月23日）｜豊岡市公式ウェブサイト: <https://www.city.toyooka.lg.jp/1019810/1023869.html>
   - <https://www.facebook.com/events/1562055401043761/>
   - 日時: 2024年3月23日（土）9時25分から17時まで
   - 集合・解散場所: 豊岡稽古堂（豊岡市中央町2-4）
@@ -60,7 +60,7 @@ tags: [code for harima, 議事録]
 ## 稲美町のため池に自生している植物を調査している大西さんの活動をデータ化したい（若松）
 
 - 兵庫県／ため池みらい交流会の開催 ～ため池・農村をなんとかしたい～
-  <https://web.pref.hyogo.lg.jp/ehk01/press/2023_0213.html>
+  - <https://web.pref.hyogo.lg.jp/ehk01/press/2023_0213.html>
   - 今年は3月15日(金)時間未定（17：30〜かな？）という感じなので、ご予定を確保してください。
 - ため池の周りに咲いている花のデータをいただきました（水野）
   - Wordだったので、少し手間がかかるなぁと躊躇しているところ
@@ -68,7 +68,7 @@ tags: [code for harima, 議事録]
   - 来年度撮影するデータは、写真データでもらいたい・・・伝わるかな・・・
     - Wordでもらってもなんとかします
 
-## 勝手に加古川70選看板マッピングプロジェクト（福田)
+## 勝手に加古川70選看板マッピングプロジェクト（福田）
 
 - 進捗度合いをグーグルスプレッドシートにて公開
   - <https://docs.google.com/spreadsheets/d/1srZGwAPz4tCLRmtlanoz-VQSBzvNli5jTJZvt7Or5UY/edit?usp=sharing>
@@ -79,9 +79,10 @@ tags: [code for harima, 議事録]
 - Facebookページに連絡があったのですが、3月9日に東播磨「ワクワクする未来」づくりフォーラムが開催されるそうです
   - お知らせがまだないので去年のページ
     - 兵庫県／令和4年度　東播磨「ワクワクする未来」づくりフォーラムの開催:
-      <https://web.pref.hyogo.lg.jp/ehk01/press/2022_1125_1.html>
-    - →2月10日時点で定員60人に対して残り枠あと3人みたいです。（前川）
-    - ![IMG_20240212_0001](https://hackmd.io/_uploads/Sk0nOuwj6.jpg)
+      - <https://web.pref.hyogo.lg.jp/ehk01/press/2022_1125_1.html>
+      - →2月10日時点で定員60人に対して残り枠あと3人みたいです。（前川）
+
+![IMG_20240212_0001](https://hackmd.io/_uploads/Sk0nOuwj6.jpg)
 
 ## 石本さんの近況をそっと見守る
 
@@ -89,15 +90,14 @@ tags: [code for harima, 議事録]
 - ポスターを貼る掲示板の場所もデータで公表されていない。
 - 高砂市は、投票所の場所はオープンデータ化されている（姫路市も）が、加古川市はオープンデータ化されていない。ポスターの場所もしかり。
   - 高砂市選挙関係データ - 姫路市・播磨圏域連携中枢都市圏オープンデータカタログサイト
-    <https://city.himeji.gkan.jp/gkan/dataset/senkyokankei>
+    - <https://city.himeji.gkan.jp/gkan/dataset/senkyokankei>
   - この本、面白かったです
-    - 50代で一足遅れてフェミニズムを知った私がひとりで安心して暮らしていくために考えた身近な政治のこと | 左右社 SAYUSHA:
-      <https://sayusha.com/news/-/isbn9784865283860>
+    - 50代で一足遅れてフェミニズムを知った私がひとりで安心して暮らしていくために考えた身近な政治のこと | 左右社 SAYUSHA: <https://sayusha.com/news/-/isbn9784865283860>
 
 ## COG2023の最終公開審査対象ファイナリストに選ばれましたー（byろみひ～）
 
 - 場所は東大です。 <https://park.itc.u-tokyo.ac.jp/padit/cog2023/>
-  応援よろしくですー
+  - 応援よろしくですー
 
 - 本日参加できなくなった加古川市スマートシティ担当が超応援してました^^
   - ろみひ〜さん、ロペスさんのChoice
@@ -112,15 +112,18 @@ tags: [code for harima, 議事録]
 
 - オープンデータについて、意見などあれば
   - 時間があったら今日書き込みたかった
-  - ぜひオープンデータの意見をとのこと　 *ごみのカレンダーの紙ベースと同じエクセルが出てくる（大作なのにみたいところが見にくい）。　 *
-    ゴミステーションの位置がほしい _ みたい人 _
-    <https://www.city.kakogawa.lg.jp/material/files/group/146/gomiR06E.xlsx>
-    　 *資産税課が持っている航空写真（草津市）　 *
-    地番参考図、家屋のデータ　 *消火栓&消防ホースの位置　 *
-    町内会の公会堂の位置　　\* 投票所と立候補者の掲示板の位置
-
+  - ぜひオープンデータの意見をとのこと
+    - ごみのカレンダーの紙ベースと同じエクセルが出てくる（大作なのにみたいところが見にくい）。
+    - ゴミステーションの位置がほしい
+      - みたい人
+        - <https://www.city.kakogawa.lg.jp/material/files/group/146/gomiR06E.xlsx>
+    - 資産税課が持っている航空写真（草津市）
+    - 地番参考図、家屋のデータ
+    - 消火栓&消防ホースの位置
+    - 町内会の公会堂の位置
+    - 投票所と立候補者の掲示板の位置
   - せっかくなので情報発信で連携できればとのこと
-  - きっと来月は来てくれるはず・・・
+  - きっと来月は来てくれるはず…
 
 ## 自分の活動に活かすオープンデータ勉強会（福田）
 

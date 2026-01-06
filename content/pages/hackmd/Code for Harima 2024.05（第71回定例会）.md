@@ -1,33 +1,35 @@
----
 title: Code for Harima 2024.05（第71回定例会）
-tags: [code for harima]
----
+Date: 2024-05-14 19:00:00
+Category: minutes
+Tags: 2024
+Summary:
+lang: ja
+Slug: 202405
+Save_as: history/202405.html
+Template: page
 
 # Code for Harima 2024.05（第71回定例会）
 
 - 日時: 2024/05/14（火）19:00-21:00
-- 場所: [加古川びぃぷらす](https://bb-beplus.net/) /
-  [オンライン](https://meet.jit.si/moderated/fb8214ba1595eb0ce2211fed91c85863882d39c277ffdc7415d90782d5953d1d)
+- 場所: [加古川びぃぷらす](https://bb-beplus.net/) / [オンライン](https://meet.jit.si/moderated/fb8214ba1595eb0ce2211fed91c85863882d39c277ffdc7415d90782d5953d1d)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/H1VtUGZGC/edit>
 - 司会: 野方
-- 参加者:福田、水野、八木ママ、八木jr.、石本
-- リモート: 西谷<https://meet.jit.si/moderated/fb8214ba1595eb0ce2211fed91c85863882d39c277ffdc7415d90782d5953d1d>
+- 参加者: 福田、水野、八木ママ、八木jr.、石本
+- リモート: 西谷
 - 次回開催: 2024年06月11日（火）19:00 - 21:00
 - 開催場所: びぃぷらす
 - Webサイト
   - Instagram: <https://instagram.com/codeforharima>
   - Facebookページ: <https://facebook.com/codeforharima>
   - Facebookグループ: <https://www.facebook.com/groups/codeforharima>
-  - LINEアカウント:
-    <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
-  - Webサイト(過去の議事録含む):
-    <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
+  - LINEアカウント: <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
+  - Webサイト(過去の議事録含む): <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
 
 ## 運営連絡
 
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 
 ## 稲美「万葉の植物×ため池」プロジェクト（水野）
 
@@ -41,7 +43,7 @@ tags: [code for harima]
 ## デジタル技術実証サポートの募集(17日まで)
 
 - 未来の課題解決に向けた技術実証を募集します（デジタル技術実証サポート）／加古川市:
-  <https://www.city.kakogawa.lg.jp/soshikikarasagasu/kikakubu/jouhouseisakuka/ict_1/39238.html>
+  - <https://www.city.kakogawa.lg.jp/soshikikarasagasu/kikakubu/jouhouseisakuka/ict_1/39238.html>
 
 ## 水野さん、BANBANラジオ出演は18日
 
@@ -52,9 +54,8 @@ tags: [code for harima]
 
 ### YAMAP流域地図　5月13日リリース
 
-[YAMAP流域地図](https://watershed-maps.yamap.com/)
-<https://watershed-maps.yamap.com/>
-私たちの足もとの大地が、どの流域に属しているのかが一目でわかる画期的な地図になります。無料でご利用いただけます。ぜひお試しください。
+- [YAMAP流域地図](https://watershed-maps.yamap.com/)
+  - 私たちの足もとの大地が、どの流域に属しているのかが一目でわかる画期的な地図になります。無料でご利用いただけます。ぜひお試しください。
 
 #### なぜ、いま、流域地図なのか
 
@@ -64,22 +65,22 @@ tags: [code for harima]
 ## 緑の流域治水（西谷）
 
 - 南稜高校で雨庭づくりを行いました
-  <https://www.midori-lab.pu-kumamoto.ac.jp/post/%E5%8D%97%E7%A8%9C%E9%AB%98%E6%A0%A1%E3%81%A7%E9%9B%A8%E5%BA%AD%E3%81%A5%E3%81%8F%E3%82%8A%E3%82%92%E8%A1%8C%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F>
+  - <https://www.midori-lab.pu-kumamoto.ac.jp/post/%E5%8D%97%E7%A8%9C%E9%AB%98%E6%A0%A1%E3%81%A7%E9%9B%A8%E5%BA%AD%E3%81%A5%E3%81%8F%E3%82%8A%E3%82%92%E8%A1%8C%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F>
 - 関連してお話しした、橋の流失リスクをオープンデータで可視化しようぜやってますが載ってるサイト
-  <https://www.tankyu-intelligence.org/project/xbridge>
+  - <https://www.tankyu-intelligence.org/project/xbridge>
 
 ## 遊具のある公園マップ(福田)
 
 ![image](https://hackmd.io/_uploads/By1Mg6eXA.png)
+
 <https://armd-02.github.io/Playgrounds/#12.84/34.75797/134.84335>
 
-画像はWikimediaCommonsに登録してリングを登録
+画像はWikimedia Commonsに登録してリングを登録
 
 ![image](https://hackmd.io/_uploads/SkEDzTgXC.png)
 
 - 人数いっぱいですがJacaScriptで地図サイトを作るワークショップです
-  - MapLibreで地図サイトをつくる！ - connpass
-    <https://osm.connpass.com/event/317862>
+  - MapLibreで地図サイトをつくる！ - connpass: <https://osm.connpass.com/event/317862>
 
 ## 石本さん、選挙終わりました
 

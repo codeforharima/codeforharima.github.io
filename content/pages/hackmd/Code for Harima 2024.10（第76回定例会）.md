@@ -1,13 +1,17 @@
----
-title: Code for Harima 2024.10（第76回定例会）
-tags: [code for harima]
----
+Title: Code for Harima 2024.10（第76回定例会）
+Date: 2024-10-08 19:00:00
+Category: minutes
+Tags: 2024
+Summary:
+lang: ja
+Slug: 202410
+Save_as: history/202410.html
+Template: page
 
 # Code for Harima 2024.10（第76回定例会）
 
 - 日時: 2024/10/08（火）19:00-21:00
-- 場所: [加古川びぃぷらす](https://bb-beplus.net/) /
-  [オンライン](https://meet.jit.si/moderated/77feae1ba90eb253642a67e36b2efc2f9868daa82c05de77bd40ac27443d7f8f)
+- 場所: [加古川びぃぷらす](https://bb-beplus.net/) / [オンライン](https://meet.jit.si/moderated/77feae1ba90eb253642a67e36b2efc2f9868daa82c05de77bd40ac27443d7f8f)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/SJ0pnzd0R/edit>
 - 司会：　野方
 - 参加者: 水野, 福田, 小山, 前川, 石本, 大福，八木母，愛美ちゃん
@@ -18,16 +22,14 @@ tags: [code for harima]
   - Instagram: <https://instagram.com/codeforharima>
   - Facebookページ: <https://facebook.com/codeforharima>
   - Facebookグループ: <https://www.facebook.com/groups/codeforharima>
-  - LINEアカウント:
-    <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
-  - Webサイト(過去の議事録含む):
-    <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
+  - LINEアカウント: <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
+  - Webサイト(過去の議事録含む): <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
 
 ## 運営連絡
 
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 
 ## 自己紹介
 
@@ -38,20 +40,18 @@ tags: [code for harima]
 - Openstreetmapを活用して、稲美のため池を歩いて回っているおじいさんが集めた万葉集の写真を公開しようとしている。
 - 容量の大きい写真データの提供まち
 - 八木まなみちゃんが、東播磨高校の授業でオープンストリートマップについて友達や先生と共有したところ、興味を持ってくれた人が多かったとのこと
-- Openstreetmapとは　Wikipediaの情報　<https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%83%9E%E3%83%83%E3%83%97> \*![image](https://hackmd.io/_uploads/B1ACtKMJJg.png)
-  　1人でも稲美町のことを知って欲しいという目的で探求しています。スライドです(高校生作)
+- Openstreetmapとは
+  - Wikipediaの情報　<https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%83%9E%E3%83%83%E3%83%97>
 
-- [スライド](https://hyogoms-my.sharepoint.com/:p:/g/personal/4058g240229_phhm_hyogo-c_ed_jp/ERQkuqMsmW1GlH9u1MqaxE8BnQV0wa58jEcI_uxO4_ILTg?e=wJTKax)
+![image](https://hackmd.io/_uploads/B1ACtKMJJg.png)
 
->
+- 1人でも稲美町のことを知って欲しいという目的で探求しています。
+- スライドです(高校生作)
+  - [スライド](https://hyogoms-my.sharepoint.com/:p:/g/personal/4058g240229_phhm_hyogo-c_ed_jp/ERQkuqMsmW1GlH9u1MqaxE8BnQV0wa58jEcI_uxO4_ILTg?e=wJTKax)
 
-- 新大阪・東三国おたちよりまっぷ
-  <https://armd-02.github.io/ShinHigaOtachi2024/?#15/34.73928/135.49237/0/30>
-
-- Everydoor
-  <https://www.dropbox.com/scl/fi/kn8xnw20d7sn1okv0f1wj/2023-EveryDoor.pdf?rlkey=6f9t51gvxvgo6qhb14f1i77nw&e=1&st=f8gtguas&dl=0>
-
-スマホでOSMの地図を書くとき便利
+- 新大阪・東三国おたちよりまっぷ: <https://armd-02.github.io/ShinHigaOtachi2024/?#15/34.73928/135.49237/0/30>
+- Everydoor: <https://www.dropbox.com/scl/fi/kn8xnw20d7sn1okv0f1wj/2023-EveryDoor.pdf?rlkey=6f9t51gvxvgo6qhb14f1i77nw&e=1&st=f8gtguas&dl=0>
+  - スマホでOSMの地図を書くとき便利
 
 ## State of the Map Japan 2024
 
@@ -66,12 +66,13 @@ tags: [code for harima]
 - State of the Map Japan 2024 実行委員会
 - 実行委員長:
 - 前回　2022年加古川で開催　<https://stateofthemap.jp/2022/>
--
 
 ## PLATEAUアカデミー～3D都市モデル作成コース～(福田)
 
 - PLATEAUアカデミー　<https://aigid.jp/?page_id=2630>
-- 概要3D都市モデルの整備を全国に拡大していくため、データ整備に必要な標準データモデル（CityGML）や3次元図化に関する技術の普及が目的。オンライン講座による自己学習と対面講座によるハンズオン学習方法を組み合わせた、国土交通省が開催するPLATEAU技術講習会です。
+- 概要
+  - 3D都市モデルの整備を全国に拡大していくため、データ整備に必要な標準データモデル（CityGML）や3次元図化に関する技術の普及が目的。
+  - オンライン講座による自己学習と対面講座によるハンズオン学習方法を組み合わせた、国土交通省が開催するPLATEAU技術講習会です。
 - 大阪でリアル開催　参加申込みしました。
 - きょう確認すると満席になりました。
 - スケジュール
@@ -81,7 +82,9 @@ tags: [code for harima]
 
 ## 共創ワークショップ＠高砂市（石本）
 
-- 高砂市からご案内がありましたので共有します。<https://www.city.takasago.lg.jp/soshikikarasagasu/kikakuka/seisaku_keikaku/2/miraishisan/11225.html>
+- 高砂市からご案内がありましたので共有します。
+  - <https://www.city.takasago.lg.jp/soshikikarasagasu/kikakuka/seisaku_keikaku/2/miraishisan/11225.html>
+
 
 ## Code for Harimaでネタを作ろう
 

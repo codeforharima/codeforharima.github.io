@@ -1,15 +1,19 @@
----
-title: Code for Harima 2024.08（第74回定例会）
-tags: [code for harima]
----
+Title: Code for Harima 2024.08（第74回定例会）
+Date: 2024-08-20 19:00:00
+Category: minutes
+Tags: 2024
+Summary:
+lang: ja
+Slug: 202408
+Save_as: history/202408.html
+Template: page
 
 # Code for Harima 2024.08（第74回定例会）
 
 - 日時: 2024/08/20（火）19:00-21:00
-- 場所: [加古川びぃぷらす](https://bb-beplus.net/) /
-  [オンライン](https://meet.jit.si/moderated/61d919b5c5b7a099b3511e1c144bf8734f5897f03c16a8ce2fda4e093076d16b)
+- 場所: [加古川びぃぷらす](https://bb-beplus.net/) / [オンライン](https://meet.jit.si/moderated/61d919b5c5b7a099b3511e1c144bf8734f5897f03c16a8ce2fda4e093076d16b)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/BkDGEtltR/edit>
-- 司会:野方
+- 司会: 野方
 - 参加者: 前川、水野
 - リモート:
 - 次回開催: 2024年09月17日（火）19:00 - 21:00
@@ -18,21 +22,19 @@ tags: [code for harima]
   - Instagram: <https://instagram.com/codeforharima>
   - Facebookページ: <https://facebook.com/codeforharima>
   - Facebookグループ: <https://www.facebook.com/groups/codeforharima>
-  - LINEアカウント:
-    <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
-  - Webサイト(過去の議事録含む):
-    <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
+  - LINEアカウント: <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
+  - Webサイト(過去の議事録含む): <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
 
 ## 運営連絡
 
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 - 9月の定例会は、9月17日（火）です。第2火曜日ではないので注意！
 
 ## 稲美「万葉の植物×ため池」プロジェクト（水野）
 
-水野何もできていません・・・
+- 水野何もできていません…
 
 ## 韓国でコロナになって大変でした（のがた）
 
@@ -44,13 +46,13 @@ tags: [code for harima]
 - なんとか日本に帰ってきました
   - その後、2週間ほどなんにもできませんでした
 
+### DebConfを日本で開きたいです
+
+- 日本で海外から400人ぐらいきて2週間ぐらい泊まれるような場所はないですかね？
+
 ## 万灯祭2024は9月14日（土）15日（日）
 
 - 実行委員会(HP) [https://mantousait.wixsite.com/takasago]
-
-## DebConfを日本で開きたいです
-
-- 日本で海外から400人ぐらいきて2週間ぐらい泊まれるような場所はないですかね？
 
 ## kako labどうします？
 

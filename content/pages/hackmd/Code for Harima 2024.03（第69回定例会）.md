@@ -1,40 +1,39 @@
----
-title: Code for Harima 2024.03（第69回定例会）
-tags: [code for harima]
----
+Title: Code for Harima 2024.03（第69回定例会）
+Date: 2024-03-12 19:00:00
+Category: minutes
+Tags: 2024
+Summary:
+lang: ja
+Slug: 202403
+Save_as: history/202403.html
+Template: page
 
 # Code for Harima 2024.03（第69回定例会）
 
 - 日時: 2024/03/12（火）19:00-21:00
-- 場所: [加古川びぃぷらす](https://bb-beplus.net/) /
-  [オンライン](https://meet.jit.si/moderated/daf97fddb9c2c14136a7d94c9fccfad11ecf5d6c39008086d23e02696eb5e412)
+- 場所: [加古川びぃぷらす](https://bb-beplus.net/) / [オンライン](https://meet.jit.si/moderated/daf97fddb9c2c14136a7d94c9fccfad11ecf5d6c39008086d23e02696eb5e412)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/SJFh5muaa/edit>
-- 司会:野方
-- 参加者:福田、前川、水野
-- リモート:坂ノ下
+- 司会: 野方
+- 参加者: 福田、前川、水野
+- リモート: 坂ノ下
 - 次回開催: 2024年04月09日（火）19:00 - 21:00
 - 開催場所: びぃぷらす
 - Webサイト
   - Instagram: <https://instagram.com/codeforharima>
   - Facebookページ: <https://facebook.com/codeforharima>
   - Facebookグループ: <https://www.facebook.com/groups/codeforharima>
-  - LINEアカウント:
-    <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
-  - Webサイト(過去の議事録含む):
-    <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
-  - リモート参加
-  - <<https://meet.jit.si/moderated/daf97fddb9c2c14136a7d94c9fccfad11ecf5d6c39008086d23e02696eb5e412?fbclid=IwAR2uQY7mAQ4Ef9MX9mVWSIBwTEMxCdkgPc3tMSuy8Kmyqx9C5EXwwDoMjwA>
+  - LINEアカウント: <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
+  - Webサイト(過去の議事録含む): <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
 
 ## 運営連絡
 
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 
 ## 豊岡でマッピングパーティー(3/23)
 
-- インターネットマップに挑戦してみよう（2024年3月23日）｜豊岡市公式ウェブサイト:
-  <https://www.city.toyooka.lg.jp/1019810/1023869.html>
+- インターネットマップに挑戦してみよう（2024年3月23日）｜豊岡市公式ウェブサイト: <https://www.city.toyooka.lg.jp/1019810/1023869.html>
   - <https://www.facebook.com/events/1562055401043761/>
   - 日時: 2024年3月23日（土）9時25分から17時まで
   - 集合・解散場所: 豊岡稽古堂（豊岡市中央町2-4）
@@ -48,21 +47,21 @@ tags: [code for harima]
 - 備考:初心者大歓迎！(歩きながら説明します)
 - 申込み <https://countries-romantic.connpass.com/event/312286/>
 
-## 勝手に加古川70選看板マッピングプロジェクト（福田)
+## 勝手に加古川70選看板マッピングプロジェクト（福田）
 
 - 進捗度合いをグーグルスプレッドシートにて公開
-  <https://docs.google.com/spreadsheets/d/1srZGwAPz4tCLRmtlanoz-VQSBzvNli5jTJZvt7Or5UY/edit?usp=sharing>
+  - <https://docs.google.com/spreadsheets/d/1srZGwAPz4tCLRmtlanoz-VQSBzvNli5jTJZvt7Or5UY/edit?usp=sharing>
 
 ## 稲美「万葉の植物×ため池」プロジェクト（水野）
 
-- 水野の怠慢により停滞・・・
+- 水野の怠慢により停滞…
   - 豊岡のマッピングパーティーが終わったら本気出しますｗｗ
   - 池の名前チェックから始めます
 - 東播磨フィールドステーションのイベント？は３月にはなさそうでした
   - 機会を伺っておきます
 - 共有フォルダを作成
   - ワードデータはGoogle Driveに保存
-    <https://drive.google.com/drive/folders/1pR1_A6bpLa1gUVBQDkUoGtZbDDmLuHek>
+    - <https://drive.google.com/drive/folders/1pR1_A6bpLa1gUVBQDkUoGtZbDDmLuHek>
   - 登録した写真データのURLを貼り付けて起きましょう（上記フォルダ内にスプレッドシートを作成）
 
 ## Kaco Labo.継続申請しました（水野）
@@ -80,13 +79,9 @@ tags: [code for harima]
 
 ## 東京電力電柱メンテナンスゲーム化（野方）
 
-写真を撮って電柱を“制圧”、報酬もらえる　東電が参画した位置情報ゲーム「ピクトレ」の狙い
-<https://www.itmedia.co.jp/news/articles/2403/12/news062.html>
+- 写真を撮って電柱を“制圧”、報酬もらえる　東電が参画した位置情報ゲーム「ピクトレ」の狙い
+  - <https://www.itmedia.co.jp/news/articles/2403/12/news062.html>
 
 ## OSMファウンデーションジャパンの播磨地域の活動団体として掲載してよいか（坂ノ下）
 
 - Code for HARIMAのページをリンクしてもらうのはOK
-
-## 話をしたいことを書く（名前）
-
-(概要や背景などをここに書く)

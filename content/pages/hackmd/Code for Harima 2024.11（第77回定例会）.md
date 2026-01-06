@@ -1,13 +1,17 @@
----
 title: Code for Harima 2024.11（第77回定例会）
-tags: [code for harima]
----
+Date: 2024-11-12 19:00:00
+Category: minutes
+Tags: 2024
+Summary:
+lang: ja
+Slug: 202411
+Save_as: history/202411.html
+Template: page
 
 # Code for Harima 2024.11（第77回定例会）
 
 - 日時: 2024/11/12（火）19:00-21:00
-- 場所: [加古川びぃぷらす](https://bb-beplus.net/) /
-  [オンライン](https://meet.jit.si/moderated/f6456ba76592a4cba299c57d579da456f8a24f57d3f83a3b5a1001116ff9f910)
+- 場所: [加古川びぃぷらす](https://bb-beplus.net/) / [オンライン](https://meet.jit.si/moderated/f6456ba76592a4cba299c57d579da456f8a24f57d3f83a3b5a1001116ff9f910)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/H1155IXZkl/edit>
 - 司会： 野方
 - 参加者: 福田、小山、水野、畑、前川、坂ノ下
@@ -18,16 +22,14 @@ tags: [code for harima]
   - Instagram: <https://instagram.com/codeforharima>
   - Facebookページ: <https://facebook.com/codeforharima>
   - Facebookグループ: <https://www.facebook.com/groups/codeforharima>
-  - LINEアカウント:
-    <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
-  - Webサイト(過去の議事録含む):
-    <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
+  - LINEアカウント: <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
+  - Webサイト(過去の議事録含む): <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
 
 ## 運営連絡
 
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 
 ## 近況報告など
 
@@ -42,14 +44,17 @@ tags: [code for harima]
 ## 坂ノ下さん情報
 
 - 十三アートフェス2024
-  <https://yodogawaartnet.jimdofree.com/%E5%8D%81%E4%B8%89%E3%82%A2%E3%83%BC%E3%83%88%E3%83%95%E3%82%A7%E3%82%B9/%E3%83%95%E3%82%A7%E3%82%B92024%E3%83%88%E3%83%83%E3%83%97/>
-  FOSS4G 2024 Japan <https://www.osgeo.jp/events/2024-2/foss4g-2024-japan>
-  Wikimedians of Japan User Group
-  <https://meta.wikimedia.org/wiki/Wikimedians_of_Japan_User_Group>
-  オープンデータもくもく会
-  <https://countries-romantic.connpass.com/event/337047/> つくろか！２
-  <https://tsukuroka.org/exhibitor/> だいけいだいキッズスマイルフェスタ
-  <https://www.osaka-ue.ac.jp/life/community/kidsfestival.html>
+  - <https://yodogawaartnet.jimdofree.com/%E5%8D%81%E4%B8%89%E3%82%A2%E3%83%BC%E3%83%88%E3%83%95%E3%82%A7%E3%82%B9/%E3%83%95%E3%82%A7%E3%82%B92024%E3%83%88%E3%83%83%E3%83%97/>
+- FOSS4G 2024 Japan
+  - <https://www.osgeo.jp/events/2024-2/foss4g-2024-japan>
+- Wikimedians of Japan User Group
+  - <https://meta.wikimedia.org/wiki/Wikimedians_of_Japan_User_Group>
+- オープンデータもくもく会
+  - <https://countries-romantic.connpass.com/event/337047/>
+- つくろか！２
+  - <https://tsukuroka.org/exhibitor/>
+- だいけいだいキッズスマイルフェスタ
+  - <https://www.osaka-ue.ac.jp/life/community/kidsfestival.html>
 
 ## 稲美「万葉の植物×ため池」プロジェクト（水野）
 
@@ -70,8 +75,6 @@ tags: [code for harima]
 - 実行委員長:
 - 前回　2022年加古川で開催　<https://stateofthemap.jp/2022/>
 
-## State of the Map Japan 2024
-
 ## 共創ワークショップ＠高砂市（石本）
 
 - 高砂市からご案内がありましたので共有します。<https://www.city.takasago.lg.jp/soshikikarasagasu/kikakuka/seisaku_keikaku/2/miraishisan/11225.html>
@@ -83,8 +86,9 @@ tags: [code for harima]
 ## 遊具のある公園マップ
 
 - 少しづつデータアップ中
-  <https://armd-02.github.io/Playgrounds/?category=-#13.94/34.75007/134.85024>
-  ![遊具のある公園マップS](https://hackmd.io/_uploads/SkFTungfkg.jpg)
+  - <https://armd-02.github.io/Playgrounds/?category=-#13.94/34.75007/134.85024>
+
+![遊具のある公園マップS](https://hackmd.io/_uploads/SkFTungfkg.jpg)
 
 ## 国際交流協会
 
@@ -93,8 +97,3 @@ tags: [code for harima]
   - ポケトーク
   - UDトーク
   - VOICE Tra
-
-##
-
--
--
