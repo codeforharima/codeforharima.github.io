@@ -1,15 +1,19 @@
----
-title: Code for Harima 2025.03（第81回定例会）
-tags: [code for harima]
----
+Title: Code for Harima 2025.03（第81回定例会）
+Date: 2025-03-11 19:00:00
+Category: minutes
+Tags: 2025
+Summary:
+lang: ja
+Slug: 202503
+Save_as: history/202503.html
+Template: page
 
 # Code for Harima 2025.03（第81回定例会）
 
 - 日時: 2025/03/11（火）19:00-21:00
-- 場所: [加古川びぃぷらす](https://bb-beplus.net/) /
-  [オンライン](https://meet.jit.si/moderated/6f6505e4b995ca05c8936aa0fc25bf42a84a2192deb612f630d3d944722ee562)
+- 場所: [加古川びぃぷらす](https://bb-beplus.net/) / [オンライン](https://meet.jit.si/moderated/6f6505e4b995ca05c8936aa0fc25bf42a84a2192deb612f630d3d944722ee562)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/SkjBsQmiJg/edit>
-- 司会：野方
+- 司会: 野方
 - 参加者: 水野、福田、石本
 - リモート:
 - 次回開催: 2025年04月15日（火）19:00 - 21:00
@@ -18,16 +22,14 @@ tags: [code for harima]
   - Instagram: <https://instagram.com/codeforharima>
   - Facebookページ: <https://facebook.com/codeforharima>
   - Facebookグループ: <https://www.facebook.com/groups/codeforharima>
-  - LINEアカウント:
-    <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
-  - Webサイト(過去の議事録含む):
-    <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
+  - LINEアカウント: <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
+  - Webサイト(過去の議事録含む): <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
 
 ## 運営連絡
 
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 
 ## オープンデータデイで権現総合公園をマッピングはイベントとしては開催しない
 
@@ -38,8 +40,7 @@ tags: [code for harima]
 
 ## みんなで公園マッププロジェクト立ち上がりました
 
-- OpenStreetMapとWikimedia
-  Commonsを利用してオープンデータを充実するプロジェクト「遊具のある公園マップ」
+- OpenStreetMapとWikimedia Commonsを利用してオープンデータを充実するプロジェクト「遊具のある公園マップ」
   - <https://www.facebook.com/groups/615858014751739/>
 
 ## 野口観光マップ作成の件（福田）
@@ -52,13 +53,11 @@ tags: [code for harima]
 - ディープリサーチがすごいです
   - 石本さんが自分のことを調べたら、細かい情報まで調べてびっくりした
 - この1,2ヶ月AIを使っているけど進化がすごい
-  - ChatGPT, [Google Gemini](https://gemini.google.com/app?hl=ja),
-    [Claude](https://claude.ai/)それぞれ色が違う
+  - ChatGPT, [Google Gemini](https://gemini.google.com/app?hl=ja), [Claude](https://claude.ai/)それぞれ色が違う
     - 自分は[DeepSeek](https://chat.deepseek.com/)が好みにあってる感じしてます（の）
-  - データが学習に利用される話といえば中国もアメリカも両方使われるので、利用前に確認は必要
+  - データが学習に利用される話といえば中国もアメリカも両方使われるので利用前に確認は必要
 - 去年12月に文科省が生成AIの利活用のガイドラインが変わった
-  - 生成AIの利用について：文部科学省:
-    <https://www.mext.go.jp/a_menu/other/mext_02412.html>
+  - 生成AIの利用について：文部科学省: <https://www.mext.go.jp/a_menu/other/mext_02412.html>
   - 「AIを利用しない」という方針から、「AIを活用する」という逆の方向に
     - それがあって大学でもAIを利用する方向で資料作ってた
       - 年明けからAI使ってたけど進化がすごい
@@ -69,9 +68,7 @@ tags: [code for harima]
   - ほかのAIは余計な情報を追加する場合もあるけど、NotebookLMは登録した情報からしか言わないので検索が楽
 - ディープリサーチといえばManusというすごいものが2,3日前に出ました
   - 中国発の衝撃再び、｢[Manus](https://manus.im/)｣がＡＩエージェント発表－DeepSeekに続く -
-    Bloomberg:
-    <https://www.bloomberg.co.jp/news/articles/2025-03-11/SSXB7CT0AFB400>
-  -
+    Bloomberg: <https://www.bloomberg.co.jp/news/articles/2025-03-11/SSXB7CT0AFB400>
 
 ## RESASがリニュアル
 
@@ -85,8 +82,8 @@ tags: [code for harima]
 
 ## いなみため池マッピング（水野）
 
-*令和5年度撮影データは、1枚４MB級でした！
-* ひとまず、GoogleDriveにアップすることからスタート
+- 令和5年度撮影データは、1枚４MB級でした！
+  - ひとまず、GoogleDriveにアップすることからスタート
 
 ## 「EU OS」というOSの話（のがた）
 
@@ -108,6 +105,6 @@ tags: [code for harima]
 ## チャレンジオープンガバナンス
 
 - 公開審査が行われます！
-- COGの[HP](https://park.itc.u-tokyo.ac.jp/padit/cog2024/)
+- [COGのHP](https://park.itc.u-tokyo.ac.jp/padit/cog2024/)
 - 加古川東高校の「兵庫県立加古川東高校 STEAM特講 かわまち班：加古川市」がミニプレゼンします！
 - ぜひご視聴ください！

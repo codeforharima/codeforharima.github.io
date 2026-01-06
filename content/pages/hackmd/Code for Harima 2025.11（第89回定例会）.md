@@ -1,17 +1,19 @@
----
-title: Code for Harima 2025.11（第89回定例会）
-tags: [code for harima]
----
+Title: Code for Harima 2025.11（第89回定例会）
+Date: 2025-11-11 19:00:00
+Category: minutes
+Tags: 2025
+Summary:
+lang: ja
+Slug: 202511
+Save_as: history/202511.html
+Template: page
 
 # Code for Harima 2025.11（第89回定例会）
 
 - 日時: 2025年11月11日（火）19:00 - 21:00
-- 場所:
-  [市民交流ひろば](https://www.city.kakogawa.lg.jp/soshikikarasagasu/shiminbu/kyoudou/hiroba/index.html)
-  /
-  [オンライン](https://meet.jit.si/moderated/9df733d417f68022830832d8652fd902a07faa8bfb91de529461c2a3c921b51e)
+- 場所: [市民交流ひろば](https://www.city.kakogawa.lg.jp/soshikikarasagasu/shiminbu/kyoudou/hiroba/index.html) / [オンライン](https://meet.jit.si/moderated/9df733d417f68022830832d8652fd902a07faa8bfb91de529461c2a3c921b51e)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/ByTGLkvJWg/edit>
-- 司会： 野方
+- 司会: 野方
 - 参加者: 福田、水野、畑、前川
 - リモート:
 - 次回開催: 2025年12月09日（火）19:00 - 21:00
@@ -20,10 +22,8 @@ tags: [code for harima]
   - Instagram: <https://instagram.com/codeforharima>
   - Facebookページ: <https://facebook.com/codeforharima>
   - Facebookグループ: <https://www.facebook.com/groups/codeforharima>
-  - LINEアカウント:
-    <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
-  - Webサイト(過去の議事録含む):
-    <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
+  - LINEアカウント: <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
+  - Webサイト(過去の議事録含む): <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
 
 ## 運営連絡
 
@@ -31,13 +31,12 @@ tags: [code for harima]
   - 入るときはタリーズのほうの入口からエレベーターに乗ってください
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 
 ## 起業プラザひょうご姫路の「ピッチBar」というイベントで「Code for Harima」の紹介することになりました（のがた）
 
 - タイトルのとおりです
-- [起業プラザひょうご姫路](https://kip-himeji.biz/)というところで毎月開催している「ピッチBar」というイベントに遊びに行ったら、そこを運営している「姫路コンベンションサポート」の玉田さんから、「地図、Code
-  for Harimaの紹介で登壇して！」と頼まれました
+- [起業プラザひょうご姫路](https://kip-himeji.biz/)というところで毎月開催している「ピッチBar」というイベントに遊びに行ったら、そこを運営している「姫路コンベンションサポート」の玉田さんから、「地図、Code for Harimaの紹介で登壇して！」と頼まれました
 - ということで、12月第4週に30分ほど話す予定ですが、資料どこにありましたっけ？
 - 追加すること
   - 水辺プロジェクト
@@ -49,8 +48,8 @@ tags: [code for harima]
 ## かわのまちマーケット2026/1
 
 - 1月4日 9時30分から14時30分
-- <https://www.instagram.com/p/DPuqLiOEgtt/>
-- 地図塗り絵とかする？
+  - <https://www.instagram.com/p/DPuqLiOEgtt/>
+  - 地図塗り絵とかする？
 
 ### 準備物
 
@@ -70,38 +69,14 @@ tags: [code for harima]
 ## 坂ノ下さんが関わってるプロジェクト
 
 - 家島の活性化に取り組む辻本ゼミ。3年生は『OpenStreetMap』での魅力発信に挑戦！ - 流通科学大学
-  <https://www.umds.ac.jp/251023-3/>
+  - <https://www.umds.ac.jp/251023-3/>
 
 ## 流域文化協議会　地域活性化事業（水野）
 
-- 募集開始　9月9日現在　<https://www.city.kakogawa.lg.jp/soshikikarasagasu/kikakubu/kikakubukohoka/kouikigyousei/1535500048597.html>
-- もらえそうです！
-
-遊具のある公園マップで申請するか、ため池で申請するか・・・
-
-- とりあえず両方書いています
-- 遊具のある公園マップ
-  <https://armd-02.github.io/Playgrounds/?#11.18/34.771/134.8533/0/30>
-
-- みんなでテイクアウトマップ　懐かしい！！
-  <https://codeforharima.github.io/takeaway/#14/34.7680/134.8224>
-
-- 申請書案
-  <https://docs.google.com/document/d/1jrYNHeDX64xdqIbLZVbfz81DNVTBP7sl23NbYAjNMYc/edit?usp=sharing>
-
+- 募集開始　9月9日現在
+  - <https://www.city.kakogawa.lg.jp/soshikikarasagasu/kikakubu/kikakubukohoka/kouikigyousei/1535500048597.html>
+  - もらえそうです！
 - 周知広報として、かわのまちマーケットに1月4日（日）出展
-
-## 高砂町の地図 （石本）
-
-- スロースペースで進行中
-- どういうふうに枠組で進めるかを検討中
-- CodeforHarimaの出番は、もう少しあとになりそう
-
-## いなみため池マッピング（水野）
-
-- WikimediaのID取得しました「c4harima」
-- グループIDの使用が禁止されている
-  - 対応作必要
 
 ## 切り絵の地図屋（福田）
 
@@ -115,20 +90,24 @@ tags: [code for harima]
 ## Wikimedia Conference 2025発表します（福田）
 
 - West-Japan Wikimedia Conference 2025
-- 日時：2025年12月6日（土） 11:00-18:30
-- 会場：大阪大学中之島センター5階　いのち共感ひろば
-- 主催：Wikimedians of Japan User Group
-- 主催：大阪大学SSI いのち会議、State of the Map Japan 2025 実行委員会
-- [当日の発表スケジュール](https://stateofthemap.jp/2025/files/timetable.pdf)
-  <https://stateofthemap.jp/2025/files/timetable.pdf>
-- 福田発表
-- 12:45～　旅先での簡易現地調査
-- 15:40～　遊具のある公園マップ活動報告
+  - 日時：2025年12月6日（土） 11:00-18:30
+  - 会場：大阪大学中之島センター5階　いのち共感ひろば
+  - 主催：Wikimedians of Japan User Group
+  - 主催：大阪大学SSI いのち会議、State of the Map Japan 2025 実行委員会
+  - [当日の発表スケジュール](https://stateofthemap.jp/2025/files/timetable.pdf)
+    - <https://stateofthemap.jp/2025/files/timetable.pdf>
+  - 福田発表
+    - 12:45～　旅先での簡易現地調査
+    - 15:40～　遊具のある公園マップ活動報告
 
-## 探求のテーマ（まなみ）
+## 高砂町の地図 （石本）
 
-- 連絡なし
+- スロースペースで進行中
+- どういうふうに枠組で進めるかを検討中
+- CodeforHarimaの出番は、もう少しあとになりそう
 
-## チャレンジ・オープン・ガバナンス2025（水野）
+## いなみため池マッピング（水野）
 
-- まだ課題が発表されていません
+- WikimediaのID取得しました「c4harima」
+- グループIDの使用が禁止されている
+  - 対応作必要

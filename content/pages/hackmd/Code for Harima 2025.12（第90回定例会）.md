@@ -1,17 +1,19 @@
----
-title: Code for Harima 2025.12（第90回定例会）
-tags: [code for harima]
----
+Title: Code for Harima 2025.12（第90回定例会）
+Date: 2025-12-09 19:00:00
+Category: minutes
+Tags: 2025
+Summary:
+lang: ja
+Slug: 202512
+Save_as: history/202512.html
+Template: page
 
 # Code for Harima 2025.12（第90回定例会）
 
 - 日時: 2025年12月09日（火）19:00 - 21:00
-- 場所:
-  [市民交流ひろば](https://www.city.kakogawa.lg.jp/soshikikarasagasu/shiminbu/kyoudou/hiroba/index.html)
-  /
-  [オンライン](https://meet.jit.si/moderated/08f0d607ae551442880f468c1be0967c4220afaa28fc733dadcd092e32d42e5a)
+- 場所: [市民交流ひろば](https://www.city.kakogawa.lg.jp/soshikikarasagasu/shiminbu/kyoudou/hiroba/index.html) / [オンライン](https://meet.jit.si/moderated/08f0d607ae551442880f468c1be0967c4220afaa28fc733dadcd092e32d42e5a)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/rkUd9ckzbx/edit>
-- 司会： 野方
+- 司会: 野方
 - 参加者: 福田、水野、畑、前川
 - リモート:
 - 次回開催: 2026年01月13日（火）19:00 - 21:00
@@ -30,7 +32,7 @@ tags: [code for harima]
   - 19時以前の場合はヤマトヤシキに入ってそのまま来れます。19時以降に来られる場合は、ベルデモール側の入口は使えないので、反対のタリーズ側にある入口からエレベーターに乗ってください
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 - スケジュール
   - 12月23 18:00 - 20:00 姫路ピッチbar 野方発表
   - 1月4日 9:30 - 14:30 加古川かわのまちマーケット参加
@@ -38,12 +40,12 @@ tags: [code for harima]
 ## かわのまちマーケット2026/1
 
 - 1月4日 9時30分から14時30分
-  ![IMG_0061](https://hackmd.io/_uploads/ryQ7COSzWe.jpg)
-  ![IMG_0060](https://hackmd.io/_uploads/HkQXROrMbx.jpg)
-
-<https://www.instagram.com/p/DPuqLiOEgtt/>
-
+  - <https://www.instagram.com/p/DPuqLiOEgtt/>
 - 地図塗り絵とかする？
+
+![IMG_0061](https://hackmd.io/_uploads/ryQ7COSzWe.jpg)
+
+![IMG_0060](https://hackmd.io/_uploads/HkQXROrMbx.jpg)
 
 ### 準備物
 
@@ -62,12 +64,10 @@ tags: [code for harima]
 - 福田
   - モバイルプリンター
   - カセットボンベストーブ
-  -
 - その他
   - URL集
   - [まち歩きマップメーカー](https://armd-02.github.io/mapmaker/#13.5/34.7494/134.8509)
-  - <https://armd-02.github.io/mapmaker/#13.5/34.7494/134.8509>
--
+    - <https://armd-02.github.io/mapmaker/#13.5/34.7494/134.8509>
 
 ## 「ピッチBar」というイベントで「Code for Harima」の紹介します（のがた）
 
@@ -79,30 +79,8 @@ tags: [code for harima]
   - 水辺プロジェクト
   - 高砂南高校
   - こたつ
-
   - 過去のプレゼン
   - 高砂オープンデータソン
-
-### 坂ノ下さんが関わってるプロジェクト
-
-- 家島でOpenStreetMap作成
-  - 家島の活性化に取り組む辻本ゼミ。3年生は『OpenStreetMap』での魅力発信に挑戦！ - 流通科学大学:
-    <https://www.umds.ac.jp/251023-3/>
-
-## 流域文化協議会　地域活性化事業（水野）
-
-- 募集開始　9月9日現在　<https://www.city.kakogawa.lg.jp/soshikikarasagasu/kikakubu/kikakubukohoka/kouikigyousei/1535500048597.html>
-- もらえそうです！
-
-- 遊具のある公園マップで申請するか、ため池で申請するか・・・
-  - とりあえず両方書いています
-  - 遊具のある公園マップ
-    <https://armd-02.github.io/Playgrounds/?#11.18/34.771/134.8533/0/30>
-- みんなでテイクアウトマップ　懐かしい！！
-  <https://codeforharima.github.io/takeaway/#14/34.7680/134.8224>
-- 申請書案
-  <https://docs.google.com/document/d/1jrYNHeDX64xdqIbLZVbfz81DNVTBP7sl23NbYAjNMYc/edit?usp=sharing>
-- 周知広報として、かわのまちマーケットに1月4日（日）出展
 
 ## 切り絵の地図屋（福田）
 
@@ -134,26 +112,12 @@ tags: [code for harima]
 - Big Issueの何ヶ月か前に「デジタル民主主義」の特集がありました
   - 興味あれば**ホームレスの自立支援のために[Big Issue](https://www.bigissue.jp/backnumber/507/)買ってください**
 - で、[ポリタスTV](https://www.youtube.com/@PolitasTV)というYouTubeの番組で前参議院議員の大椿ゆうこさんが、お連れ合いの国がスペインなので11月スペインに1ヶ月行ってた話をしていました
-  - 労働、移民、住宅、そして家族 バルセロナから考える暮らしの政策｜大椿ゆうこのガタガタトークVol.2 休んで休んで休んで休んで休んでまいりました｜ゲスト：大椿ゆうこ（12/7）#ポリタスTV -
-    YouTube: <https://www.youtube.com/watch?v=39DiV3LEwVk>
-  - 内容まとめ:
-    <https://notebooklm.google.com/notebook/437df05e-2f21-485d-85ca-6b63f1acbb02>
+  - 労働、移民、住宅、そして家族 バルセロナから考える暮らしの政策｜大椿ゆうこのガタガタトークVol.2 休んで休んで休んで休んで休んでまいりました｜ゲスト：大椿ゆうこ（12/7）\#ポリタスTV - YouTube: <https://www.youtube.com/watch?v=39DiV3LEwVk>
+  - 内容まとめ: <https://notebooklm.google.com/notebook/437df05e-2f21-485d-85ca-6b63f1acbb02>
 - 加古川Decidimが苦戦しているけど、これは日本で根付かないなと思ってしまいました
   - そもそものスペインの人の社会参加意識が違う
   - decidimをパブコメの延長みたいに思っているように見える
 - どうしたらいいのかなー
-
-## チャレンジ・オープン・ガバナンス2025（水野）
-
-- まだ課題が発表されていません
-
-## 高砂町の地図 （石本）
-
-- スロースペースで進行中
-
-## 探求のテーマ（まなみ）
-
-- 連絡なし
 
 ## いなみため池マッピング（水野）
 

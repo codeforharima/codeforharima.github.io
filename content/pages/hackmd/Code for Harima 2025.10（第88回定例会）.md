@@ -1,33 +1,35 @@
----
-title: Code for Harima 2025.10（第88回定例会）
-tags: [code for harima]
----
+Title: Code for Harima 2025.10（第88回定例会）
+Date: 2025-10-14 19:00:00
+Category: minutes
+Tags: 2025
+Summary:
+lang: ja
+Slug: 202510
+Save_as: history/202510.html
+Template: page
 
 # Code for Harima 2025.10（第88回定例会）
 
 - 日時: 2025年10月14日（火）19:00 - 21:00
-- 場所: [加古川びぃぷらす](https://bb-beplus.net/) /
-  [オンライン](https://meet.jit.si/moderated/af3b57f8cda5f2afda76ca66ea00f978be5deb40ee6a537b2a03163eb03432a1)
+- 場所: [加古川びぃぷらす](https://bb-beplus.net/) / [オンライン](https://meet.jit.si/moderated/af3b57f8cda5f2afda76ca66ea00f978be5deb40ee6a537b2a03163eb03432a1)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/Hy2hPlh2xx/edit>
-- 司会：野方
-- 参加者:水野、福田、畑
-- リモート:石本、坂ノ下
+- 司会: 野方
+- 参加者: 水野、福田、畑
+- リモート: 石本、坂ノ下
 - 次回開催: 2025年11月11日（火）19:00 - 21:00
 - 開催場所: びぃぷらす
 - Webサイト
   - Instagram: <https://instagram.com/codeforharima>
   - Facebookページ: <https://facebook.com/codeforharima>
   - Facebookグループ: <https://www.facebook.com/groups/codeforharima>
-  - LINEアカウント:
-    <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
-  - Webサイト(過去の議事録含む):
-    <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
+  - LINEアカウント: <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
+  - Webサイト(過去の議事録含む): <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
 
 ## 運営連絡
 
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 
 ## 会場を変更するかどうか問題
 
@@ -43,19 +45,16 @@ tags: [code for harima]
 
 ## 流域文化協議会　地域活性化事業（水野）
 
-\* 募集開始　9月9日現在　<https://www.city.kakogawa.lg.jp/soshikikarasagasu/kikakubu/kikakubukohoka/kouikigyousei/1535500048597.html>
-
-遊具のある公園マップで申請するか、ため池で申請するか・・・
-
+- 募集開始　9月9日現在
+  - <https://www.city.kakogawa.lg.jp/soshikikarasagasu/kikakubu/kikakubukohoka/kouikigyousei/1535500048597.html>
+- 遊具のある公園マップで申請するか、ため池で申請するか・・・
 - とりあえず両方書いています
-- 遊具のある公園マップ
-  <https://armd-02.github.io/Playgrounds/?#11.18/34.771/134.8533/0/30>
-
-- みんなでテイクアウトマップ　懐かしい！！
-  <https://codeforharima.github.io/takeaway/#14/34.7680/134.8224>
-
-- 申請書案
-  <https://docs.google.com/document/d/1jrYNHeDX64xdqIbLZVbfz81DNVTBP7sl23NbYAjNMYc/edit?usp=sharing>
+  - 遊具のある公園マップ
+    - <https://armd-02.github.io/Playgrounds/?#11.18/34.771/134.8533/0/30>
+  - みんなでテイクアウトマップ　懐かしい！！
+    - <https://codeforharima.github.io/takeaway/#14/34.7680/134.8224>
+  - 申請書案
+    - <https://docs.google.com/document/d/1jrYNHeDX64xdqIbLZVbfz81DNVTBP7sl23NbYAjNMYc/edit?usp=sharing>
 - 福田さんがモバイルプリンターを持っている
   - インクを購入?
 
@@ -66,31 +65,24 @@ tags: [code for harima]
 - CodeforHarimaの出番は、もう少しあとになりそう
 - 10/25 15時 高砂神社で能のステージがある
 
-## いなみため池マッピング（水野）
-
-- WikimediaのID取得しました「c4harima」
-- グループIDの使用が禁止されている
-  - 対応作必要
 
 ## State of the Map Japan 2024 Osaka
 
 - 12月6日
-  - State of the Map Japan 2024 - State of the Map Japan 2024:
-    <https://stateofthemap.jp/2024/>
+  - State of the Map Japan 2024 - State of the Map Japan 2024: <https://stateofthemap.jp/2024/>
 - お手伝いも募集だそうです
 
 ## mapillaryバージョンアップ情報
 
 - ビデオ画像直接アップロードできるようになりました。
 - Gorproで2秒間隔の間欠撮影からビデオアップロードにて間隔を短く出来ます。
-  ![image](https://hackmd.io/_uploads/BJYFJ3jTeg.png)
 - 画面中央青い点(ビデオ)
 - 緑の点が間欠撮影(2秒間欠)
 
-## 探求のテーマ（まなみ）
+![image](https://hackmd.io/_uploads/BJYFJ3jTeg.png)
 
-- 連絡なし
+## いなみため池マッピング（水野）
 
-## チャレンジ・オープン・ガバナンス2025（水野）
-
-- まだ課題が発表されていません
+- WikimediaのID取得しました「c4harima」
+- グループIDの使用が禁止されている
+  - 対応作必要

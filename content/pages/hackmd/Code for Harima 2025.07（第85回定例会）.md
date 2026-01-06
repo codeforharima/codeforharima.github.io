@@ -1,15 +1,19 @@
----
-title: Code for Harima 2025.07（第85回定例会）
-tags: [code for harima]
----
+Title: Code for Harima 2025.07（第85回定例会）
+Date: 2025-07-08 19:00:00
+Category: minutes
+Tags: 2025
+Summary:
+lang: ja
+Slug: 202507
+Save_as: history/202507.html
+Template: page
 
 # Code for Harima 2025.07（第85回定例会）
 
 - 日時: 2025/07/08（火）19:00-21:00
-- 場所: [加古川びぃぷらす](https://bb-beplus.net/) /
-  [オンライン](https://meet.jit.si/moderated/f2f09afe196bfa3fb02ed8c81ddc0900a132e20a40979672393e28e7c38a1f65)
+- 場所: [加古川びぃぷらす](https://bb-beplus.net/) / [オンライン](https://meet.jit.si/moderated/f2f09afe196bfa3fb02ed8c81ddc0900a132e20a40979672393e28e7c38a1f65)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/B1ALaoEBgl/edit>
-- 司会：野方
+- 司会: 野方
 - 参加者: 水野、福田
 - リモート:
 - 次回開催: 2025年08月19日（火）19:00 - 21:00
@@ -18,16 +22,14 @@ tags: [code for harima]
   - Instagram: <https://instagram.com/codeforharima>
   - Facebookページ: <https://facebook.com/codeforharima>
   - Facebookグループ: <https://www.facebook.com/groups/codeforharima>
-  - LINEアカウント:
-    <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
-  - Webサイト(過去の議事録含む):
-    <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
+  - LINEアカウント: <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
+  - Webサイト(過去の議事録含む): <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
 
 ## 運営連絡
 
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 
 ## 探求のテーマ（まなみ）
 
@@ -58,15 +60,13 @@ tags: [code for harima]
 
 ## STOM 2025 OSAKA 開催決定
 
-- 開催日時：2025年12月6日(土) 13:00 - 18:00
-- 開催場所：大阪大学中之島センター　 　　　　　〒530-0005 大阪市北区中之島4-3-53
-- 参加費:無料
-- 主　催:State of the Map Japan 実行委員会、Wikimedians of Japan User
-  Group、いのち会議
+- 開催日時: 2025年12月6日(土) 13:00 - 18:00
+- 開催場所: 大阪大学中之島センター 〒530-0005 大阪市北区中之島4-3-53
+- 参加費: 無料
+- 主催: State of the Map Japan 実行委員会、Wikimedians of Japan User Group、いのち会議
 - 実行委員長:
-- 共　催:一般社団法人 OpenStreetMap Foundation Japan
-- 協　力:（調整中）
--
+- 共催: 一般社団法人 OpenStreetMap Foundation Japan
+- 協力: （調整中）
 
 ## 遊具のある公園マップ
 

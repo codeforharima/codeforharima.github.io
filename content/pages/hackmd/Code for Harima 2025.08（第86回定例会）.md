@@ -1,16 +1,20 @@
----
-title: Code for Harima 2025.08（第86回定例会）
-tags: [code for harima]
----
+Title: Code for Harima 2025.08（第86回定例会）
+Date: 2025-08-19 19:00:00
+Category: minutes
+Tags: 2025
+Summary:
+lang: ja
+Slug: 202508
+Save_as: history/202508.html
+Template: page
 
 # Code for Harima 2025.08（第86回定例会）
 
 - 日時: 2025/08/19（火）19:00-21:00
-- 場所: [加古川びぃぷらす](https://bb-beplus.net/) /
-  [オンライン](https://meet.jit.si/moderated/8e620378fa1b7e625edc350b393726f77e49b0c3437b44f251e5e7d51a92361c)
+- 場所: [加古川びぃぷらす](https://bb-beplus.net/) / [オンライン](https://meet.jit.si/moderated/8e620378fa1b7e625edc350b393726f77e49b0c3437b44f251e5e7d51a92361c)
 - 議事録(HackMD): <https://hackmd.io/@codeforharima/H10BpVDdgx/edit>
-- 司会：野方
-- 参加者:水野、福田
+- 司会: 野方
+- 参加者: 水野、福田
 - リモート:
 - 次回開催: 2025年09月15日（火）19:00 - 21:00
 - 開催場所: びぃぷらす
@@ -18,16 +22,14 @@ tags: [code for harima]
   - Instagram: <https://instagram.com/codeforharima>
   - Facebookページ: <https://facebook.com/codeforharima>
   - Facebookグループ: <https://www.facebook.com/groups/codeforharima>
-  - LINEアカウント:
-    <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
-  - Webサイト(過去の議事録含む):
-    <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
+  - LINEアカウント: <https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp>
+  - Webサイト(過去の議事録含む): <https://codeforharima.notion.site/Code-for-Harima-893bae4719f0496d998298ed91ce694a>
 
 ## 運営連絡
 
 - 8月から定例会は第2火曜日になってます
 - 播磨の情報なら参加者グループにどんどん投稿してくださいね！
-  <https://www.facebook.com/groups/codeforharima/>
+  - <https://www.facebook.com/groups/codeforharima/>
 
 ## OSMもくもく会
 
@@ -47,16 +49,11 @@ tags: [code for harima]
 
 - 進捗なし
 
-## チャレンジ・オープン・ガバナンス2025（水野）
-
--
-
 ## 流域文化協議会　地域活性化事業（水野）
 
-\* 募集未開始　8月19日現在
+- 募集未開始　8月19日現在
 
 ## クライシスマッピング開始 （福田）
 
 - 鹿児島
-
 - 熊本
