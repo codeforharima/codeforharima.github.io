@@ -1,5 +1,0 @@
-# 設定ファイル (.prettierrc) を作成
-{
-  "proseWrap": "always",
-  "tabWidth": 2
-}
