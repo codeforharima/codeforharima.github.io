@@ -6,7 +6,7 @@ SITEURL = "http://127.0.0.1:8000"
 PATH = "content"
 TIMEZONE = "Asia/Tokyo"
 DEFAULT_LANG = "ja"
-DEFAULT_DATE_FORMAT = "%c"
+DEFAULT_DATE_FORMAT = "%Y/%m/%d"
 THEME = "themes/codeforharima"
 
 # --- コンテンツの役割分離（CMS化の肝） ---
