@@ -2,40 +2,42 @@
 
 {% block content %}
     <h1 class="text-center my-5">活動履歴</h1>
-    {# 議事録だけを抜き出し #}
-    {% set filtered_pages = [] %}
-    {% for page in pages if page.category == 'minutes' %}
-        {{ filtered_pages.append(page) or "" }}
-    {% endfor %}
-
     <div class="container">
-      <section class="mb-5">
-        <h2 class="mb-3 border-bottom">2025年</h2>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">01月 OSC 2025 Osaka参加予定、権現総合公園マッピング計画。</li>
-          <li class="list-group-item">02月 野口町観光マップ作成協力。</li>
-          <li class="list-group-item">03月 AIの進化（NotebookLM等）と活用議論、RESASリニューアル。</li>
-          <li class="list-group-item">04月 権現総合公園・なかしま公園マッピング実施、「税金はどこへ行った？」復活構想。</li>
-          <li class="list-group-item">05月 政治資金収支報告書データベースの話題。</li>
-          <li class="list-group-item">06月 高砂町マップのリニューアル協力、万博フィールドパビリオン（ため池）の話題。</li>
-          <li class="list-group-item">09月 地域活性化事業助成金申請（遊具のある公園マップ等）。</li>
-          <li class="list-group-item">10月 活動拠点の移転検討（びぃぷらす→市民交流ひろば等）。</li>
-          <li class="list-group-item">11月 姫路ピッチBarでの登壇決定、かわのまちマーケット出展計画。</li>
-        </ul>
-      </section>
-      <section class="mb-5">
-        <h2 class="mb-3 border-bottom">2025年</h2>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">01月 OSC 2025 Osaka参加予定、権現総合公園マッピング計画。</li>
-          <li class="list-group-item">02月 野口町観光マップ作成協力。</li>
-          <li class="list-group-item">03月 AIの進化（NotebookLM等）と活用議論、RESASリニューアル。</li>
-          <li class="list-group-item">04月 権現総合公園・なかしま公園マッピング実施、「税金はどこへ行った？」復活構想。</li>
-          <li class="list-group-item">05月 政治資金収支報告書データベースの話題。</li>
-          <li class="list-group-item">06月 高砂町マップのリニューアル協力、万博フィールドパビリオン（ため池）の話題。</li>
-          <li class="list-group-item">09月 地域活性化事業助成金申請（遊具のある公園マップ等）。</li>
-          <li class="list-group-item">10月 活動拠点の移転検討（びぃぷらす→市民交流ひろば等）。</li>
-          <li class="list-group-item">11月 姫路ピッチBarでの登壇決定、かわのまちマーケット出展計画。</li>
-        </ul>
-      </section>
+
+      {# 議事録ページ取得 #}
+      {% set minutes_pages = [] %}
+      {% for page in pages if page.category == 'minutes' %}
+          {{ minutes_pages.append(page) or "" }}
+      {% endfor %}
+
+      {# 逆順に並び替え #}
+      {% set sorted_pages = minutes_pages | sort(attribute='date', reverse=true) %}
+
+      {# カウンター変数 #}
+      {% set ns = namespace(current_year="") %}
+      {% set ns = namespace(current_month=0) %}
+
+      {# 議事録の見出し取り出しループ #}
+      {% for page in sorted_pages %}
+        {% set page_year = page.date.strftime('%Y') %}
+        {# 年が変わったら年を表示 #}
+        {% if  page_year != ns.current_year %}
+        <section class="mb-5">
+          <h2 class="mb-3 border-bottom">{{ page_year }}年</h2>
+          <ul class="list-group list-group-flush">
+          {% set ns.current_year = page_year %}
+        {% endif %}
+            <li class="list-group-item">{{ page.date.strftime('%m') }}月 <a href="{{ SITEURL }}/{{ page.url }}">{{ page.summary | striptags }}</a></li>
+          {% set ns.current_month = ns.current_month + 1 %}
+        {# 月が11を超えたら閉じタグを表示してカウントをリセット #}
+        {% if ns.current_month > 11 %}
+          </ul>
+        </section>
+          {% set ns.current_month = 0 %}
+        {% endif %}
+      {% endfor %}
+          </ul>
+        </section>
+
     </div>
 {% endblock  %}

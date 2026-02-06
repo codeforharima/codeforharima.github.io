@@ -104,13 +104,13 @@
                 {{ filtered_pages.append(page) or "" }}
             {% endfor %}
             {# 抜き出したものから3件表示 #}
-            {% for page in filtered_pages | reverse%}
-                {% if loop.index <= 3 %}
-                    <li class="list-group-item">
-                      <h5><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h5>
-                      {{ page.summary }}
-                    </li>
-                {% endif %}
+            {% for page in filtered_pages | reverse %}
+              {% if loop.index <= 3 %}
+                <li class="list-group-item">
+                  <h5><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h5>
+                  {{ page.summary }}
+                </li>
+              {% endif %}
             {% endfor %}
             </ul>
           </div>
