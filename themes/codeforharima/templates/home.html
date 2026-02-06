@@ -98,18 +98,20 @@
         <div class="row justify-content-center">
           <div class="col-12">
             <ul class="list-group">
-              <li class="list-group-item">
-                <h5>2023年10月定例会</h5>
-                <p>テーマ: 地域の課題とシビックテックの可能性</p>
-              </li>
-              <li class="list-group-item">
-                <h5>2023年9月定例会</h5>
-                <p>テーマ: オープンデータの活用方法</p>
-              </li>
-              <li class="list-group-item">
-                <h5>2023年8月定例会</h5>
-                <p>テーマ: 地域コミュニティとの連携</p>
-              </li>
+            {# 議事録だけを抜き出し #}
+            {% set filtered_pages = [] %}
+            {% for page in pages if page.category == 'minutes' %}
+                {{ filtered_pages.append(page) or "" }}
+            {% endfor %}
+            {# 抜き出したものから3件表示 #}
+            {% for page in filtered_pages | reverse%}
+                {% if loop.index <= 3 %}
+                    <li class="list-group-item">
+                      <h5><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h5>
+                      {{ page.summary }}
+                    </li>
+                {% endif %}
+            {% endfor %}
             </ul>
           </div>
         </div>

@@ -2,6 +2,11 @@
 
 {% block content %}
     <h1 class="text-center my-5">活動履歴</h1>
+    {# 議事録だけを抜き出し #}
+    {% set filtered_pages = [] %}
+    {% for page in pages if page.category == 'minutes' %}
+        {{ filtered_pages.append(page) or "" }}
+    {% endfor %}
 
     <div class="container">
       <section class="mb-5">

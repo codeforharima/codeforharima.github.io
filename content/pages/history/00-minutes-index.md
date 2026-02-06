@@ -1,6 +1,6 @@
 ---
 Title: Code for Harima 議事録履歴
-Category: minutes
+Category:
 Summary:
 lang: ja
 Slug: minutes-index
