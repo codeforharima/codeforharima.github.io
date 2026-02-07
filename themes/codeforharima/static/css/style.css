@@ -100,6 +100,10 @@ a:hover {
   text-decoration: none;
 }
 
+.history li:hover {
+  border-left: 2px solid var(--text-color);
+}
+
 /* ページ見出し */
 .content h1,
 .content h2,
