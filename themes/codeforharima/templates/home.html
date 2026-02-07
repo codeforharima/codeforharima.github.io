@@ -100,18 +100,18 @@
             <ul class="list-group">
             {# 議事録だけを抜き出し #}
             {% set filtered_pages = [] %}
-            {% for page in pages if page.category == 'minutes' %}
-                {{ filtered_pages.append(page) or "" }}
-            {% endfor %}
+            {% for page in pages if page.category == 'minutes' -%}
+              {{ filtered_pages.append(page) or "" }}
+            {%- endfor %}
             {# 抜き出したものから3件表示 #}
-            {% for page in filtered_pages | reverse %}
-              {% if loop.index <= 3 %}
+            {% for page in filtered_pages | reverse -%}
+              {% if loop.index <= 3 -%}
                 <li class="list-group-item list-group-item-action">
                   <h5><a href="{{ SITEURL }}/{{ page.url }}" class="stretched-link">{{ page.title }}</a></h5>
                   <p>{{ page.summary | striptags }}</p>
                 </li>
-              {% endif %}
-            {% endfor %}
+              {%- endif %}
+            {%- endfor %}
             </ul>
           </div>
         </div>
@@ -125,79 +125,24 @@
       <div class="container">
         <h2 class="text-center mb-4">新着記事</h2>
         <div class="row">
+          {% for article in articles[:6] %}
           <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card h-100">
               <div class="position-relative">
+              {% if article.cover -%}
                 <img src="{{ SITEURL }}/theme/img/noimg.webp" class="card-img-top" alt="">
-                <span class="position-absolute top-0 start-0 badge bg-primary">カテゴリー1</span>
+              {% else %}
+                <img src="{{ SITEURL }}/theme/img/noimg.webp" class="card-img-top" alt="">
+              {%- endif %}
+                <span class="position-absolute top-0 start-0 badge bg-primary">{{ article.category }}</span>
               </div>
               <div class="card-body">
-                <h5 class="card-title">記事タイトル1</h5>
+                <h5 class="card-title"><a href="{{ SITEURL }}/{{ article.url }}" class="stretched-link">{{ article.title }}</a></h5>
                 <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card h-100">
-              <div class="position-relative">
-                <img src="{{ SITEURL }}/theme/img/noimg.webp" class="card-img-top" alt="">
-                <span class="position-absolute top-0 start-0 badge bg-primary">カテゴリー2</span>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">記事タイトル2</h5>
-                <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card h-100">
-              <div class="position-relative">
-                <img src="{{ SITEURL }}/theme/img/noimg.webp" class="card-img-top" alt="">
-                <span class="position-absolute top-0 start-0 badge bg-primary">カテゴリー3</span>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">記事タイトル3</h5>
-                <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card h-100">
-              <div class="position-relative">
-                <img src="{{ SITEURL }}/theme/img/noimg.webp" class="card-img-top" alt="">
-                <span class="position-absolute top-0 start-0 badge bg-primary">カテゴリー4</span>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">記事タイトル4</h5>
-                <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card h-100">
-              <div class="position-relative">
-                <img src="{{ SITEURL }}/theme/img/noimg.webp" class="card-img-top" alt="">
-                <span class="position-absolute top-0 start-0 badge bg-primary">カテゴリー5</span>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">記事タイトル5</h5>
-                <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card h-100">
-              <div class="position-relative">
-                <img src="{{ SITEURL }}/theme/img/noimg.webp" class="card-img-top" alt="">
-                <span class="position-absolute top-0 start-0 badge bg-primary">カテゴリー6</span>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">記事タイトル6</h5>
-                <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
-              </div>
-            </div>
-          </div>
-        </div>
+          {% endfor %}
       </div>
     </section>
     {% endblock  %}

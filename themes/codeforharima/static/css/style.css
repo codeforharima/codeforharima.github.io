@@ -104,6 +104,17 @@ a:hover {
   border-left: 2px solid var(--text-color);
 }
 
+
+.recent .card {
+  transition: all .2s ease-in-out;
+}
+
+.recent .card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
 /* ページ見出し */
 .content h1,
 .content h2,
