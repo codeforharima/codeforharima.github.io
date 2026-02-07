@@ -95,6 +95,11 @@ a:hover {
   line-height: 1.6;
 }
 
+.meeting a,
+.history a {
+  text-decoration: none;
+}
+
 /* ページ見出し */
 .content h1,
 .content h2,

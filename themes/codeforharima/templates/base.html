@@ -7,9 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="Pelican" />
   <meta name="author" content="{{ AUTHOR }}">
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
   <title>{% block title %}{{ SITENAME|striptags }}{% endblock title %}</title>
   {% if SITESUBTITLE %}
   <meta name="description" content="{{ SITESUBTITLE }}" />
@@ -39,6 +36,9 @@
   <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} Tags RSS Feed" />
   {% endif %}
   {% endblock %}
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
 </head>
 
 <body class="mt-5 pt-2">

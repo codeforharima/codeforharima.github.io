@@ -60,7 +60,7 @@
               <div class="card-body text-center">
                 <i class="bi bi-people-fill display-4 text-primary"></i>
                 <h5 class="card-title">定例会</h5>
-                <p class="card-text">毎月開催される定例会で、地域課題の解決策を話し合います。</p>
+                <p class="card-text">毎月開催する定例会で、地域課題について話し合います</p>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@
               <div class="card-body text-center">
                 <i class="bi bi-calendar-check display-4 text-primary"></i>
                 <h5 class="card-title">イベント開催</h5>
-                <p class="card-text">地域のイベントに参加し、シビックテックの魅力を伝えます。</p>
+                <p class="card-text">地域のイベントに参加し、シビックテックの魅力を伝えます</p>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@
               <div class="card-body text-center">
                 <i class="bi bi-geo-alt-fill display-4 text-primary"></i>
                 <h5 class="card-title">地域コミュニティ支援</h5>
-                <p class="card-text">地域のコミュニティを支援し、より良い地域社会の実現を目指します。</p>
+                <p class="card-text">地域のコミュニティを支援し、より良い地域社会の実現を目指します</p>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@
     <section class="meeting py-5 bg-light">
       <div class="container">
         <h2 class="text-center mb-4">定例会</h2>
-        <p>Code for Harimaは、毎月、第2火曜日19時から加古川ヤマトヤシキ7階にある「市民交流ひろば」で定例会を開催しています。定例会は、どなたでも参加できます。参加者全員で話し合い、話し合ったことを議事録に記録しています。定例会の議事録は、すべて公開しています。</p>
+        <p>Code for Harimaは、毎月、第2火曜日19時から加古川ヤマトヤシキ7階「市民交流ひろば」で定例会を開催しています。定例会は、どなたでも参加できます。参加者全員で話し合い、話し合ったことを議事録に記録しています。定例会の議事録は、すべて公開しています。</p>
         <div class="row justify-content-center">
           <div class="col-12">
             <ul class="list-group">
@@ -106,9 +106,9 @@
             {# 抜き出したものから3件表示 #}
             {% for page in filtered_pages | reverse %}
               {% if loop.index <= 3 %}
-                <li class="list-group-item">
-                  <h5><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h5>
-                  {{ page.summary }}
+                <li class="list-group-item list-group-item-action">
+                  <h5><a href="{{ SITEURL }}/{{ page.url }}" class="stretched-link">{{ page.title }}</a></h5>
+                  <p>{{ page.summary | striptags }}</p>
                 </li>
               {% endif %}
             {% endfor %}
