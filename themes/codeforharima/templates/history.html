@@ -1,44 +1,37 @@
 {% extends "base.html" %}
-
-{% block content %}
+{% block content -%}
     <h1 class="text-center my-5">活動履歴</h1>
     <div class="history container">
-
       {# 議事録ページ取得 #}
       {% set minutes_pages = [] %}
-      {% for page in pages if page.category == 'minutes' %}
+      {% for page in pages if page.category == 'minutes' -%}
           {{ minutes_pages.append(page) or "" }}
-      {% endfor %}
-
+      {%- endfor %}
       {# 逆順に並び替え #}
-      {% set sorted_pages = minutes_pages | sort(attribute='date', reverse=true) %}
-
+      {% set sorted_pages = minutes_pages | sort(attribute="date", reverse=true) %}
       {# カウンター変数 #}
       {% set ns = namespace(current_year="") %}
-      {% set ns = namespace(current_month=0) %}
-
-      {# 議事録の見出し取り出しループ #}
-      {% for page in sorted_pages %}
-        {% set page_year = page.date.strftime('%Y') %}
-        {# 年が変わったら年を表示 #}
-        {% if  page_year != ns.current_year %}
+      {% set ns = namespace(current_month="") %}
+      {# ループ #}
+      {% for page in sorted_pages -%}
+        {% set page_year = page.date.strftime("%Y") %}
+        {% set page_month = page.date.strftime("%m") %}
+        {# 年が違っていたらヘッダー出す #}
+        {% if page_year != ns.current_year -%}
         <section class="mb-5">
           <h2 class="mb-3 border-bottom" id="{{ page_year }}">{{ page_year }}年</h2>
           <ul class="list-group list-group-flush">
-          {% set ns.current_year = page_year %}
-        {% endif %}
-            {% set month = page.date.strftime('%m') %}
-            <li class="list-group-item list-group-item-action" id="{{ page_year }}{{ month }}">{{ month }}月: <a href="{{ SITEURL }}/{{ page.url }}" class="stretched-link">{{ page.summary | striptags }}</a></li>
-          {% set ns.current_month = ns.current_month + 1 %}
-        {# 月が11を超えたら閉じタグを表示してカウントをリセット #}
-        {% if ns.current_month > 11 %}
+        {%- endif %}
+            <li class="list-group-item list-group-item-action" id="{{ page_year }}{{ page_month }}">{{ page_month }}月: <a href="{{ SITEURL }}/{{ page.url }}" class="stretched-link">{{ page.summary | striptags }}</a></li>
+        {# 逆順なので1月なら終わりなので閉めます #}
+        {% if page_month == "01" -%}
           </ul>
         </section>
-          {% set ns.current_month = 0 %}
-        {% endif %}
-      {% endfor %}
+        {%- endif %}
+        {# 年を保存 #}
+        {% set ns.current_year = page_year %}
+      {%- endfor %}
           </ul>
         </section>
-
     </div>
-{% endblock  %}
+{%- endblock  %}
