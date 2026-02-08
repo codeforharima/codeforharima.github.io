@@ -3,47 +3,65 @@ SITEURL = "http://127.0.0.1:8000"
 AUTHOR = ""
 SITESUBTITLE = "兵庫県播磨地域で地域課題をシビックテックで解決を図るボランティア団体"
 
-# --- 基本 ---
 PATH = "content"
 TIMEZONE = "Asia/Tokyo"
 DEFAULT_LANG = "ja"
 DEFAULT_DATE_FORMAT = "%Y/%m/%d"
 THEME = "themes/codeforharima"
 
-# --- コンテンツの役割分離（CMS化の肝） ---
-PAGE_PATHS = ["pages"]  # 固定ページ群（サイト本体）
-ARTICLE_PATHS = ["blog"]  # 記事は/blog専用
-
-# --- URL設計：ページはそのまま階層、記事は/blog配下 ---
-PAGE_URL = "{slug}/"
-PAGE_SAVE_AS = "{slug}/index.html"
-
-ARTICLE_URL = "blog/{slug}/"
-ARTICLE_SAVE_AS = "blog/{slug}/index.html"
-
-# --- 記事一覧を/blog/に出す（サイト直下のindexを奪わない） ---
-INDEX_SAVE_AS = "blog/index.html"
-
-# 記事関連のアーカイブ類も/blog配下へ（好みでON/OFF）
-ARCHIVES_SAVE_AS = "blog/archives/index.html"
-TAGS_SAVE_AS = "blog/tags/index.html"
-TAG_SAVE_AS = "blog/tag/{slug}/index.html"
-CATEGORIES_SAVE_AS = "blog/categories/index.html"
-CATEGORY_SAVE_AS = "blog/category/{slug}/index.html"
-
-# 著者ページを生成しない
-AUTHOR_SAVE_AS = ""
-AUTHORS_SAVE_AS = ""
-
-# 直下の index は pages/index.md に任せるので、ここは生成だけ/blogへ逃がす
-DIRECT_TEMPLATES = ["index", "archives", "tags", "categories"]
-
-# Feed generation is usually not desired when developing
+# フィード設定
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+# ページネーション
+DEFAULT_PAGINATION = 6
+
+# --- URL設計 ---
+ARTICLE_URL = "blog/{date:%Y}/{date:%m}/{slug}/"
+ARTICLE_SAVE_AS = "blog/{date:%Y}/{date:%m}/{slug}/index.html"
+
+# カテゴリごとのURL設定
+CATEGORY_URL = "{slug}/"
+CATEGORY_SAVE_AS = "{slug}/index.html"
+
+# 固定ページのURL
+PAGE_URL = "{slug}/"
+PAGE_SAVE_AS = "{slug}/index.html"
+
+# タグ・著者ページ（必要に応じて無効化）
+TAG_URL = "tags/{slug}/"
+TAG_SAVE_AS = "tags/{slug}/index.html"
+TAGS_SAVE_AS = "tags/index.html"
+
+# 著者ページを生成しない
+AUTHOR_SAVE_AS = ""
+AUTHORS_SAVE_AS = ""
+
+# --- 記事一覧を/blog/に出す（サイト直下のindexを奪わない） ---
+INDEX_SAVE_AS = "blog/index.html"
+
+# 直下の index は pages/index.md に任せるので、ここは生成だけ/blogへ逃がす
+DIRECT_TEMPLATES = ["index", "archives", "tags", "categories"]
+
+# カスタムページ設定
+TEMPLATE_PAGES = {
+    "home.html": "index.html",  # トップページ用カスタムテンプレート
+}
+
+# 静的ファイル
+STATIC_PATHS = ["images", "extra"]
+
+# メニュー設定
+MENUITEMS = [
+    ("ホーム", "/"),
+    ("私たちについて", "/about/"),
+    ("活動記録", "/history/"),
+    ("イベント記録", "/events/"),
+    ("ブログ", "/blog/"),
+]
 
 # Blogroll
 LINKS = (("Code for Japan", "https://www.code4japan.org/"),)
@@ -72,7 +90,6 @@ MAIN_ACTIVITY = (
     ("地域コミュニティ支援", "地域のコミュニティを支援し、より良い地域社会の実現を目指します", "bi-geo-alt-fill"),
 )
 
-DEFAULT_PAGINATION = 6
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
