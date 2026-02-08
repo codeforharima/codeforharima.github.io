@@ -103,7 +103,7 @@
             <div class="card h-100">
               <div class="position-relative">
               {% if article.cover -%}
-                <img src="{{ SITEURL }}/images/{{ article.cover }}" class="card-img-top" alt="">
+                <img src="{{ SITEURL }}/{{ article.cover }}" class="card-img-top" alt="">
               {% else %}
                 <img src="{{ SITEURL }}/theme/img/noimg.webp" class="card-img-top" alt="">
               {%- endif %}
