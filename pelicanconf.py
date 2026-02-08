@@ -1,6 +1,7 @@
 SITENAME = "Code for Harima"
 SITEURL = "http://127.0.0.1:8000"
 AUTHOR = ""
+SITESUBTITLE = "兵庫県播磨地域で地域課題をシビックテックで解決を図るボランティア団体"
 
 # --- 基本 ---
 PATH = "content"
@@ -55,6 +56,20 @@ SOCIAL = (
     ("LINE", "https://liff.line.me/1645278921-kWRPP32q/?accountId=946ardlp"),
     ("GitHub", "https://github.com/codeforharima"),
     ("HackMD", "https://hackmd.io/@codeforharima"),
+)
+
+# カルーセルキャッチコピーと画像
+CAROUSEL = (
+    ("地域課題に挑む", "シビックテックで未来を変える", "shapelined.webp"),
+    ("つながる地域", "テクノロジーで地域を元気に", "shapelined.webp"),
+    ("未来を創る", "あなたの参加で地域が変わる", "shapelined.webp"),
+)
+
+# 活動内容
+MAIN_ACTIVITY = (
+    ("定例会", "毎月開催する定例会で地域課題について話し合います", "bi-people-fill"),
+    ("イベント開催", "地域のイベントに参加してシビックテックの魅力を伝えます", "bi-calendar-check"),
+    ("地域コミュニティ支援", "地域のコミュニティを支援し、より良い地域社会の実現を目指します", "bi-geo-alt-fill"),
 )
 
 DEFAULT_PAGINATION = 6

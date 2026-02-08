@@ -6,7 +6,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="Pelican" />
-  <meta name="author" content="{{ AUTHOR }}">
   <title>{% block title %}{{ SITENAME|striptags }}{% endblock title %}</title>
   {% if SITESUBTITLE %}
   <meta name="description" content="{{ SITESUBTITLE }}" />
@@ -47,7 +46,7 @@
     {% block header %}
     <nav class="navbar navbar-expand-xl fixed-top navbar-light bg-light">
       <div class="container-fluid container-lg">
-        <a class="navbar-brand" href="/"><img src="{{ SITEURL }}/theme/img/code_for_harima_logo_2.svg" alt="●" width="32" height="32"> Code for Harima</a>
+        <a class="navbar-brand" href="/"><img src="{{ SITEURL }}/theme/img/code_for_harima_logo_2.svg" alt="●" width="32" height="32"> {{ SITENAME }}</a>
         <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -58,6 +57,9 @@
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/">トップ</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="/about/">私たちについて</a>
               </li>
@@ -93,8 +95,8 @@
     <div class="text-start container p-4">
       <div class="row">
         <div class="col-12 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Code for Harima</h5>
-          <p>兵庫県播磨地域で地域課題をシビックテックで解決を図るボランティア団体</p>
+          <h5 class="text-uppercase">{{ SITENAME }}</h5>
+          <p>{{ SITESUBTITLE }}</p>
         </div>
         <div class="col-6 col-md-3 mb-4 mb-md-0">
           <h5 class="text-uppercase">Menu</h5>
@@ -109,14 +111,14 @@
         <div class="col-6 col-md-3 mb-4 mb-md-0">
           <h5 class="text-uppercase">SNS</h5>
           <ul class="list-unstyled mb-0">
-            <li><a href="https://twitter.com/" class="text-dark">Facebook</a></li>
-            <li><a href="https://facebook.com/" class="text-dark">Facebook</a></li>
-            <li><a href="https://github.com/" class="text-dark">GitHub</a></li>
+            {% for sns,link in SOCIAL %}
+            <li><a href="{{ link }}" class="text-dark">{{ sns }}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>
     </div>
-    <p class="text-center p-3 mb-0 bg-dark text-white small">© 2025 {{ AUTHOR }}</p>
+    <p class="text-center p-3 mb-0 bg-dark text-white small">© 2025 {{ SITENAME }}</p>
     {% endblock %}
   </footer>
 
