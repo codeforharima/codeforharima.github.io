@@ -86,7 +86,8 @@ a:hover {
 .intro p,
 .meeting p,
 .recent p,
-.content p {
+.content p,
+.content li {
   text-align: justify;
   font-feature-settings: "palt";
   text-justify: inter-character;
@@ -110,10 +111,20 @@ a:hover {
 }
 
 .recent .card:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+/* ページカバーイメージの高さ */
 
+.hero-image img {
+  max-height: 30vh;
+}
+
+@media (max-width: 768px) {
+  .hero-image img {
+    max-height: 10vh;
+  }
+}
 
 /* ページ見出し */
 .content h1,
@@ -130,13 +141,15 @@ a:hover {
 }
 
 .content h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 2.25rem;
+  font-weight: bolder;
 }
 
 .content h2 {
   font-size: 1.625rem;
   margin-top: 2.25rem;
+  font-weight: bolder;
 }
 
 .content h3 {

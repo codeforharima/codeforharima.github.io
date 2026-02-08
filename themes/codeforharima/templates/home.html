@@ -1,7 +1,7 @@
 {% extends "base.html" %}
+{% block title %}{{ page.title }}{% endblock %}
 
 {% block content %}
-
     <!-- カルーセル -->
     {% block contents %}
     <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -49,7 +49,7 @@
     <section class="intro py-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-12 mb-4">
+          <div class="col-12 col-xxl-10 mb-4">
             <h2 class="text-center mb-4">私たちの活動</h2>
             <p>Code for Harimaは、播磨地域の困ったことなどをITやテクノロジーと地域の力を合わせて考え、より良く、素敵な場所にしていこうという思いの人が集まったコミュニティです。参加する人達もさまざまで行政から大学、学生、ITエンジニア、それぞれの立場から、どのようなことができるかをゆるく話し合っています。</p>
             <p>Code for Harimaは、2018年7月に設立されました。活動地域は、加古川を中心に高砂、姫路ですが、それ以外の地域からの参加も歓迎します。活動の最新情報についてはFacebookページ、またはFacebookグループをご覧ください。過去の活動については、活動履歴をご覧ください。</p>
@@ -93,10 +93,10 @@
     {% block meeting %}
     <section class="meeting py-5 bg-light">
       <div class="container">
-        <h2 class="text-center mb-4">定例会</h2>
-        <p>Code for Harimaは、毎月、第2火曜日19時から加古川ヤマトヤシキ7階「市民交流ひろば」で定例会を開催しています。定例会は、どなたでも参加できます。参加者全員で話し合い、話し合ったことを議事録に記録しています。定例会の議事録は、すべて公開しています。</p>
         <div class="row justify-content-center">
-          <div class="col-12">
+          <div class="col-12 col-xxl-10">
+            <h2 class="text-center mb-4">定例会</h2>
+            <p>Code for Harimaは、毎月、第2火曜日19時から加古川ヤマトヤシキ7階「市民交流ひろば」で定例会を開催しています。定例会は、どなたでも参加できます。参加者全員で話し合い、話し合ったことを議事録に記録しています。定例会の議事録は、すべて公開しています。</p>
             <ul class="list-group">
             {# 議事録だけを抜き出し #}
             {% set filtered_pages = [] %}
@@ -125,7 +125,7 @@
       <div class="container">
         <h2 class="text-center mb-4">新着記事</h2>
         <div class="row">
-          {% for article in articles[:6] %}
+          {% for article in articles[:DEFAULT_PAGINATION] %}
           <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card h-100">
               <div class="position-relative">

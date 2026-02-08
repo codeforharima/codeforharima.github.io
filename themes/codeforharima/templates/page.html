@@ -2,24 +2,30 @@
 {% block title %}{{ page.title }}{% endblock %}
 
 {% block content %}
-    <div class="container py-5">
+    {% if page.cover -%}
+    <picture class="hero-image">
+      <img src="{{ SITEURL }}/theme/img/street.jpg" class="object-fit-cover w-100" alt="">
+    </picture>
+    {%- endif %}
+    <div class="page container pb-5">
       <div class="row justify-content-center">
-        <div class="col-12 col-lg-8 col-xxl-6">
+        <div class="col-12 col-lg-8 col-xxl-7">
           <article class="content">
             <header class="mb-4">
-              <img src="{{ SITEURL }}/theme/img/street.jpg" class="img-fluid rounded article-title-image" alt="Title Image">
               <h1 class="my-4">{{ page.title }}</h1>
+              {% if page.author != "" -%}
               <div class="d-flex align-items-center">
                 <img src="{{ SITEURL }}/theme/img/author.webp" class="rounded-circle me-3" width="48" height="48" alt="Author">
                 <div>
-                  <h5 class="h6 mb-0">{{ AUTHOR }}</h5>
+                  <h5 class="h6 my-0">{{ AUTHOR }}</h5>
                   <small class="text-muted">{{ page.date }}</small>
                 </div>
               </div>
+              {%- endif %}
             </header>
-            <div class="content">
+            <main>
             {{ page.content }}
-            </div>
+            </main>
           </article>
         </div>
       </div>

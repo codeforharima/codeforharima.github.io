@@ -1,8 +1,9 @@
 ---
-Title: 私たちについて
-Slug:
-Save_as: about/index.html
-Template: page
+title: 私たちについて
+slug:
+save_as: about/index.html
+template: page
+cover: wheel.jpg
 ---
 
 ## Code for Harimaとは

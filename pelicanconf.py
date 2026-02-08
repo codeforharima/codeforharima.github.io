@@ -1,6 +1,6 @@
-AUTHOR = "Code for Harima"
 SITENAME = "Code for Harima"
 SITEURL = "http://127.0.0.1:8000"
+AUTHOR = ""
 
 # --- 基本 ---
 PATH = "content"
@@ -29,6 +29,10 @@ TAGS_SAVE_AS = "blog/tags/index.html"
 TAG_SAVE_AS = "blog/tag/{slug}/index.html"
 CATEGORIES_SAVE_AS = "blog/categories/index.html"
 CATEGORY_SAVE_AS = "blog/category/{slug}/index.html"
+
+# 著者ページを生成しない
+AUTHOR_SAVE_AS = ""
+AUTHORS_SAVE_AS = ""
 
 # 直下の index は pages/index.md に任せるので、ここは生成だけ/blogへ逃がす
 DIRECT_TEMPLATES = ["index", "archives", "tags", "categories"]
