@@ -1,7 +1,7 @@
 ---
 Title: Code for Harimaの議事録をNotionで見られるようにしたメモ
 Date: 2023-05-10 19:00:00
-Category: events
+Category: event
 Tags: memo
 Summary:
 lang: ja

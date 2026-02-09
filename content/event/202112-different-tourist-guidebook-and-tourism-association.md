@@ -1,8 +1,8 @@
 ---
 Title: 観光ガイドブックと観光協会で場所が違う
 Date: 2021-12-08
-Category: documents
-Tags: openstreetmap, kakogawa60
+Category: event
+Tags: openstreetmap
 Summary:
 lang: ja
 Slug: 202112-different-tourist-guidebook-and-tourism-association

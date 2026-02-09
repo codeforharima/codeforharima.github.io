@@ -57,21 +57,11 @@
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            {% for item,link in MENUITEMS -%}
               <li class="nav-item">
-                <a class="nav-link" href="/">トップ</a>
+                <a class="nav-link" href="{{ link }}">{{ item }}</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about/">私たちについて</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/history/">活動履歴</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/events/">イベント</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/blog/">ブログ</a>
-              </li>
+            {%- endfor %}
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="検索" aria-label="Search">

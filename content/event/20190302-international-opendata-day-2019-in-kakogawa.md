@@ -1,8 +1,8 @@
 ---
 Title: インターナショナル・オープンデータ・デイ 2019 in 加古川
 Date: 2019-03-02 11:00:00
-Category: events
-Tags: openstreetmap, memo
+Category: event
+Tags: openstreetmap
 Summary:
 lang: ja
 Slug: international-opendata-day-2019

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content -%}
+<h1 class="text-center my-5">活動履歴</h1>
+<div class="history container">
+  <p>Code for Harimaでは、毎月、第2火曜日19時から加古川ヤマトヤシキ7階「市民交流ひろば」で定例会を開催しています。定例会は、どなたでも参加できます。参加者全員で話し合い、話し合ったことを議事録に記録しています。定例会の議事録は、すべて公開しています。</p>
+  {# 議事録ページ取得 #}
+  {% set minutes_articles = [] %}
+  {% for article in articles if article.category == 'meeting' -%}
+  {{ minutes_articles.append(article) or "" }}
+  {%- endfor %}
+  {# 逆順に並び替え #}
+  {% set sorted_articles = minutes_articles | sort(attribute="date", reverse=true) %}
+  {# カウンター変数 #}
+  {% set ns = namespace(current_year="") %}
+  {% set ns = namespace(current_month="") %}
+  {# ループ #}
+  {% for article in sorted_articles -%}
+  {% set article_year = article.date.strftime("%Y") %}
+  {% set article_month = article.date.strftime("%m") %}
+  {# 年が違っていたらヘッダー出す #}
+  {% if article_year != ns.current_year -%}
+  <section class="mb-5">
+    <h2 class="mb-3 border-bottom" id="{{ article_year }}">{{ article_year }}年</h2>
+    <ul class="list-group list-group-flush">
+      {%- endif %}
+      <li class="list-group-item list-group-item-action" id="{{ article_year }}{{ article_month }}">{{ article_month }}月: <a href="{{ SITEURL }}/{{ article.url }}" class="stretched-link">{{ article.summary | striptags }}</a></li>
+      {# 逆順なので1月なら終わりなので閉めます #}
+      {% if article_month == "01" -%}
+    </ul>
+  </section>
+  {%- endif %}
+  {# 年を保存 #}
+  {% set ns.current_year = article_year %}
+  {%- endfor %}
+  </ul>
+  </section>
+</div>
+{%- endblock %}

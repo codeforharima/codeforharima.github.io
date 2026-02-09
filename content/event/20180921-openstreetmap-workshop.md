@@ -1,7 +1,7 @@
 ---
 Title: オープンストリートマップ(OpenStreetMap)講座
 Date: 2018-09-21 18:00:00
-Category: events
+Category: event
 Tags: openstreetmap
 Summary:
 lang: ja

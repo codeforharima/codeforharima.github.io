@@ -1,7 +1,7 @@
 ---
 Title: 高砂市イベント作業メモ
 Date: 2019-07-10 19:00:00
-Category: events
+Category: event
 Tags: memo, 高砂
 Summary:
 lang: ja

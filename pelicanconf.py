@@ -20,12 +20,12 @@ AUTHOR_FEED_RSS = None
 DEFAULT_PAGINATION = 6
 
 # --- URL設計 ---
-ARTICLE_URL = "blog/{date:%Y}/{date:%m}/{slug}/"
-ARTICLE_SAVE_AS = "blog/{date:%Y}/{date:%m}/{slug}/index.html"
+ARTICLE_URL = "{category}/{slug}/"
+ARTICLE_SAVE_AS = "{category}/{slug}/index.html"
 
 # カテゴリごとのURL設定
 CATEGORY_URL = "{slug}/"
-CATEGORY_SAVE_AS = "{slug}/index.html"
+# CATEGORY_SAVE_AS = "{slug}/index.html"
 
 # 固定ページのURL
 PAGE_URL = "{slug}/"
@@ -40,14 +40,12 @@ TAGS_SAVE_AS = "tags/index.html"
 AUTHOR_SAVE_AS = ""
 AUTHORS_SAVE_AS = ""
 
-# --- 記事一覧を/blog/に出す（サイト直下のindexを奪わない） ---
-INDEX_SAVE_AS = "blog/index.html"
+# デフォルトのインデックスページを無効化
+INDEX_SAVE_AS = ""
 
 # 直下の index は pages/index.md に任せるので、ここは生成だけ/blogへ逃がす
 DIRECT_TEMPLATES = ["archives", "tags", "categories"]
 
-# デフォルトのインデックスページを無効化
-INDEX_SAVE_AS = ""
 
 # カスタムページ設定
 TEMPLATE_PAGES = {
@@ -55,14 +53,14 @@ TEMPLATE_PAGES = {
 }
 
 # 静的ファイル
-STATIC_PATHS = ["images", "extra"]
+# STATIC_PATHS = ["images", "extra"]
 
 # メニュー設定
 MENUITEMS = [
     ("ホーム", "/"),
     ("私たちについて", "/about/"),
     ("定例会", "/meeting/"),
-    ("イベント記録", "/events/"),
+    ("イベント", "/event/"),
     ("ブログ", "/blog/"),
 ]
 

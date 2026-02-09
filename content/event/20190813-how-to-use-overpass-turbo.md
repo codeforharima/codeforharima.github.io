@@ -1,8 +1,8 @@
 ---
 Title: Overpass Turboの使い方
 Date: 2019-08-13 19:00:00
-Category: events
-Tags: memo, openstreetmap
+Category: event
+Tags: openstreetmap
 Summary:
 lang: ja
 Slug: how-to-use-overpass-turbo

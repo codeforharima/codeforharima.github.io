@@ -1,14 +1,12 @@
 ---
 Title: 3D都市モデル（Project PLATEAU）加古川市（2020年度）取り込み
 Date: 2022-04-13 19:00:00
-Category: events
-Tags: openstreetmap, plateau, memo
+Category: event
+Tags: openstreetmap
 Summary:
 lang: ja
 Slug: import-plateau-kakogawa
 ---
-
-# 3D都市モデル（Project PLATEAU）加古川市（2020年度）取り込み
 
 - OpenStreetMapの全体的なインポート方針
     - JA:MLIT PLATEAU/imports outline - OpenStreetMap Wiki: <https://wiki.openstreetmap.org/wiki/JA:MLIT_PLATEAU/imports_outline>
