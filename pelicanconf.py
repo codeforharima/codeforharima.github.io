@@ -25,35 +25,36 @@ ARTICLE_SAVE_AS = "{category}/{slug}/index.html"
 
 # カテゴリごとのURL設定
 CATEGORY_URL = "{slug}/"
-# CATEGORY_SAVE_AS = "{slug}/index.html"
+# カテゴリーページは無効
+CATEGORIES_SAVE_AS = ""
+CATEGORY_SAVE_AS = "{slug}/index.html"
 
 # 固定ページのURL
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
 
-# タグ・著者ページ（必要に応じて無効化）
-TAG_URL = "tags/{slug}/"
-TAG_SAVE_AS = "tags/{slug}/index.html"
-TAGS_SAVE_AS = "tags/index.html"
+# タグページ無効
+TAG_URL = ""
+TAG_SAVE_AS = ""
+TAGS_SAVE_AS = ""
 
-# 著者ページを生成しない
+# アーカイブページ無効
+ARCHIVES_SAVE_AS = ""
+YEAR_ARCHIVE_SAVE_AS = ""
+MONTH_ARCHIVE_SAVE_AS = ""
+DAY_ARCHIVE_SAVE_AS = ""
+
+# 著者ページ無効
 AUTHOR_SAVE_AS = ""
 AUTHORS_SAVE_AS = ""
 
-# デフォルトのインデックスページを無効化
+# デフォルトのインデックスページを無効。別途テンプレート指定で作成
 INDEX_SAVE_AS = ""
-
-# 直下の index は pages/index.md に任せるので、ここは生成だけ/blogへ逃がす
-DIRECT_TEMPLATES = ["archives", "tags", "categories"]
-
 
 # カスタムページ設定
 TEMPLATE_PAGES = {
     "home.html": "index.html",  # トップページ用カスタムテンプレート
 }
-
-# 静的ファイル
-# STATIC_PATHS = ["images", "extra"]
 
 # メニュー設定
 MENUITEMS = [
@@ -90,7 +91,6 @@ MAIN_ACTIVITY = (
     ("イベント開催", "地域のイベントに参加してシビックテックの魅力を伝えます", "bi-calendar-check"),
     ("地域コミュニティ支援", "地域のコミュニティを支援し、より良い地域社会の実現を目指します", "bi-geo-alt-fill"),
 )
-
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True

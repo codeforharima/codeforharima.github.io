@@ -6,6 +6,7 @@
 <h1 class="text-center my-5">活動履歴</h1>
 <div class="history container">
   <p>Code for Harimaでは、毎月、第2火曜日19時から加古川ヤマトヤシキ7階「市民交流ひろば」で定例会を開催しています。定例会は、どなたでも参加できます。参加者全員で話し合い、話し合ったことを議事録に記録しています。定例会の議事録は、すべて公開しています。</p>
+  <hr class="border my-5">
   {# 議事録ページ取得 #}
   {% set minutes_articles = [] %}
   {% for article in articles if article.category == 'meeting' -%}

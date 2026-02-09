@@ -1,8 +1,6 @@
 ---
-title: イベント
+title: 活動記録
 date: 1970-01-01
-save_as: event/index.html
-template: page
+save_as: meeting/index.html
+template: meeting
 ---
-
-[State of the Map 2022](sotm2022/)

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="recent py-5">
+  <div class="container">
+    <h2 class="text-center mb-4 fw-bolder">新着記事</h2>
+    <div class="row">
+      {% for article in articles_page.object_list -%}
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <div class="position-relative">
+            {% if article.cover -%}
+            <img src="{{ SITEURL }}/{{ article.cover }}" class="card-img-top" alt="">
+            {% else %}
+            <img src="{{ SITEURL }}/theme/img/noimg.webp" class="card-img-top" alt="">
+            {%- endif %}
+            {% if article.tags -%}<span class="position-absolute top-0 start-0 badge bg-primary">{{ article.tags[0] }}</span>{%- endif %}
+          </div>
+          <div class="card-body">
+            <h5 class="card-title"><a href="{{ SITEURL }}/{{ article.url }}" class="stretched-link">{{ article.title }}</a></h5>
+            <p class="card-text">これは記事の簡単な説明です。これは記事の簡単な説明です。これは記事の簡単な説明です。</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+
+    {# ナビゲーション部分 #}
+    {% if articles_page.has_other_pages() %}
+    <div class="pagination">
+    {% if articles_page.has_previous() %}
+        <a href="{{ SITEURL }}/{{ articles_previous_page.url }}">前へ</a>
+    {% endif %}
+
+    <span>{{ articles_page.number }} / {{ articles_paginator.num_pages }}</span>
+
+    {% if articles_page.has_next() %}
+        <a href="{{ SITEURL }}/{{ articles_next_page.url }}">次へ</a>
+    {% endif %}
+    </div>
+    {% endif %}
+
+</section>
+{% endblock %}

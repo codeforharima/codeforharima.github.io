@@ -5,7 +5,9 @@
   --main-color: #2ebee6;
   --accent-color: #ff9e67;
   --text-color: #333333;
-  --base-font-family: "Noto Sans CJK JP", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", Meiryo, sans-serif;
+  --base-font-family:
+    "Noto Sans CJK JP", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "Noto Sans JP", Meiryo, sans-serif;
   /* SNSカラー */
   --sns-twitter: #1d9bf0;
   --sns-facebook: #1877f2;
@@ -81,7 +83,6 @@ a:hover {
   .carousel-caption p {
     font-size: 1rem;
   }
-
 }
 
 /* イントロセクション */
@@ -98,6 +99,18 @@ a:hover {
   line-height: 1.6;
 }
 
+@media (min-width: 768px) {
+
+  .intro p,
+  .meeting p,
+  .recent p,
+  .content p,
+  .content li {
+    font-size: 1.125rem;
+    line-height: 2;
+  }
+}
+
 .meeting a,
 .history a {
   text-decoration: none;
@@ -110,7 +123,7 @@ a:hover {
 /* 新着カード */
 
 .recent .card {
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .recent .card:hover {
@@ -142,58 +155,68 @@ a:hover {
 .page h3,
 .page h4,
 .page h5,
-.page h6 {
+.page h6,
+.article h1,
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article h6 {
   font-family: var(--base-font-family);
   font-weight: bolder;
   font-size: 1rem;
   font-feature-settings: "palt";
   line-height: 1.6;
+  margin-top: 2.5rem;
 }
 
-.page h1 {
+.page h1,
+.article h1 {
   font-size: 2.5rem;
-  margin-top: 2.25rem;
   font-weight: bolder;
 }
 
-.page h2 {
+.page h2,
+.article h2 {
   font-size: 1.625rem;
-  margin-top: 2.25rem;
   font-weight: bolder;
 }
 
-.page h3 {
+.page h3,
+.article h3 {
   font-size: 1.375rem;
-  margin-top: 2.25rem;
 }
 
-.page h4 {
+.page h4,
+.article h4 {
   font-size: 1.25rem;
-  margin-top: 2.25rem;
 }
 
-.page h5 {
+.page h5,
+.article h5 {
   font-size: 1.125rem;
-  margin-top: 2.25rem;
 }
 
-.page h6 {
+.page h6,
+.article h6 {
   font-size: 1rem;
-  margin-top: 2.25rem;
 }
 
 /* ページ内の画像はレスポンシブ */
-.page img {
+.page img,
+.article img {
   max-width: 100%;
   height: auto;
   margin: 0.5rem;
 }
 
-.page strong {
+.page strong,
+.article strong {
   background: linear-gradient(transparent 60%, #e6ee9c 0%);
 }
 
-.page blockquote {
+.page blockquote,
+.article blockquote {
   position: relative;
   margin: 1.5em 0 1em 1em;
   padding: 2em 2em 1em 3em;
@@ -203,7 +226,8 @@ a:hover {
   border-radius: 7px;
 }
 
-.page blockquote::before {
+.page blockquote::before,
+.article blockquote::before {
   font-family: "bootstrap-icons";
   content: "\F6B0";
   color: #999;
@@ -215,27 +239,34 @@ a:hover {
   left: -0.4em;
 }
 
-.page q {
+.page q,
+.article q {
   font-style: italic;
   background: #e0f2f1;
   margin: 0 0.2em;
 }
 
 .page ul,
-.page ol {
+.page ol,
+.article ul,
+.article ol {
   margin-bottom: 0.5rem;
 }
 
 .page ul li,
-.page ol li {
+.page ol li,
+.article ul li,
+.article ol li {
   margin: 0.5rem;
 }
 
-.page dd {
+.page dd,
+.article dd {
   margin-left: 2em;
 }
 
-.page pre {
+.page pre,
+.article pre {
   font-family: Monaco, Consolas, "Courier New", Courier, monospace, sans-serif;
   font-size: 0.9rem;
   color: #fff;
@@ -245,7 +276,8 @@ a:hover {
   white-space: pre-wrap;
 }
 
-.page table {
+.page table,
+.article table {
   margin: 1em auto;
   border-collapse: collapse;
   border: 2px solid #ccc;
@@ -253,7 +285,8 @@ a:hover {
   font-size: 0.9rem;
 }
 
-.page th {
+.page th,
+.article th {
   border: 1px solid #ccc;
   padding: 0.8em 0.5em;
   background: #eee;
@@ -262,15 +295,13 @@ a:hover {
   text-align: center;
 }
 
-.page td {
+.page td,
+.article td {
   border: 1px solid #ccc;
   padding: 0.8em 0.5em;
 }
 
-
-
 /* --------------------------------- フッター */
-
 
 .footer {
   font-size: var(--font-14px);
