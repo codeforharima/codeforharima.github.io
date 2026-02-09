@@ -57,11 +57,11 @@
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            {% for item,link in MENUITEMS -%}
+              {% for item,link in MENUITEMS -%}
               <li class="nav-item">
                 <a class="nav-link" href="{{ link }}">{{ item }}</a>
               </li>
-            {%- endfor %}
+              {%- endfor %}
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="検索" aria-label="Search">
@@ -86,24 +86,22 @@
       <div class="row">
         <div class="col-12 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase">{{ SITENAME }}</h5>
-          <p>{{ SITESUBTITLE }}</p>
+          {% if SITESUBTITLE -%}<p>{{ SITESUBTITLE }}</p>{%- endif %}
         </div>
         <div class="col-6 col-md-3 mb-4 mb-md-0">
           <h5 class="text-uppercase">Menu</h5>
           <ul class="list-unstyled mb-0">
-            <li><a href="/" class="text-dark">ホーム</a></li>
-            <li><a href="/about/" class="text-dark">私たちについて</a></li>
-            <li><a href="/history/" class="text-dark">活動履歴</a></li>
-            <li><a href="/events/" class="text-dark">イベント</a></li>
-            <li><a href="/blog/" class="text-dark">ブログ</a></li>
+            {% for item,link in MENUITEMS -%}
+            <li><a class="text-dark" href="{{ link }}">{{ item }}</a></li>
+            {%- endfor %}
           </ul>
         </div>
         <div class="col-6 col-md-3 mb-4 mb-md-0">
           <h5 class="text-uppercase">SNS</h5>
           <ul class="list-unstyled mb-0">
-            {% for sns,link in SOCIAL %}
+            {% for sns,link in SOCIAL -%}
             <li><a href="{{ link }}" class="text-dark">{{ sns }}</a></li>
-            {% endfor %}
+            {%- endfor %}
           </ul>
         </div>
       </div>

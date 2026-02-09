@@ -7,7 +7,7 @@ PATH = "content"
 TIMEZONE = "Asia/Tokyo"
 DEFAULT_LANG = "ja"
 DEFAULT_DATE_FORMAT = "%Y/%m/%d"
-THEME = "themes/codeforharima"
+THEME = "themes/c4h"
 
 # フィード設定
 FEED_ALL_ATOM = None
@@ -79,9 +79,9 @@ SOCIAL = (
 
 # カルーセルキャッチコピーと画像
 CAROUSEL = (
-    ("地域課題に挑む", "シビックテックで未来を変える", "shapelined.webp"),
-    ("つながる地域", "テクノロジーで地域を元気に", "shapelined.webp"),
-    ("未来を創る", "あなたの参加で地域が変わる", "shapelined.webp"),
+    ("地域課題に挑む", "シビックテックで未来を変える", "temp-brianna-marble-unsplash.webp"),
+    ("つながる地域", "テクノロジーで地域を元気に", "temp-ilze-lucero-unsplash.webp"),
+    ("未来を創る", "あなたの参加で地域が変わる", "temp-roman-serdyuk-unsplash.webp"),
 )
 
 # 活動内容
