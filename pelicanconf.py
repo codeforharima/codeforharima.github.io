@@ -1,5 +1,5 @@
 SITENAME = "Code for Harima"
-SITEURL = "http://127.0.0.1:8000"
+SITEURL = "https://codeforharima.github.io/"
 AUTHOR = ""
 SITESUBTITLE = "兵庫県播磨地域で地域課題をシビックテックで解決を図るボランティア団体"
 
@@ -93,7 +93,7 @@ MAIN_ACTIVITY = (
 )
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 # pelicanconf.py or publishconf.py
 # SEO_REPORT = True  # SEO report is enabled by default
