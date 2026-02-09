@@ -6,8 +6,6 @@ Tags: memo, openstreetmap
 Summary:
 lang: ja
 Slug: how-to-use-overpass-turbo
-Save_as: history/how-to-use-overpass-turbo.html
-Template: page
 ---
 
 ## OpenStreetMapは地理データベース

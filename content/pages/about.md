@@ -1,9 +1,7 @@
 ---
 title: 私たちについて
-slug:
-save_as: about/index.html
-template: page
-cover: wheel.jpg
+slug: about
+cover:
 ---
 
 ## Code for Harimaとは
@@ -34,7 +32,7 @@ Code for Harimaは、播磨地域の困ったことなどをITやテクノロジ
 
 Code for Harimaでは、活動をする上においてすべての人が尊守すべき行動規範を定めています。行動規範については、以下をご覧ください。
 
-[行動規範](%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E8%A1%8C%E5%8B%95%E8%A6%8F%E7%AF%84%20a9ab177245e64ded88e7491e84ae26b8.md)
+[行動規範](code-of-conduct/)
 
 ## 運営メンバー
 

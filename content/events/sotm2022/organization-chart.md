@@ -6,8 +6,6 @@ Tags:
 Summary:
 lang: ja
 Slug: organization-chart
-Save_as: events/sotmjp2022/organization-chart.html
-Template: page
 ---
 
 ※　敬称略

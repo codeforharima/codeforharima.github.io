@@ -6,8 +6,6 @@ Tags:
 Summary:
 lang: ja
 Slug: staff-and-equipments
-Save_as: events/sotmjp2022/staff-and-equipments.html
-Template: page
 ---
 
 ## 参考情報

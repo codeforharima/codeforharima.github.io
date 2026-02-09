@@ -6,8 +6,6 @@ Tags: openstreetmap, memo
 Summary:
 lang: ja
 Slug: international-opendata-day-2019
-Save_as: events/20190302-international-opendata-day-2019.html
-Template: page
 ---
 
 - 日時: 2019/03/02 11:00-17:00 (予定)

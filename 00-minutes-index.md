@@ -4,8 +4,6 @@ Category:
 Summary:
 lang: ja
 Slug: minutes-index
-Save_as: history/minutes-index.html
-Template: page
 ---
 
 ## 2026年

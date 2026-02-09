@@ -6,8 +6,6 @@ Tags:
 Summary:
 lang: ja
 Slug: decisions
-Save_as: events/sotmjp2022/decisions.html
-Template: page
 ---
 
 ## (参考)事前検討内容

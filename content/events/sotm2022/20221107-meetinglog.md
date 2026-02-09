@@ -6,8 +6,6 @@ Tags:
 Summary:
 lang: ja
 Slug: 20221107-meeting_log
-Save_as: events/sotmjp2022/20221107-meeting_log.html
-Template: page
 ---
 
 ## リンク

@@ -6,8 +6,6 @@ Tags:
 Summary:
 lang: ja
 Slug: acceptance-letter
-Save_as: events/sotmjp2022/acceptance-letter.html
-Template: page
 ---
 
 ```text

@@ -6,8 +6,6 @@ Tags: openstreetmap, kakogawa60
 Summary:
 lang: ja
 Slug: 202112-different-tourist-guidebook-and-tourism-association
-Save_as: history/202112-different-tourist-guidebook-and-tourism-association.html
-Template: page
 ---
 
 ## リンク

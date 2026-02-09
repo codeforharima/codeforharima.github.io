@@ -6,8 +6,6 @@ Tags: memo
 Summary:
 lang: ja
 Slug: how-to-migrate-notion
-Save_as: history/20230510-how-to-migrate-notion.html
-Template: page
 ---
 
 ## NotionでCode for Harimaの議事録をWebで見られるようにしました（野方）

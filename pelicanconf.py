@@ -44,7 +44,10 @@ AUTHORS_SAVE_AS = ""
 INDEX_SAVE_AS = "blog/index.html"
 
 # 直下の index は pages/index.md に任せるので、ここは生成だけ/blogへ逃がす
-DIRECT_TEMPLATES = ["index", "archives", "tags", "categories"]
+DIRECT_TEMPLATES = ["archives", "tags", "categories"]
+
+# デフォルトのインデックスページを無効化
+INDEX_SAVE_AS = ""
 
 # カスタムページ設定
 TEMPLATE_PAGES = {
@@ -95,7 +98,7 @@ MAIN_ACTIVITY = (
 # RELATIVE_URLS = True
 
 # pelicanconf.py or publishconf.py
-SEO_REPORT = True  # SEO report is enabled by default
-SEO_ENHANCER = True  # SEO enhancer is disabled by default
-SEO_ENHANCER_OPEN_GRAPH = True  # Subfeature of SEO enhancer
-SEO_ENHANCER_TWITTER_CARDS = True  # Subfeature of SEO enhancer
+# SEO_REPORT = True  # SEO report is enabled by default
+# SEO_ENHANCER = True  # SEO enhancer is disabled by default
+# SEO_ENHANCER_OPEN_GRAPH = True  # Subfeature of SEO enhancer
+# SEO_ENHANCER_TWITTER_CARDS = True  # Subfeature of SEO enhancer

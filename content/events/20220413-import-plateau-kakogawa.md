@@ -6,8 +6,6 @@ Tags: openstreetmap, plateau, memo
 Summary:
 lang: ja
 Slug: import-plateau-kakogawa
-Save_as: history/2022-import-plateau-kakogawa.html
-Template: page
 ---
 
 # 3D都市モデル（Project PLATEAU）加古川市（2020年度）取り込み

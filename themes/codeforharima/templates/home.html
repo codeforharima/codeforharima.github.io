@@ -1,5 +1,4 @@
 {% extends "base.html" %}
-{% block title %}{{ page.title }}{% endblock %}
 
 {% block content %}
     <!-- カルーセル -->
@@ -72,16 +71,16 @@
             <p>Code for Harimaは、毎月、第2火曜日19時から加古川ヤマトヤシキ7階「市民交流ひろば」で定例会を開催しています。定例会は、どなたでも参加できます。参加者全員で話し合い、話し合ったことを議事録に記録しています。定例会の議事録は、すべて公開しています。</p>
             <ul class="list-group">
             {# 議事録だけを抜き出し #}
-            {% set filtered_pages = [] %}
-            {% for page in pages if page.category == 'minutes' -%}
-              {{ filtered_pages.append(page) or "" }}
+            {% set filtered_articles = [] %}
+            {% for article in articles if article.category == 'history' -%}
+              {{ filtered_articles.append(article) or "" }}
             {%- endfor %}
             {# 抜き出したものから3件表示 #}
-            {% for page in filtered_pages | reverse -%}
+            {% for article in filtered_articles | reverse -%}
               {% if loop.index <= 3 -%}
                 <li class="list-group-item list-group-item-action">
-                  <h5><a href="{{ SITEURL }}/{{ page.url }}" class="stretched-link">{{ page.title }}</a></h5>
-                  <p>{{ page.summary | striptags }}</p>
+                  <h5><a href="{{ SITEURL }}/{{ article.url }}" class="stretched-link">{{ article.title }}</a></h5>
+                  <p>{{ article.summary | striptags }}</p>
                 </li>
               {%- endif %}
             {%- endfor %}
@@ -98,7 +97,7 @@
       <div class="container">
         <h2 class="text-center mb-4">新着記事</h2>
         <div class="row">
-          {% for article in articles[:DEFAULT_PAGINATION] %}
+          {% for article in articles if article.category == 'blog' -%}
           <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card h-100">
               <div class="position-relative">
@@ -107,7 +106,7 @@
               {% else %}
                 <img src="{{ SITEURL }}/theme/img/noimg.webp" class="card-img-top" alt="">
               {%- endif %}
-                <span class="position-absolute top-0 start-0 badge bg-primary">{{ article.category }}</span>
+                <span class="position-absolute top-0 start-0 badge bg-primary">{{ article.tags[0] }}</span>
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="{{ SITEURL }}/{{ article.url }}" class="stretched-link">{{ article.title }}</a></h5>

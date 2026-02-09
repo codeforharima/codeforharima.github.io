@@ -6,8 +6,6 @@ Tags: memo, 高砂
 Summary:
 lang: ja
 Slug: takasago-traffic-memo
-Save_as: events/takasago-traffic-memo.html
-Template: page
 ---
 
 ## 兵庫県オープンデータから高砂市の自転車事故を洗い出し

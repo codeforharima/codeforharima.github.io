@@ -1,12 +1,6 @@
 ---
 Title: Code for Harima 行動規範
-Category: about
-Tags:
-Summary:
-lang: ja
-Slug: code-of-conduct
-Save_as: about/code-of-conduct.html
-Template: page
+slug: about/code-of-conduct
 ---
 
 ## Code for Harima の行動規範
@@ -44,10 +38,12 @@ Code for Harima は、性別、性同一性および表現、性的指向、身�
 
 ## アンチハラスメント報告用電子メールテンプレート
 
-題名：安全に関する報告\[イベント名\]
+```text
+題名： 安全に関する報告 [イベント名]
 
-本文：Code for Harima コミュニティのイベントにおいて、ハラスメントの事象があったので報告します。（氏名、場所、日付及びイベント名）
+本文： Code for Harima コミュニティのイベントにおいて、ハラスメントの事象があったので報告します。（氏名、場所、日付及びイベント名）
 
-宛先：<codeforharima@gmail.com>
+宛先： <codeforharima@gmail.com>
+```
 
 上記の文書は、Code for Japan の行動規範に準拠して作成しています。

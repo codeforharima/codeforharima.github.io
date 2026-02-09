@@ -6,8 +6,6 @@ Tags:
 Summary:
 lang: ja
 Slug: 20220825-meeting_log
-Save_as: events/sotmjp2022/20220825-meeting_log.html
-Template: page
 ---
 
 ## 事前検討内容
