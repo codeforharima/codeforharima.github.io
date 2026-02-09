@@ -1,0 +1,9 @@
+{% if page.cover -%}
+<picture class="hero-image">
+  <img src="{{ SITEURL }}/{{ page.cover }}" class="object-fit-cover w-100" alt="">
+</picture>
+{% else %}
+<picture class="hero-image">
+  <img src="{{ SITEURL }}/theme/img/temp-roman-serdyuk-unsplash.webp" class="object-fit-cover w-100" alt="">
+</picture>
+{%- endif %}

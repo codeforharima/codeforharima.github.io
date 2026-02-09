@@ -127,7 +127,7 @@ a:hover {
 /* ページカバーイメージの高さ */
 
 .hero-image img {
-  max-height: 30vh;
+  max-height: 15vh;
 }
 
 @media (max-width: 768px) {

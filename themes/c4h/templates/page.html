@@ -2,15 +2,7 @@
 {% block title %}{{ page.title }}{% endblock %}
 
 {% block content %}
-    {% if page.cover -%}
-    <picture class="hero-image">
-      <img src="{{ SITEURL }}/{{ page.cover }}" class="object-fit-cover w-100" alt="">
-    </picture>
-    {% else %}
-    <picture class="hero-image">
-      <img src="{{ SITEURL }}/theme/img/shapelined.webp" class="object-fit-cover w-100" alt="">
-    </picture>
-    {%- endif %}
+    {% include "cover.html" %}
     <div class="page container pb-5">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-8 col-xxl-7">
