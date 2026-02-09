@@ -72,11 +72,11 @@
             <ul class="list-group">
             {# 議事録だけを抜き出し #}
             {% set filtered_articles = [] %}
-            {% for article in articles if article.category == 'history' -%}
+            {% for article in articles if article.category == 'meeting' -%}
               {{ filtered_articles.append(article) or "" }}
             {%- endfor %}
             {# 抜き出したものから3件表示 #}
-            {% for article in filtered_articles | reverse -%}
+            {% for article in filtered_articles -%}
               {% if loop.index <= 3 -%}
                 <li class="list-group-item list-group-item-action">
                   <h5><a href="{{ SITEURL }}/{{ article.url }}" class="stretched-link">{{ article.title }}</a></h5>
@@ -116,6 +116,7 @@
           </div>
           {% endfor %}
       </div>
+      <p class="text-center"><a href="/blog/" class="btn btn-primary">ほかの記事も読む</a></p>
     </section>
     {% endblock  %}
 

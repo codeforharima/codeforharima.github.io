@@ -61,7 +61,7 @@ STATIC_PATHS = ["images", "extra"]
 MENUITEMS = [
     ("ホーム", "/"),
     ("私たちについて", "/about/"),
-    ("活動記録", "/history/"),
+    ("定例会", "/meeting/"),
     ("イベント記録", "/events/"),
     ("ブログ", "/blog/"),
 ]
