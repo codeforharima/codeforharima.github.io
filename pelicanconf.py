@@ -56,6 +56,13 @@ TEMPLATE_PAGES = {
     "home.html": "index.html",  # トップページ用カスタムテンプレート
 }
 
+# adminをスタティックとして登録
+STATIC_PATHS = ["images", "admin"]
+
+# adminフォルダーを除外
+ARTICLE_EXCLUDES = ["admin"]
+PAGE_EXCLUDES = ["admin"]
+
 # メニュー設定
 MENUITEMS = [
     ("ホーム", "/"),
