@@ -1,11 +1,13 @@
 ---
 Title: SOTMJP2022 打ち合わせ 2022年8月25日
 Date: 2022-08-25 20:00:00
-Category: sotmjp2022
-Tags:
+Category: event
+Tags: sotm2022
 Summary:
 lang: ja
 Slug: 20220825-meeting_log
+url: event/sotm2022/20220825-meeting_log/
+save_as: event/sotm2022/20220825-meeting_log/index.html
 ---
 
 ## 事前検討内容

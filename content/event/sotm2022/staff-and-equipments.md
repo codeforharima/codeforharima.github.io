@@ -1,11 +1,13 @@
 ---
 Title: SotM JP2022 当日役割・機材・消耗品
-Date: 2022
-Category: sotmjp2022
-Tags:
+Date: 2022-12-03
+Category: event
+Tags: sotm2022
 Summary:
 lang: ja
 Slug: staff-and-equipments
+url: event/sotm2022/staff-and-equipments/
+save_as: event/sotm2022/staff-and-equipments/index.html
 ---
 
 ## 参考情報

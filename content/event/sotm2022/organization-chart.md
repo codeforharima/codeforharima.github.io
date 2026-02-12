@@ -1,11 +1,13 @@
 ---
 Title: SotM JP 2022 体制図 2022年9月27日
 Date: 2022-09-27
-Category: sotmjp2022
-Tags:
+Category: event
+Tags: sotm2022
 Summary:
 lang: ja
 Slug: organization-chart
+url: event/sotm2022/organization-chart/
+save_as: event/sotm2022/organization-chart/index.html
 ---
 
 ※　敬称略

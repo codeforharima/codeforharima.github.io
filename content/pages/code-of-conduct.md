@@ -1,5 +1,6 @@
 ---
 Title: Code for Harima 行動規範
+date: 2019-06-13
 slug: about/code-of-conduct
 ---
 
