@@ -6,8 +6,8 @@
   --accent-color: #ff9e67;
   --text-color: #333333;
   --base-font-family:
-    "Noto Sans CJK JP", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans", "Noto Sans JP", Meiryo, sans-serif;
+    "Noto Sans CJK JP", "Noto Sans JP", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
   /* SNSカラー */
   --sns-twitter: #1d9bf0;
   --sns-facebook: #1877f2;
@@ -18,16 +18,15 @@
   --sns-instagram: #833ab4;
   --sns-linkedin: #0077b5;
   --sns-github: #333333;
-  /* フォントサイズ */
-  --font-64px: 4rem;
-  --font-24px: 1.5rem;
-  --font-18px: 1.125rem;
-  --font-16px: 1rem;
-  --font-14px: 0.875rem;
-  --font-12px: 0.75rem;
+  /* フォントサイズ
+   計算式 (16px + (18px - 16px) * ((100vw - 320px) / (1440 - 320)))
+   calc([最小値] + ([最大値] - [最小値]) * ((100vw - [最小画面幅]) / ([最大画面幅] - [最小画面幅])));
+  */
+  --default-font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1600 - 320)));
 }
 
 body {
+  font-size: var(--default-font-size);
   font-family: var(--base-font-family);
   color: var(--text-color);
 }
@@ -43,6 +42,10 @@ a:hover {
 }
 
 /* --------------------------------- トップ */
+
+header .navbar-brand {
+  font-weight: bolder;
+}
 
 /* Carousel */
 .carousel-item {
@@ -73,15 +76,7 @@ a:hover {
 @media (max-width: 768px) {
   .carousel-item {
     /* モバイルでは画面の高さの20%に設定 */
-    height: 20vh;
-  }
-
-  .carousel-caption h2 {
-    font-size: 1.5rem;
-  }
-
-  .carousel-caption p {
-    font-size: 1rem;
+    height: 18vh;
   }
 }
 
@@ -99,18 +94,6 @@ a:hover {
   line-height: 1.6;
 }
 
-@media (min-width: 768px) {
-
-  .intro p,
-  .meeting p,
-  .recent p,
-  .content p,
-  .content li {
-    font-size: 1.125rem;
-    line-height: 2;
-  }
-}
-
 .meeting a,
 .history a {
   text-decoration: none;
@@ -121,18 +104,18 @@ a:hover {
 }
 
 /* 新着カード */
-
 .recent .card {
   transition: all 0.2s ease-in-out;
 }
 
 .recent .card:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.3);
 }
 
 .recent .card-img-top {
   object-fit: cover;
-  aspect-ratio: 16 / 10;
+  width: 100%;
+  max-height: 20vh;
 }
 
 /* --------------------------------- ページ */
@@ -162,9 +145,7 @@ a:hover {
 .article h4,
 .article h5,
 .article h6 {
-  font-family: var(--base-font-family);
   font-weight: bolder;
-  font-size: 1rem;
   font-feature-settings: "palt";
   line-height: 1.6;
   margin-top: 2.5rem;
@@ -178,13 +159,13 @@ a:hover {
 
 .page h2,
 .article h2 {
-  font-size: 1.625rem;
+  font-size: 1.5rem;
   font-weight: bolder;
 }
 
 .page h3,
 .article h3 {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 
 .page h4,
@@ -250,19 +231,19 @@ a:hover {
 .page ol,
 .article ul,
 .article ol {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .page ul li,
 .page ol li,
 .article ul li,
 .article ol li {
-  margin: 0.5rem;
+  margin: 0.3rem;
 }
 
 .page dd,
 .article dd {
-  margin-left: 2em;
+  margin-left: 2rem;
 }
 
 .page pre,
