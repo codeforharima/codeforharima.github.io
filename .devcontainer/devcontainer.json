@@ -13,12 +13,6 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
   // Configure tool-specific properties.
-  // "customizations": {},
-  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-  // "remoteUser": "root"
-  "remoteUser": "vscode",
-  "postCreateCommand": "sudo apt-get -y update && sudo apt-get -y install build-essential rust-all && uv sync",
-  // VS Code extensions and settings
   "customizations": {
     "vscode": {
       "extensions": [
@@ -231,5 +225,10 @@
         ]
       }
     }
-  }
+  },
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+  "remoteUser": "vscode",
+  "postCreateCommand": "sudo apt-get -y update && sudo apt-get -y --no-install-recommends install build-essential rust-all && mkdir -p ~/.local/bin/ && export STORKVERSION='v1.6.0' && wget -O ~/.local/bin/stork https://files.stork-search.net/releases/$STORKVERSION/stork-ubuntu-22-04 && chmod 755 ~/.local/bin/stork && export PATH=\"$PATH:~/.local/bin\" && uv sync",
+  // VS Code extensions and settings
 }
