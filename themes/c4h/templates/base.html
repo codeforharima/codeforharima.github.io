@@ -64,10 +64,10 @@
               </li>
               {%- endfor %}
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="検索" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
-            </form>
+            <div class="d-flex stork-wrapper">
+              <input class="form-control stork-input" type="search" placeholder="検索" aria-label="Search" data-stork="sitesearch">
+              <div data-stork="sitesearch-output" class="mt-5 stork-output"></div>
+            </div>
           </div>
         </div>
       </div>
