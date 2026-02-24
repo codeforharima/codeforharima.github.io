@@ -1,10 +1,11 @@
 backend:
-  name: github
-  repo: codeforharima/codeforharima.github.io # ← リポジトリ名
-  branch: main # ← 公開用ブランチ
+  name: git-gateway
+  repo: codeforharima/codeforharima.github.io
+  branch: main
 
 media_folder: "content/images"
 public_folder: "/images"
+sort: "date:desc"
 
 collections:
   - name: "blog"
@@ -16,3 +17,9 @@ collections:
       - { label: "タイトル", name: "title", widget: "string" }
       - { label: "日付", name: "date", widget: "datetime" }
       - { label: "本文", name: "body", widget: "markdown" }
+      - {
+          label: "カテゴリー",
+          name: "category",
+          widget: "string",
+          default: "blog",
+        }
