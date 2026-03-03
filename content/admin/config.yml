@@ -1,3 +1,29 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  name: github
+  repo: codeforharima/codeforharima.github.io
+  branch: main
+  # Netlify OAuth providerを利用
+  site_domain: mellifluous-gelato-93f3ae.netlify.app
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+media_folder: "content/images"
+public_folder: "/images"
+sort: "date:desc"
+
+collections:
+  - name: "blog"
+    label: "ブログ"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "タイトル", name: "title", widget: "string" }
+      - { label: "日付", name: "date", widget: "datetime" }
+      - { label: "本文", name: "body", widget: "markdown" }
+      - {
+          label: "カテゴリー",
+          name: "category",
+          widget: "string",
+          default: "blog",
+        }
