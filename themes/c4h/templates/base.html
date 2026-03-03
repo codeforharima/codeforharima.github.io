@@ -39,6 +39,7 @@
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap-icons.min.css">
   <link rel="stylesheet" href="https://files.stork-search.net/basic.css" >
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body>
@@ -134,11 +135,23 @@
       });
     });
   </script>
-  <!-- -->
+  <!-- stork 検索 -->
   <script src="https://files.stork-search.net/releases/v1.6.0/stork.js"></script>
   <script>
       stork.register("sitesearch", "{{ SITEURL }}/search-index.st");
   </script>
+  <!-- Netlify -->
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   <!-- bootstrap js -->
   <script src="{{ SITEURL }}/theme/js/bootstrap.bundle.min.js"></script>
 </body>
