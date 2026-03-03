@@ -133,9 +133,9 @@
 
 - GitHub Actions:
   - `main` ブランチへの push で `.github/workflows/pelican.yml` が実行
-  - `getpelican/pelican` の再利用ワークフローで GitHub Pages 配信
+  - カスタムワークフローで GitHub Pages 配信（build job + deploy job）
   - 設定ファイルは `publishconf.py`、依存は `requirements.txt`
-  - ワークフローは Pelican公式ドキュメントのGitHub Pages公開手順に沿った構成
+  - buildジョブで `stork` バイナリを導入してから `pelican content -o output -s publishconf.py` を実行
 - 公開先: `https://codeforharima.github.io/`
 
 ## 10. CMS（Decap）
@@ -160,7 +160,7 @@
 ## 12. 現在の課題（2026-03-03時点）
 
 - 検索（pelican-search + Stork）:
-  - ローカルでは `stork` 導入済み環境（devcontainer）で `search-index.st` が生成される。
-  - GitHub Actions側は `stork` バイナリ導入処理がないため、公開環境で検索が期待どおり動作しない状態。
+  - CI側にも `stork` 導入処理を追加済み。GitHub Pagesデプロイで `search-index.st` を生成する構成になった。
+  - 実運用上の確認事項として、次回デプロイで検索UIが本番URLで動作するか目視確認する。
 - Decap CMS認証:
   - Decap CMS導入は済んでいるが、認証フロー（Netlify Identity / Git Gateway）が未解決で、運用開始できていない。
