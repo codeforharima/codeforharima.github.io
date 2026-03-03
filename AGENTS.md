@@ -26,6 +26,44 @@
 - CMS: Decap CMS（`/admin/`）
 - 認証/バックエンド連携: Netlify Identity + `git-gateway`（Decapのbackend設定）
 
+## 2.1 Pelicanプラグイン方針
+
+- Pelican 4.5以降の仕様により、インストール済みプラグインは `pelicanconf.py` に `PLUGINS` を明示しなくても自動認識される前提で運用。
+- 自動認識の確認コマンド: `uv run pelican-plugins`
+- 2026-03-03 時点の認識結果:
+  - `pelican.plugins.featured_image`
+  - `pelican.plugins.neighbors`
+  - `pelican.plugins.read_more`
+  - `pelican.plugins.related_posts`
+  - `pelican.plugins.search`
+  - `pelican.plugins.series`
+  - `pelican.plugins.share_post`
+  - `pelican.plugins.sitemap`
+  - `pelican.plugins.tag_cloud`
+  - `pelican.plugins.thumbnailer`
+
+## 2.2 プラグイン利用状況（2026-03-03時点）
+
+- 使用中（本番で機能確認済み）
+  - `pelican-search`
+    - 役割: Stork用インデックス（`search-index.st`, `search.toml`）生成
+    - 備考: CIで `stork` バイナリ導入後にビルドし、本番検索を提供
+  - `pelican-sitemap`
+    - 役割: `sitemap.xml` 生成
+    - 備考: `output/sitemap.xml` の生成を確認済み
+- インストール済みだが現状は棚上げ（テンプレート側の活用は未実装/未確認）
+  - `pelican-featured-image`
+  - `pelican-neighbors`
+  - `pelican-read-more`
+  - `pelican-related-posts`
+  - `pelican-series`
+  - `pelican-share-post`
+  - `pelican-tag-cloud`
+  - `pelican-thumbnailer`
+- 補足:
+  - 上記棚上げプラグインは、今後サイト基本機能の整備後に段階的に活用する想定。
+  - 現在のテーマ実装（`themes/c4h/templates`）では、これらの機能を明示的に利用する表示ロジックは限定的。
+
 ## 3. 主要ディレクトリ
 
 - `content/`: コンテンツ本体
@@ -160,7 +198,6 @@
 ## 12. 現在の課題（2026-03-03時点）
 
 - 検索（pelican-search + Stork）:
-  - CI側にも `stork` 導入処理を追加済み。GitHub Pagesデプロイで `search-index.st` を生成する構成になった。
-  - 実運用上の確認事項として、次回デプロイで検索UIが本番URLで動作するか目視確認する。
+  - 実装済み。CIで `stork` 導入 + `uv` ベースのビルドにより `search-index.st` を生成し、本番で検索動作を確認済み。
 - Decap CMS認証:
   - Decap CMS導入は済んでいるが、認証フロー（Netlify Identity / Git Gateway）が未解決で、運用開始できていない。
