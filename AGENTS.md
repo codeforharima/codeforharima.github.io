@@ -24,7 +24,7 @@
   - Bootstrap Icons 1.11.0
 - 検索UI: Stork（`base.html` で `search-index.st` を参照）
 - CMS: Decap CMS（`/admin/`）
-- 認証/バックエンド連携: Netlify Identity + `git-gateway`（Decapのbackend設定）
+- 認証/バックエンド連携: GitHub OAuth + Netlify OAuth provider（`backend: github`）
 
 ## 2.1 Pelicanプラグイン方針
 
@@ -184,9 +184,12 @@
   - 生成時のデフォルトカテゴリ: `blog`
 - 管理画面は `content/admin/index.html` で Decap CMS (`decap-cms.js`) を読み込む
 - backend設定:
-  - `name: git-gateway`
+  - `name: github`
   - `repo: codeforharima/codeforharima.github.io`
   - `branch: main`
+  - `site_domain: codeforharima.netlify.app`
+  - `base_url: https://api.netlify.com`
+  - `auth_endpoint: auth`
 
 ## 11. 開発時の実装注意点
 
@@ -200,4 +203,5 @@
 - 検索（pelican-search + Stork）:
   - 実装済み。CIで `stork` 導入 + `uv` ベースのビルドにより `search-index.st` を生成し、本番で検索動作を確認済み。
 - Decap CMS認証:
-  - Decap CMS導入は済んでいるが、認証フロー（Netlify Identity / Git Gateway）が未解決で、運用開始できていない。
+  - `backend: github` への切り替えは完了。
+  - Netlify OAuth provider（GitHub）で `/admin/` ログインから投稿までの運用確認が未完了。

@@ -1,7 +1,11 @@
 backend:
-  name: git-gateway
+  name: github
   repo: codeforharima/codeforharima.github.io
   branch: main
+  # Netlify OAuth providerを利用
+  site_domain: codeforharima.netlify.app
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 media_folder: "content/images"
 public_folder: "/images"
