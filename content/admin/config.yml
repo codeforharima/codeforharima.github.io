@@ -3,7 +3,7 @@ backend:
   repo: codeforharima/codeforharima.github.io
   branch: main
   # Netlify OAuth providerを利用
-  site_domain: mellifluous-gelato-93f3ae.netlify.app
+  site_domain: fascinating-lolly-d8f857.netlify.app
   base_url: https://api.netlify.com
   auth_endpoint: auth
 
