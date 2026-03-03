@@ -134,8 +134,8 @@
 - GitHub Actions:
   - `main` ブランチへの push で `.github/workflows/pelican.yml` が実行
   - カスタムワークフローで GitHub Pages 配信（build job + deploy job）
-  - 設定ファイルは `publishconf.py`、依存は `requirements.txt`
-  - buildジョブで `stork` バイナリを導入してから `pelican content -o output -s publishconf.py` を実行
+  - 設定ファイルは `publishconf.py`、依存導入は `uv sync --frozen` を使用
+  - buildジョブで `stork` バイナリを導入してから `uv run pelican content -o output -s publishconf.py` を実行
 - 公開先: `https://codeforharima.github.io/`
 
 ## 10. CMS（Decap）
